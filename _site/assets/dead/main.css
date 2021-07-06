@@ -1,0 +1,21 @@
+
+:root {
+    --txt_reg   : black; /* var(--txt_reg) */
+    --txt_light : white; /* var(--txt_light) */
+    --dark_bg   : black; /* var(--dark_bg) */
+    --light_bg  : white; /* var(--light_bg) */
+    --shadow : rgba(255,255,255,0.2); /* var(--shadow) */
+}
+
+@font-face {
+  font-family: 'OpenDyslexic-Regular', sans-serif;
+  src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('otf');
+}
+
+.no_drag { user-select: none; -webkit-user-select: none; }
+
+body {
+    margin: 0;
+    color: var(--txt_reg);
+    background-image: url('{{ page.background_img }}');
+}

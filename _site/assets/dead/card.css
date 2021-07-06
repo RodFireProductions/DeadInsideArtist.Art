@@ -1,0 +1,94 @@
+/* Card */
+
+.about_card {
+    background-color: var(--dark_bg);
+    background-image: url('{{ site.author_cardimg }}');
+    color: var(--light);
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
+    top: 0.8em;
+    padding: 30px;
+    width: 94%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* Avatar Image */
+
+.about_avatar_box {
+    position: relative;
+    width: 27.5vw;
+    height: 27.5vw;
+    background-color: var(--light_bg);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    top: 50%;
+    transform: translate( 0, -50%);
+}
+
+.about_outline_box {
+    background-color: var(--dark_bg);
+    width: 25.5vw;
+    height: 25.5vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.about_avatar_img {
+    width: 23.5vw;
+    height: 23.5vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Social Links */
+
+.about_socials {
+    display: grid;
+    grid-auto-flow: row;
+    position: relative;
+    padding: 0.5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.about_social_icons {
+    width: 5%;
+    height: auto;
+    padding: 2.5px;
+    filter: brightness(1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+/* Bio */
+
+.about_bio {
+    position: absolute;
+    background-color: var(--dark_bg);
+    color: var(--light_bg);
+    width: 60vw;
+    height: 27.5vw;
+    right: 30px;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-box-shadow: 0px 0px 20px 5px var(--shadow);
+    -moz-box-shadow: 0px 0px 20px 5px var(--shadow);
+    box-shadow: 0px 0px 20px 5px var(--shadow);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.about_bio_text {
+    margin: 1em;
+    text-indent: 2em;
+    position: relative;
+    top: 1em
+}

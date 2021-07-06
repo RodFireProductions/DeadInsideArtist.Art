@@ -1,0 +1,61 @@
+# # # Welcome to Jekyll! # # #
+
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# # # Site Settings # # #
+
+title           : "RodFireProductions"
+subtitle        : # Site tagline
+description     : "Just another dead inside artist's portfolio website."
+url             : "deadinsideartist.art"
+favicon         : # Path to image to display as the favicon
+meta_image      : # Path to card image
+logo            : # Path to logo
+background_img  : # Path to background image
+style           : "assets/dead.css"
+
+repository      : # GitHub username/repo-name
+
+# # # Site Author / Owner # # #
+author_name        : "Your Name"
+author_pronouns    : # The pronouns you use, e.g. "they/them"
+author_title       : # Personal Title or Catch phrase
+author_avatar      : "assets/images/avatar.png"
+author_cardimg     : # Path to background card image
+author_location    : "Hell"
+author_email       : # Your buisness email
+
+# # # Social Links # # #
+links:
+    - label: "Website"
+      url: # "https://example.com"
+
+    - label: "Twitter"
+      url: # "https://twitter.com/"
+
+    - label: "Instagram"
+      url: # "https://instagram.com/"
+
+    - label: "GitHub"
+      url: # "https://github.com/"
+
+    - label: "Itch"
+      url: # "https://itch.io/"
+
+    - label: "DeviantArt"
+      url: # "https://deviantart.com/"
+
+    - label: "Ko-fi"
+      url: # "https://ko-fi.com/"
+
+    - label: "Steam"
+      url: # "https://steamcommunity.com/id/"
+
+    - label: "Youtube"
+      url: # "https:/youtube.com/channel/"
+
+    - label: "LinkTree"
+      url: # "https://linktr.ee/"
