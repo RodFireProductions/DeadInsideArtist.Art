@@ -8,8 +8,13 @@
 }
 
 @font-face {
-  font-family: 'OpenDyslexic-Regular', sans-serif;
-  src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('otf');
+    font-family: 'OpenDyslexic-Regular', sans-serif;
+    src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('otf');
+}
+
+@font-face{
+    font-family: 'Mukta', sans-serif;
+    src: url(../assets/fonts/Mukta-Regular.otf) format('oft');
 }
 
 .no_drag { user-select: none; -webkit-user-select: none; }
@@ -17,5 +22,13 @@
 body {
     margin: 0;
     color: var(--txt_reg);
-    background-image: url('{{ page.background_img }}');
+    font-family: 'Mukta', sans-serif;
+}
+
+.main_content { margin: 1em; }
+
+/* Markdown Styling */
+
+h1, h2, h3, h4, h5, h6 {
+
 }

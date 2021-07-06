@@ -2,7 +2,7 @@
 
 .about_card {
     background-color: var(--dark_bg);
-    background-image: url('{{ site.author_cardimg }}');
+    background-image: url('../images/noisetexture.png');
     color: var(--light);
     display: grid;
     grid-auto-flow: column;
@@ -90,5 +90,5 @@
     margin: 1em;
     text-indent: 2em;
     position: relative;
-    top: 1em
+    top: 1em;
 }

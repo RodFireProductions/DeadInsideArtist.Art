@@ -1,12 +1,7 @@
-I"<p>Howdy, I’m a dumbass</p>
-
-<blockquote>
-  <p>Woo</p>
-</blockquote>
-
-<p>Anyways, this is a wip site. Please have patience.</p>
-
-<!--
+---
+layout: page
+title: "Testing post"
+---
 
 # Heading level 1
 ## Heading level 2
@@ -263,6 +258,3 @@ Second Term
 Gone camping! :tent: Be back soon.
 
 That is so funny! :joy:
-
--->
-:ET
