@@ -1,0 +1,50 @@
+/* Enter screen */
+
+.enter {
+    background-color: var(--dark_bg);
+    background-image: url('../images/noisetexture.png');
+    color: var(--txt_light);
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+
+.enter_avatar {
+    width: auto;
+    height: 70vh;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+}
+
+.enter_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    z-index: 2;
+}
+
+.enter_button {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.enter_button:hover {
+    color: white;
+}
+
+.enter_title {
+    font-size: 5em;
+    font-family: 'Merienda', sans-serif;
+}
+
+.enter_subtitle {
+    font-size: 2em;
+    font-family: monospace;
+}

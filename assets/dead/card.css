@@ -7,9 +7,9 @@
     display: grid;
     grid-auto-flow: column;
     position: relative;
-    top: 0.8em;
+    top: 0em;
     padding: 30px;
-    width: 94%;
+    width: 96%;
     left: 50%;
     transform: translate(-50%, 0);
 }

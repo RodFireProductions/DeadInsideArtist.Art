@@ -12,9 +12,14 @@
     src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('otf');
 }
 
-@font-face{
+@font-face {
     font-family: 'Mukta', sans-serif;
     src: url(../assets/fonts/Mukta-Regular.otf) format('oft');
+}
+
+@font-face {
+    font-family: 'Merienda', sans-serif;
+    src: url(../assets/fonts/Merienda-Regular.otf) format('oft');
 }
 
 .no_drag { user-select: none; -webkit-user-select: none; }
