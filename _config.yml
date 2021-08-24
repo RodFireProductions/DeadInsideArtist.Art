@@ -52,3 +52,9 @@ links:
     linktree    : "https://linktr.ee/rodfireproductions"
 
     carrd       : "https://deadinsideartist.carrd.co/"
+
+
+# # # Technical stuff # # #
+
+plugins:
+  - jekyll-coffeescript

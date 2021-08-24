@@ -86,9 +86,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (>= 1.16)
   dead-jekyll!
-  jekyll-coffeescript
+  jekyll-coffeescript (~> 2.0)
   rake (~> 12.0)
   wdm (>= 0.1.0)
-
-BUNDLED WITH
-   2.2.21
