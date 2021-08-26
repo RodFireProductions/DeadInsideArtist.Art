@@ -1,5 +1,5 @@
 ---
-title: Fuck my life
+title: Home
 layout: about
 permalink: /home/
 ---
