@@ -1,9 +1,9 @@
 Gem::Specification.new do |spec|
-  spec.name                    = "dead-jekyll"
+  spec.name                    = "dead-rodrick"
   spec.version                 = "0.0.0"
   spec.authors                 = ["RodFireProductions"]
 
-  spec.summary                 = %q{Rodrick's Personal Theme}
+  spec.summary                 = %q{Rodrick's Personal Theme and Site}
   spec.homepage                = "https://github.com/RodFireProductions/Dead"
   spec.license                 = "MIT"
 
