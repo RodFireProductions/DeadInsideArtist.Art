@@ -1,5 +1,5 @@
 ---
-title: Enter Hell
+title: Enter Hell - A Dead Inside Artist and Their Work
 layout: enter
 ---
 
