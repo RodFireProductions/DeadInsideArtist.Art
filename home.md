@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: about
-permalink: /home/
+permalink: /home
 ---
 
 Howdy, I'm existing.
@@ -16,4 +16,4 @@ Plus, I don't work on this a lot either so stuff won't get updated too often. So
 ~ [Itch](https://rodfireproductions.itch.io/){:target="_blank"}
 ~ [DeviantArt](https://www.deviantart.com/rodfireproductions){:target="_blank"} ~
 
-<p style="text-align:right;">Sincerely,<br>Your Nonbinary Demigod</p>
+<p class="right">Sincerely,<br>Your Nonbinary Demigod</p>

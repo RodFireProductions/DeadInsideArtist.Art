@@ -1,11 +1,14 @@
 
 :root {
-    --txt_reg   : black; /* var(--txt_reg) */
+    --txt_dark  : black; /* var(--txt_reg) */
     --txt_light : white; /* var(--txt_light) */
     --dark_bg   : black; /* var(--dark_bg) */
     --light_bg  : white; /* var(--light_bg) */
     --purp_bg   : #AE89C3; /* var(--purp_bg) */
     --shadow    : rgba(255,255,255,0.2); /* var(--shadow) */
+
+    --light_bg_trans  : rgb(255, 255, 255, 0.8); /* var(--light_bg_trans) */
+    --purp_bg_trans   : rgb(174, 137, 195, 0.5); /* var(--purp_bg_trans) */
 }
 
 @font-face {
@@ -27,7 +30,7 @@
 
 body {
     margin: 0;
-    color: var(--txt_reg);
+    /*color: var(--txt_light);*/
     font-family: 'Mukta', sans-serif;
     background-color: var(--purp_bg);
 }

@@ -1,15 +1,19 @@
 ---
 layout: page
-title: "Testing post"
+title: Testing post
+description: It's just a page I'm using to test out how these tags look and such.
+permalink: /test
 ---
 
+{::options parse_block_html="true" /}
+<div class="content_cir">
 # Heading level 1
 ## Heading level 2
 ### Heading level 3
 #### Heading level 4
 ##### Heading level 5
 ###### Heading level 6
-
+</div>
 ---
 
 I really like using Markdown.

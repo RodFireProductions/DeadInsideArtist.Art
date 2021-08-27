@@ -1,0 +1,21 @@
+
+/* Page CSS */
+
+.content_holder {
+    background-color: var(--dark_bg);
+    background-image: url('../images/noisetexture.png');
+    color: var(--txt_light);
+    width: auto;
+    padding: 30px;
+}
+
+.content_cir {
+    background-color: var(--purp_bg_trans);
+    /*color: var(--txt_dark);*/
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.indent { text-indent: 2em; }
+.right { text-align: right; }
+.center_txt { text-align: center; }

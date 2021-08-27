@@ -1,14 +1,5 @@
 /* Card */
 
-.content_holder {
-    background-color: var(--dark_bg);
-    background-image: url('../images/noisetexture.png');
-    color: var(--light);
-    width: auto;
-    height: 100vh;
-    padding: 30px;
-}
-
 .about_card {
     display: grid;
     grid-auto-flow: column;
