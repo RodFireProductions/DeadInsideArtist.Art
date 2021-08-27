@@ -22,10 +22,10 @@
     color: white;
     padding-left: 1em;
     letter-spacing: 0.5em;
+    font-family: 'Merienda', sans-serif;
 }
 
 .header_links {
-
     /* Grid */
     display: grid;
     grid-auto-flow: row;

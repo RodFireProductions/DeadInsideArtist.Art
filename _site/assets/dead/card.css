@@ -1,21 +1,18 @@
 /* Card */
 
-.about_card {
+.content_holder {
     background-color: var(--dark_bg);
     background-image: url('../images/noisetexture.png');
     color: var(--light);
-    display: grid;
-    grid-auto-flow: column;
-    position: relative;
     width: auto;
     height: 100vh;
     padding: 30px;
-    /*
-    top: 0em;
-    width: 96%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    */
+}
+
+.about_card {
+    display: grid;
+    grid-auto-flow: column;
+    position: relative;
 }
 
 /* Avatar Image */
@@ -28,6 +25,7 @@
     -webkit-transition: 0.4s;
     transition: 0.4s;
     top: 1em;
+    left: 1em;
 }
 
 .about_outline_box {
@@ -51,25 +49,6 @@
     transform: translate(-50%, -50%);
 }
 
-/* Social Links */
-
-.about_socials {
-    display: grid;
-    grid-auto-flow: row;
-    position: relative;
-    padding: 0.5em;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.about_social_icons {
-    width: 5%;
-    height: auto;
-    padding: 2.5px;
-    filter: brightness(1);
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-}
 
 /* Bio */
 
@@ -79,8 +58,8 @@
     color: var(--light_bg);
     width: 60vw;
     height: 27.5vw;
-    right: 30px;
-    top: 2.8em;
+    right: 1em;
+    top: 1em;
     -webkit-box-shadow: 0px 0px 20px 5px var(--shadow);
     -moz-box-shadow: 0px 0px 20px 5px var(--shadow);
     box-shadow: 0px 0px 20px 5px var(--shadow);

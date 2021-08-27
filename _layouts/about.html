@@ -2,28 +2,23 @@
 layout: default
 ---
 
-<div class="about_card">
-        <!-- Avatar Image -->
-    <div class="about_avatar_box no_drag"><div class="about_outline_box">
-        <img src="{{ site.author_avatar }}" alt="Avatar Alt" title="{{ site.author_title }}" class="about_avatar_img">
-    </div></div>
+<div class="content_holder">
+    <div class="about_card">
+            <!-- Avatar Image -->
+        <div class="about_avatar_box no_drag"><div class="about_outline_box">
+            <img src="{{ site.author_avatar }}" alt="Avatar Alt" title="{{ site.author_title }}" class="about_avatar_img">
+        </div></div>
 
-        <!-- Social Icons -->
-    <div class="about_socials no_drag">
-        <!-- Social Icons
-        <a title="site name" target="_blank" href="https://example.com/"><img id="a" class="about_social_icons" src="" alt="site name"></a>
-        <a title="site name" target="_blank" href="https://example.com/"><img id="a" class="about_social_icons" src="" alt="site name"></a>
-        <a title="site name" target="_blank" href="https://example.com/"><img id="a" class="about_social_icons" src="" alt="site name"></a>
-        <a title="site name" target="_blank" href="https://example.com/"><img id="a" class="about_social_icons" src="" alt="site name"></a>
-        <a title="site name" target="_blank" href="https://example.com/"><img id="a" class="about_social_icons" src="" alt="site name"></a>
-        -->
-    </div>
-
-        <!-- Bio -->
-    <div class="about_bio">
-        <div class="about_bio_text">
-            {{ content }}
+            <!-- Bio -->
+        <div class="about_bio">
+            <div class="about_bio_text">
+                {{ content }}
+            </div>
         </div>
     </div>
+
+    <hr style="margin: 3em;">
+
+    {% include home.html %}
 
 </div>
