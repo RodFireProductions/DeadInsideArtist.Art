@@ -1,5 +1,6 @@
 ---
 title: Enter Hell - A Dead Inside Artist and Their Work
+description: Rodrick's, or RodFireProductions, personal website. They're a small artist that does digital illustrations and hobbyist code work. 
 layout: enter
 ---
 
