@@ -16,7 +16,9 @@ meta_image      : "../assets/images/banner_meta.png"
 logo            : # Path to logo
 style           : "assets/dead.css"
 style2          : "../assets/dead.css"
+
 marshalllee     : "../assets/images/marshalllee.gif"
+marshalllee2    : "../assets/images/marshalllee2.gif"
 
 repository      : "https://github.com/RodFireProductions/RodFireProductions.github.io"
 
