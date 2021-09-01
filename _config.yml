@@ -12,7 +12,7 @@ subtitle        : # Site tagline
 description     : "Just another dead inside artist's portfolio website."
 url             : "https://deadinsideartist.art"
 favicon         : "../assets/images/skullfavicon.png"
-meta_image      : "../assets/images/banner_meta.png"
+meta_image      : "https://i.ibb.co/6rFsTzv/banner-meta.png"
 logo            : # Path to logo
 style           : "assets/dead.css"
 style2          : "../assets/dead.css"
