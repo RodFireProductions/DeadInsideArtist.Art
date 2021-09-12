@@ -13,9 +13,9 @@ description     : "Just another dead inside artist's portfolio website."
 url             : "https://deadinsideartist.art"
 favicon         : "../assets/images/skullfavicon.png"
 meta_image      : "https://i.ibb.co/6rFsTzv/banner-meta.png"
+noise_img       : "../assets/images/noisetexture.png"
 logo            : # Path to logo
-style           : "assets/dead.css"
-style2          : "../assets/dead.css"
+style           : "../assets/dead.css"
 
 marshalllee     : "../assets/images/marshalllee.gif"
 marshalllee2    : "../assets/images/marshalllee2.gif"
@@ -58,6 +58,10 @@ links:
 
     gumroad     : "https://rodfireproductions.gumroad.com/"
 
+
+widgets:
+
+    kofi        : "<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', 'var(--purp_bg)', 'R6R34PDMQ');kofiwidget2.draw();</script>"
 
 # # # Technical stuff # # #
 

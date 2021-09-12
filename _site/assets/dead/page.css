@@ -19,3 +19,4 @@
 .indent { text-indent: 2em; }
 .right { text-align: right; }
 .center_txt { text-align: center; }
+.flex { display: flex; }

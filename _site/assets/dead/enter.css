@@ -48,3 +48,43 @@
     font-size: 2em;
     font-family: monospace;
 }
+
+/* Sizes */
+
+@media (max-width: 1000px) {
+    .enter_title {
+      font-size: 4em;
+      font-family: 'Merienda', sans-serif;
+    }
+}
+
+@media (max-width: 700px) {
+  .enter_title {
+    font-size: 2em;
+    font-family: 'Merienda', sans-serif;
+  }
+}
+
+@media (max-width: 800px) {
+  .enter_avatar {
+    width: auto;
+    height: 50vh;
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+  },
+  .enter_title {
+    font-size: 3em;
+    font-family: 'Merienda', sans-serif;
+  }
+}
+
+@media (max-width: 400px) {
+  .enter_avatar {
+    width: auto;
+    height: 40vh;
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+  }
+}
