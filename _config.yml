@@ -24,6 +24,10 @@ repository      : "https://github.com/RodFireProductions/RodFireProductions.gith
 
 date_format     : "%b %-d, %Y"
 
+markdown        : kramdown
+highlighter     : rouge
+
+
 # # # Site Author / Owner # # #
 author_name        : "Rodrick \"RodFireProductions\""
 author_pronouns    : "they/them"

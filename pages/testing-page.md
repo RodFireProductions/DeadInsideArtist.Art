@@ -137,11 +137,12 @@ Try to put a blank line before...
 1.  Open the file.
 2.  Find the following code block on line 21:
 
+{% highlight html %}
         <html>
           <head>
             <title>Test</title>
           </head>
-
+{% endhighlight %}
 3.  Update the title to match the name of your website.
 
 1.  Open the file containing the Linux mascot.

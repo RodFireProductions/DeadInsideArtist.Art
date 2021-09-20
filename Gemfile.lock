@@ -90,6 +90,7 @@ DEPENDENCIES
   dead-rodrick!
   jekyll-coffeescript (~> 2.0)
   rake (~> 12.0)
+  rouge
   wdm (>= 0.1.0)
 
 BUNDLED WITH

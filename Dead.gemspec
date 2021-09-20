@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.authors                 = ["RodFireProductions"]
 
   spec.summary                 = %q{Rodrick's Personal Theme and Site}
-  spec.homepage                = "https://github.com/RodFireProductions/Dead"
+  spec.homepage                = "https://deadinsideartist.art/home"
   spec.license                 = "MIT"
 
   spec.files         = {}
