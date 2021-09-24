@@ -69,6 +69,11 @@ widgets:
 
     picarto     : "<img href='https://api.picarto.tv/channel/name/RodFire8181/status.png'>"
 
+itch:
+
+    meetchalice : '<iframe frameborder="0" src="https://itch.io/embed/1201338?bg_color=000000&amp;fg_color=f6acf1&amp;link_color=2ce8f4&amp;border_color=bebebe" width="552" height="167"><a href="https://rodfireproductions.itch.io/meet-chalice3">Meet Chalice&lt;3 by RodFireProductions</a></iframe>'
+    meetchalice2: '<iframe frameborder="0" src="https://itch.io/embed-upload/4469637?color=333333" allowfullscreen="" width="750" height="570"><a href="https://rodfireproductions.itch.io/meet-chalice3">Play Meet Chalice&lt;3 on itch.io</a></iframe>'
+
 # # # Technical stuff # # #
 
 plugins:
