@@ -1,4 +1,4 @@
-I"'<div class="content_cir">
+I"�#<div class="content_cir">
   <h1 id="heading-level-1">Heading level 1</h1>
   <h2 id="heading-level-2">Heading level 2</h2>
   <h3 id="heading-level-3">Heading level 3</h3>
@@ -79,21 +79,30 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ol>
+
+<hr />
+
+<ol>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ol>
+
+<hr />
+
+<ol>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ol>
+
+<hr />
+
+<ol>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item
@@ -111,21 +120,30 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ul>
+
+<hr />
+
+<ul>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ul>
+
+<hr />
+
+<ul>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item</li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ul>
+
+<hr />
+
+<ul>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item
@@ -134,22 +152,31 @@ This is really<strong><em>very</em></strong>important text.</p>
       <li>Indented item</li>
     </ul>
   </li>
-  <li>
-    <p>Fourth item</p>
-  </li>
+  <li>Fourth item</li>
+</ul>
+
+<hr />
+
+<ul>
   <li>1968. A great year!</li>
-  <li>
-    <p>I think 1969 was second best</p>
-  </li>
+  <li>I think 1969 was second best</li>
+</ul>
+
+<hr />
+
+<ul>
   <li>This is the first list item.</li>
   <li>
     <p>Here’s the second list item.</p>
 
     <p>I need to add another paragraph below the second list item.</p>
   </li>
-  <li>
-    <p>And here’s the third list item.</p>
-  </li>
+  <li>And here’s the third list item.</li>
+</ul>
+
+<hr />
+
+<ul>
   <li>This is the first list item.</li>
   <li>
     <p>Here’s the second list item.</p>
@@ -164,30 +191,15 @@ This is really<strong><em>very</em></strong>important text.</p>
 <hr />
 
 <ol>
-  <li>Open the file.</li>
-  <li>Find the following code block on line 21:</li>
+  <li>Open the file containing the Linux mascot.</li>
+  <li>Marvel at its beauty.
+<img src="/assets/images/noisetexture.png" alt="Tux, the Linux mascot" /></li>
+  <li>Close the file.</li>
 </ol>
 
-<figure class="highlight">
-  <pre><code class="language-html" data-lang="html">        <span class="nt">&lt;html&gt;</span>
-          <span class="nt">&lt;head&gt;</span>
-            <span class="nt">&lt;title&gt;</span>Test<span class="nt">&lt;/title&gt;</span>
-          <span class="nt">&lt;/head&gt;</span></code></pre>
-</figure>
+<hr />
 
 <ol>
-  <li>
-    <p>Update the title to match the name of your website.</p>
-  </li>
-  <li>Open the file containing the Linux mascot.</li>
-  <li>
-    <p>Marvel at its beauty.</p>
-
-    <p><img src="/assets/images/tux.png" alt="Tux, the Linux mascot" /></p>
-  </li>
-  <li>
-    <p>Close the file.</p>
-  </li>
   <li>First item</li>
   <li>Second item</li>
   <li>Third item
@@ -251,24 +263,7 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
   </tbody>
 </table>
 
-<table>
-  <thead>
-    <tr>
-      <th>Syntax</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Header</td>
-      <td>Title</td>
-    </tr>
-    <tr>
-      <td>Paragraph</td>
-      <td>Text</td>
-    </tr>
-  </tbody>
-</table>
+<hr />
 
 <table>
   <thead>
@@ -293,13 +288,6 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
 </table>
 
 <hr />
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-</code></pre></div></div>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"firstName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">

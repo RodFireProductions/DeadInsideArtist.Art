@@ -1,3 +1,4 @@
+
 pre .hll { background-color: #ffffcc }
 pre  { background: #f0f0f0; }
 pre .c { color: #60a0b0; font-style: italic } /* Comment */
@@ -67,7 +68,14 @@ pre .vg { color: #bb60d5 } /* Name.Variable.Global */
 pre .vi { color: #bb60d5 } /* Name.Variable.Instance */
 pre .vm { color: #bb60d5 } /* Name.Variable.Magic */
 pre .il { color: #40a070 } /* Literal.Number.Integer.Long */.highlight pre .hll { background-color: #ffffcc }
-.highlight pre  { background: #f0f3f3; }
+
+.highlight pre  {
+    background: #f0f3f3;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
 .highlight pre .c { color: #0099FF; font-style: italic } /* Comment */
 .highlight pre .err { color: #AA0000; background-color: #FFAAAA } /* Error */
 .highlight pre .k { color: #006699; font-weight: bold } /* Keyword */

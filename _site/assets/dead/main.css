@@ -6,11 +6,19 @@
     --light_bg  : #1b0c23; /* var(--light_bg) */
     --purp_bg   : #AE89C3; /* var(--purp_bg) */
     --yell_bg   : #fcf06a;
-    --shadow    : rgba(255,255,255,0.2); /* var(--shadow) */
+    --shadow    : #1b0c2350; /* var(--shadow) */
+
+    --light_l   : #ffffff55;
+    --dark_l    : #00000055;
+    --purp_d    : #603c74;
 
     --light_bg_trans  : rgb(255, 255, 255, 0.8); /* var(--light_bg_trans) */
     --purp_bg_trans   : rgb(174, 137, 195, 0.5); /* var(--purp_bg_trans) */
 }
+
+::selection { background: var(--dark_l); }
+::-moz-selection { background: var(--dark_l); }
+
 
 /*
 
@@ -60,8 +68,6 @@ footer {
     left: 50%;
     transform: translate(-50%, 0);
 
-    margin-top: 2em;
-
 }
 
 /* Markdown Styling */
@@ -69,14 +75,26 @@ footer {
 h1, h2, h3, h4, h5, h6 {
     text-transform: lowercase;
     font-family: monospace;
+    font-style: oblique;
 }
+
+h3, h4, h5, h6 { text-decoration: underline; }
 
 p {
     text-indent: 2em;
 }
 
-a { color: var(--yell_bg); }
-a:hover { color: var(--purp_bg); }
+a { color: var(--purp_d); }
+a:hover { color: var(--yell_bg); }
+
+hr {
+    border-style: none;
+    background: linear-gradient(90deg, rgba(17,7,22,0.5) 0%, rgba(252, 240, 106,.5) 50%, rgba(17,7,22,.5) 100%);
+    height: 2px;
+}
+
+.footnote {}
+.reversefootnote {}
 
 button {
     font-style: lowercase;
@@ -104,8 +122,38 @@ button:hover {
 
 blockquote {
     background-color: var(--shadow);
-    padding: 2em;
+    padding: .2em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border-radius: 5px;
 }
 
-code {
+.language-plaintext {
+    background-color: var(--dark_bg);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Table stuff */
+
+table { border-collapse: collapse; }
+
+th {
+    background-color: var(--light_bg);
+    color: var(--dark_bg);
+    padding-left: .5em;
+    padding-right: .5em;
+    border-left: thin;
+    border-right: thin;
+    border-width: thin;
+    border-color: var(--light_bg);
+}
+td {
+    background-color: var(--shadow);
+    padding-right: .5em;
+    padding-left: .5em;
+    border-style: solid;
+    border-width: thin;
+    border-color: var(--dark_bg);
 }

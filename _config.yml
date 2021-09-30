@@ -79,3 +79,4 @@ itch:
 
 plugins:
   - jekyll-coffeescript
+  - jemoji

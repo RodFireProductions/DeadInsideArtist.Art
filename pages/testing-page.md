@@ -2,6 +2,7 @@
 layout: page
 title: Testing post
 description: It's just a page I'm using to test out how these tags look and such.
+extra: 2021 30 Sept
 permalink: /test
 ---
 
@@ -74,15 +75,21 @@ Try to put a blank line before...
 3. Third item
 4. Fourth item
 
+---
+
 1. First item
 1. Second item
 1. Third item
 1. Fourth item
 
+---
+
 1. First item
 8. Second item
 3. Third item
 5. Fourth item
+
+---
 
 1. First item
 2. Second item
@@ -98,15 +105,21 @@ Try to put a blank line before...
 - Third item
 - Fourth item
 
+---
+
 * First item
 * Second item
 * Third item
 * Fourth item
 
+---
+
 + First item
 + Second item
 + Third item
 + Fourth item
+
+---
 
 - First item
 - Second item
@@ -115,8 +128,12 @@ Try to put a blank line before...
     - Indented item
 - Fourth item
 
+---
+
 - 1968\. A great year!
 - I think 1969 was second best
+
+---
 
 *   This is the first list item.
 *   Here's the second list item.
@@ -124,6 +141,8 @@ Try to put a blank line before...
     I need to add another paragraph below the second list item.
 
 *   And here's the third list item.
+
+---
 
 *   This is the first list item.
 *   Here's the second list item.
@@ -134,23 +153,12 @@ Try to put a blank line before...
 
 ---
 
-1.  Open the file.
-2.  Find the following code block on line 21:
-
-{% highlight html %}
-        <html>
-          <head>
-            <title>Test</title>
-          </head>
-{% endhighlight %}
-3.  Update the title to match the name of your website.
-
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
-
-    ![Tux, the Linux mascot](/assets/images/tux.png)
-
+    ![Tux, the Linux mascot](/assets/images/noisetexture.png)
 3.  Close the file.
+
+---
 
 1. First item
 2. Second item
@@ -199,10 +207,7 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 | Header      | Title       |
 | Paragraph   | Text        |
 
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+---
 
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
@@ -210,14 +215,6 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 | Paragraph   | Text        | And more      |
 
 ---
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
 
 ```json
 {
