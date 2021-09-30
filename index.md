@@ -1,9 +1,12 @@
 ---
-title: Enter Hell - A Dead Inside Artist and Their Work
-description: Rodrick's, or RodFireProductions, personal website. They're a small artist that does digital illustrations and hobbyist code work. 
-layout: enter
+title: RodFireProductions | A Dead Inside Artist and Their Work
+description: Rodrick's, or RodFireProductions, personal website. They're a small artist that does digital illustrations and hobbyist code work.
+layout: about
 ---
 
-<span class="enter_title">{{ site.title }}</span>
-<br>
-<span class="enter_subtitle">just another dead inside artist</span>
+<div class="center_txt" style="text-indent:0px;">
+
+Howdy, I'm <b>Rodrick</b> (Rod for short).<br>
+I'm an artist and hobbyist dev. Sorry, the buttons don't work at the moment. Still a work in progress.<br><br>
+Sincerely,<br>Your Nonbinary Demigod
+</div>

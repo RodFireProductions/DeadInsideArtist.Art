@@ -7,21 +7,23 @@
     </head>
 
     <body>
+        <div class="body">
 
-        <div class="header">
-            {% include header.html %}
+            <!--<div class="header">
+                {% include header.html %}
+            </div>-->
+
+            <div class="main_content">
+                {{ content }}
+            </div>
+
+            <div class="footer">
+                <footer>
+                    {% include footer.html %}
+                </footer>
+            </div>
+
         </div>
-
-        <div class="main_content">
-            {{ content }}
-        </div>
-
-        <div class="footer">
-            <footer>
-                {% include footer.html %}
-            </footer>
-        </div>
-
     </body>
 
 </html>

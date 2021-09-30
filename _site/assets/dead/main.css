@@ -2,14 +2,21 @@
 :root {
     --txt_dark  : black; /* var(--txt_reg) */
     --txt_light : white; /* var(--txt_light) */
-    --dark_bg   : black; /* var(--dark_bg) */
-    --light_bg  : white; /* var(--light_bg) */
+    --dark_bg   : #f7f7f7; /* var(--dark_bg) */
+    --light_bg  : #1b0c23; /* var(--light_bg) */
     --purp_bg   : #AE89C3; /* var(--purp_bg) */
+    --yell_bg   : #fcf06a;
     --shadow    : rgba(255,255,255,0.2); /* var(--shadow) */
 
     --light_bg_trans  : rgb(255, 255, 255, 0.8); /* var(--light_bg_trans) */
     --purp_bg_trans   : rgb(174, 137, 195, 0.5); /* var(--purp_bg_trans) */
 }
+
+/*
+
+    Rodrick hates their life.
+
+*/
 
 @font-face {
     font-family: 'OpenDyslexic-Regular', sans-serif;
@@ -18,12 +25,12 @@
 
 @font-face {
     font-family: 'Mukta', sans-serif;
-    src: url(../assets/fonts/Mukta-Regular.otf) format('oft');
+    src: url(../assets/fonts/Mukta-Regular.ttf) format('ttf');
 }
 
 @font-face {
     font-family: 'Merienda', sans-serif;
-    src: url(../assets/fonts/Merienda-Regular.otf) format('oft');
+    src: url(../assets/fonts/Merienda-Regular.ttf) format('ttf');
 }
 
 .no_drag { user-select: none; -webkit-user-select: none; }
@@ -32,10 +39,30 @@ body {
     margin: 0;
     /*color: var(--txt_light);*/
     font-family: 'Mukta', sans-serif;
-    background-color: var(--purp_bg);
+    /*background-image: url('../images/noisetexture.png');*/
+    background: url('../images/noisetexture.png'), var(--light_bg);
+    background: url('../images/noisetexture.png'), linear-gradient(0deg, rgba(17,7,22,1) 0%, rgba(64,62,64,1) 100%) fixed;
+    /*background-color: var(--txt_dark);*/
+}
+
+.body {
+    display: grid;
+    grid-auto-flow: row;
 }
 
 .main_content { margin: 0.5em; }
+
+footer {
+    color: var(--txt_light);
+    opacity: 0.5;
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    margin-top: 2em;
+
+}
 
 /* Markdown Styling */
 
@@ -44,7 +71,36 @@ h1, h2, h3, h4, h5, h6 {
     font-family: monospace;
 }
 
-p { text-indent: 2em; }
+p {
+    text-indent: 2em;
+}
+
+a { color: var(--yell_bg); }
+a:hover { color: var(--purp_bg); }
+
+button {
+    font-style: lowercase;
+    font-family: monospace, serif;
+    padding: 5px;
+    margin: 5px;
+
+    background-color: var(--txt_light);
+    border-style: none;
+    border-radius: 15px;
+
+    transition: 0.4s;
+
+    box-shadow: 5px 11px 0px -3px var(--purp_bg);
+    -webkit-box-shadow: 5px 11px 0px -3px var(--purp_bg);
+    -moz-box-shadow: 5px 11px 0px -3px var(--purp_bg);
+}
+button:hover {
+    background-color: var(--yell_bg);
+
+    box-shadow: -5px 11px 0px -3px var(--purp_bg);
+    -webkit-box-shadow: -5px 11px 0px -3px var(--purp_bg);
+    -moz-box-shadow: -5px 11px 0px -3px var(--purp_bg);
+}
 
 blockquote {
     background-color: var(--shadow);

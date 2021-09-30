@@ -16,6 +16,7 @@ meta_image      : "https://i.ibb.co/6rFsTzv/banner-meta.png"
 noise_img       : "../assets/images/noisetexture.png"
 logo            : # Path to logo
 style           : "../assets/dead.css"
+script          : "../assets/scripts/itsme.js"
 
 marshalllee     : "../assets/images/marshalllee.gif"
 marshalllee2    : "../assets/images/marshalllee2.gif"
@@ -32,7 +33,7 @@ highlighter     : rouge
 author_name        : "Rodrick \"RodFireProductions\""
 author_pronouns    : "they/them"
 author_title       : "Your Nonbinary Demigod"
-author_avatar      : "../assets/images/avatar.png"
+author_avatar      : "../assets/images/avatar_trans.png" #"../assets/images/avatar.png"
 author_location    : "Hell"
 author_email       : "rodrick@deadinsideartist.art"
 

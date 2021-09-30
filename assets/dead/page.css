@@ -2,18 +2,27 @@
 /* Page CSS */
 
 .content_holder {
-    background-color: var(--dark_bg);
-    background-image: url('../images/noisetexture.png');
+    background: linear-gradient(180deg, rgba(17,7,22,0.5) 0%, rgba(64,62,64,0) 50%, rgba(17,7,22,.5) 100%) fixed;
     color: var(--txt_light);
-    width: auto;
-    padding: 30px;
+    padding: 2em;
+    border-radius: 15px;
+
+    width: 40%;
+    min-height: 450px;
+
+    margin: 0 auto;
+
+    top: 50%;
+    transform: translate(0, 5%)
+
 }
 
-.content_cir {
-    background-color: var(--purp_bg_trans);
-    /*color: var(--txt_dark);*/
+.back {
+    background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(224,213,224,1) 100%) fixed;
     padding: 1em;
-    border-radius: 5px;
+    border-radius: 15px;
+
+    height: 415px;
 }
 
 .indent { text-indent: 2em; }

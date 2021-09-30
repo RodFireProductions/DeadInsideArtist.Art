@@ -12,6 +12,6 @@ permalink: /commission
 
 ### Have a "I'm sorry" Marshall Lee to cheer you up!
 
-<img src="{{ site.marshalllee2 }}">
+<img class="marshall" src="{{ site.marshalllee2 }}">
 
 </div>

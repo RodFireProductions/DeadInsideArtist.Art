@@ -3,22 +3,30 @@ layout: default
 ---
 
 <div class="content_holder">
-    <div class="about_card">
-            <!-- Avatar Image -->
-        <div class="about_avatar_box no_drag"><div class="about_outline_box">
-            <img src="{{ site.author_avatar }}" alt="Avatar Alt" title="{{ site.author_title }}" class="about_avatar_img">
-        </div></div>
+    <div class="back">
 
-            <!-- Bio -->
-        <div class="about_bio">
-            <div class="about_bio_text">
-                {{ content }}
+        <div class="about_card">
+                <!-- Avatar Image -->
+            <div class="avatar_dec">
+            <div class="about_avatar_box no_drag"><div class="about_outline_box">
+                <img src="{{ site.author_avatar }}" alt="Avatar Alt" title="{{ site.author_title }}" class="about_avatar_img">
+            </div></div>
+            </div>
+
+                <!-- Bio -->
+            <div class="about_bio">
+                <div class="about_bio_text">
+                    {{ content }}
+                </div>
             </div>
         </div>
+
+        <div class="about_bt">
+            <button class="about_bts" type="button" name="about">about</button>
+            <button class="about_bts" type="button" name="gallery">gallery</button>
+            <button class="about_bts" type="button" name="projects">projects</button>
+        </div>
+
     </div>
-
-    <hr style="margin: 3em;">
-
-    {% include home.html %}
 
 </div>
