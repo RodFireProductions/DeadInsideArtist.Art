@@ -16,7 +16,7 @@ meta_image      : "https://i.ibb.co/6rFsTzv/banner-meta.png"
 noise_img       : "../assets/images/noisetexture.png"
 logo            : # Path to logo
 style           : "../assets/dead.css"
-script          : "../assets/scripts/itsme.js"
+script          : "../assets/dead.js"  #"../assets/scripts/itsme.js"
 
 marshalllee     : "../assets/images/marshalllee.gif"
 marshalllee2    : "../assets/images/marshalllee2.gif"

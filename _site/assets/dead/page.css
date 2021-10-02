@@ -1,6 +1,11 @@
 
 /* Page CSS */
 
+.main_content {
+    display: grid;
+    grid-auto-flow: row;
+}
+
 .content_holder {
     background: linear-gradient(180deg, rgba(17,7,22,0.5) 0%, rgba(64,62,64,0) 50%, rgba(17,7,22,.5) 100%);
     color: var(--txt_light);
@@ -10,8 +15,8 @@
     width: 40%;
     min-height: 450px;
 
-    margin: 1.5em auto;
-
+    margin: auto;
+    margin-top: 1.5em;
 }
 
 .back {
@@ -28,6 +33,7 @@
 .page_h {
     display: grid;
     grid-auto-flow: column;
+    line-height: normal;
 }
 /*.p::selection { background: var(--light_l); }*/
 
@@ -40,3 +46,11 @@
 .right { text-align: right; }
 .center_txt { text-align: center; }
 .flex { display: flex; }
+.no_toughy {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

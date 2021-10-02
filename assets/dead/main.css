@@ -14,6 +14,10 @@
 
     --light_bg_trans  : rgb(255, 255, 255, 0.8); /* var(--light_bg_trans) */
     --purp_bg_trans   : rgb(174, 137, 195, 0.5); /* var(--purp_bg_trans) */
+
+
+    /* Font */
+    --mono      : monospace;
 }
 
 ::selection { background: var(--dark_l); }
@@ -27,8 +31,8 @@
 */
 
 @font-face {
-    font-family: 'OpenDyslexic-Regular', sans-serif;
-    src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('otf');
+    font-family: 'OpenDyslexic', sans-serif;
+    src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('opentype');
 }
 
 @font-face {
@@ -37,16 +41,17 @@
 }
 
 @font-face {
-    font-family: 'Merienda', sans-serif;
+    font-family: 'Merienda';
     src: url(../assets/fonts/Merienda-Regular.ttf) format('ttf');
 }
 
-.no_drag { user-select: none; -webkit-user-select: none; }
+.no_drag { -webkit-user-select: none; user-select: none; }
 
 body {
     margin: 0;
     /*color: var(--txt_light);*/
     font-family: 'Mukta', sans-serif;
+    font-size: 1em;
     /*background-image: url('../images/noisetexture.png');*/
     background: url('../images/noisetexture.png'), var(--light_bg);
     background: url('../images/noisetexture.png'), linear-gradient(0deg, rgba(17,7,22,1) 0%, rgba(64,62,64,1) 100%) fixed;
@@ -58,24 +63,24 @@ body {
     grid-auto-flow: row;
 }
 
-.main_content { margin: 0.5em; }
-
 footer {
     color: var(--txt_light);
     opacity: 0.5;
-    position: absolute;
+    /*position: absolute;
 
     left: 50%;
-    transform: translate(-50%, 0);
-
+    transform: translate(-50%, 0);*/
+    position: relative;
+    text-align: center;
+    align-self: start;
 }
 
 /* Markdown Styling */
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: lowercase;
-    font-family: monospace;
-    font-style: oblique;
+    font-family: var(--mono);
+    font-style: italic;
 }
 
 h3, h4, h5, h6 { text-decoration: underline; }
@@ -98,7 +103,7 @@ hr {
 
 button {
     font-style: lowercase;
-    font-family: monospace, serif;
+    font-family: var(--mono), serif;
     padding: 5px;
     margin: 5px;
 

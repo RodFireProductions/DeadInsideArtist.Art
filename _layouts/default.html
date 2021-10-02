@@ -1,13 +1,16 @@
 <!doctype html>
-<html>
+<html lang="en">
 
     <head>
+        <meta charset="utf-8">
         {% include head.html %}
         {% include meta.html %}
     </head>
 
     <body>
         <div class="body">
+
+            {% include toggles.html %}
 
             <div class="main_content">
                 {{ content }}
