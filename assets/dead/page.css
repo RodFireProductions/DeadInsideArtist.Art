@@ -17,6 +17,9 @@
 
     margin: auto;
     margin-top: 1.5em;
+
+    display: grid;
+    grid-auto-flow: row;
 }
 
 .back {
