@@ -5,7 +5,6 @@
 .bio_grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 40% 50% 10%;
 
 }
 
@@ -16,7 +15,6 @@
     padding: 1em;
 
     align-self: center;
-    margin-top: 5em;
 }
 
 .bio_img {
@@ -114,4 +112,17 @@
 .bio_title {
     font-family: var(--mono), serif;
     font-weight: bold;
+}
+
+/* Bio */
+
+.bio_bio {
+
+}
+
+.bio_f_b {
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+
 }
