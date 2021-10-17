@@ -2,7 +2,7 @@
 layout: page
 title: Commission Me!
 description: Commission RodFireProductions for illustrations, concept art, Ren'Py coding, and sprite art.
-permalink: /commission
+permalink: /commission/
 ---
 
 {::options parse_block_html="true" /}

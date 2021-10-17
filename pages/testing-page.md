@@ -3,14 +3,14 @@ layout: page
 title: Testing post
 description: It's just a page I'm using to test out how these tags look and such.
 extra: 2021 30 Sept
-permalink: /test
+permalink: /test/
 ---
 
 {::options parse_block_html="true" /}
 <div class="content_cir">
 # Heading level 1
-## Heading level 2
-### Heading level 3
+<h2 class="scared">Heading level 2 (I'm scared!!!!!)</h2>
+<h3 class="scaredhover">Heading level 3 (Me too! Don't touch me!!)</h3>
 #### Heading level 4
 ##### Heading level 5
 ###### Heading level 6

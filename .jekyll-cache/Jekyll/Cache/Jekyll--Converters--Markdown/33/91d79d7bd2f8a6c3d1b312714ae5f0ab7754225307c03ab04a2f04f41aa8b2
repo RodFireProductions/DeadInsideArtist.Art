@@ -1,97 +1,24 @@
-<!doctype html>
-<html lang="en">
-
-    <head>
-        <meta charset="utf-8">
-        <!-- Head content -->
-
-<title> Testing post </title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" type="text/css" href="../assets/dead.css">
-<!--
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/base16/ashes.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/an-old-hope.min.css">
--->
-
-<link rel="icon" href="../assets/images/skullfavicon.png" type="image/png">
-<script src="../assets/dead.js" charset="utf-8" type="module"></script>
-
-        <!-- Meta data content -->
-
-<meta name="author" content='Rodrick "RodFireProductions"' />
-<meta name="description" content="It's just a page I'm using to test out how these tags look and such." />
-<meta name="keywords" content="art artist dev" />
-
-<meta name="google-site-verification" content="+n4xH9R0QJteZbUgHujwsGVktn_Y71kNS-V-B8YrQLcc="/>
-<meta name="google" content="nositelinkssearchbox" />
-
-<!-- Meta data stuff I should probably delete -->
-
-<meta itemprop="name" content="RodFireProductions">
-<meta itemprop="description" content="It's just a page I'm using to test out how these tags look and such.">
-<meta itemprop="image" content="https://i.ibb.co/6rFsTzv/banner-meta.png">
-
-<meta property="og:url" content="https://deadinsideartist.art">
-<meta property="og:type" content="object">
-<meta property="og:title" content="RodFireProductions">
-<meta property="og:image:alt" content="Just another dead inside artist's portfolio website.">
-<meta property="og:description" content="It's just a page I'm using to test out how these tags look and such.">
-<meta property="og:image" content="https://i.ibb.co/6rFsTzv/banner-meta.png">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="RodFireProductions">
-<meta name="twitter:description" content="It's just a page I'm using to test out how these tags look and such.">
-<meta name="twitter:image:src" content="https://i.ibb.co/6rFsTzv/banner-meta.png">
-
-    </head>
-
-    <body>
-        <div class="body">
-
-            
-<!-- Dyslexic Toggle -->
-<div class="toggle_dyslexic">
-    <input id="dyslexic" name="dyslexic" type="checkbox" hidden>
-    <label for="dyslexic" class="switch">
-        <span id="FontTog1" class="tog no_toughy">OpenDyslexic</span>
-        <span id="FontTog2" class="tog2 no_toughy">Mukta</span>
-    </label>
-</div>
-
-
-            <div class="main_content">
-                <div class="content_holder">
-
-    <div class="page_h" id="page_h">
-        <h2 class="page_extra">~ 2021 30 Sept ~</h2>
-        <h1 class="right">Testing post</h1>
-    </div>
-
-    <div class="back">
-
-        <div class="content_cir">
+I"�#<div class="content_cir">
   <h1 id="heading-level-1">Heading level 1</h1>
-  <h2 id="heading-level-2">Heading level 2</h2>
-  <h3 id="heading-level-3">Heading level 3</h3>
+  <h2 class="scared">Heading level 2 (I’m scared!!!!!)</h2>
+  <h3 class="scaredhover">Heading level 3 (Me too! Don’t touch me!!)</h3>
   <h4 id="heading-level-4">Heading level 4</h4>
   <h5 id="heading-level-5">Heading level 5</h5>
   <h6 id="heading-level-6">Heading level 6</h6>
 </div>
-<hr>
+<hr />
 
 <p>I really like using Markdown.</p>
 
 <p>I think I’ll use it to format all of my documents from now on.</p>
 
-<p>First line with two spaces after.<br>
+<p>First line with two spaces after.<br />
 And the next line.</p>
 
-<p>First line with the HTML tag after.<br>
+<p>First line with the HTML tag after.<br />
 And the next line.</p>
 
-<hr>
+<hr />
 
 <p>I just love <strong>bold text</strong>.
 I just love <strong>bold text</strong>.
@@ -107,7 +34,7 @@ This text is <strong><em>really important</em></strong>.
 This text is <strong><em>really important</em></strong>.
 This is really<strong><em>very</em></strong>important text.</p>
 
-<hr>
+<hr />
 
 <blockquote>
   <p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
@@ -146,7 +73,7 @@ This is really<strong><em>very</em></strong>important text.</p>
 
 <p>…and after a blockquote.</p>
 
-<hr>
+<hr />
 
 <ol>
   <li>First item</li>
@@ -155,7 +82,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ol>
 
-<hr>
+<hr />
 
 <ol>
   <li>First item</li>
@@ -164,7 +91,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ol>
 
-<hr>
+<hr />
 
 <ol>
   <li>First item</li>
@@ -173,7 +100,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ol>
 
-<hr>
+<hr />
 
 <ol>
   <li>First item</li>
@@ -187,7 +114,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ol>
 
-<hr>
+<hr />
 
 <ul>
   <li>First item</li>
@@ -196,7 +123,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ul>
 
-<hr>
+<hr />
 
 <ul>
   <li>First item</li>
@@ -205,7 +132,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ul>
 
-<hr>
+<hr />
 
 <ul>
   <li>First item</li>
@@ -214,7 +141,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ul>
 
-<hr>
+<hr />
 
 <ul>
   <li>First item</li>
@@ -228,14 +155,14 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>Fourth item</li>
 </ul>
 
-<hr>
+<hr />
 
 <ul>
   <li>1968. A great year!</li>
   <li>I think 1969 was second best</li>
 </ul>
 
-<hr>
+<hr />
 
 <ul>
   <li>This is the first list item.</li>
@@ -247,7 +174,7 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>And here’s the third list item.</li>
 </ul>
 
-<hr>
+<hr />
 
 <ul>
   <li>This is the first list item.</li>
@@ -261,17 +188,16 @@ This is really<strong><em>very</em></strong>important text.</p>
   <li>And here’s the third list item.</li>
 </ul>
 
-<hr>
+<hr />
 
 <ol>
   <li>Open the file containing the Linux mascot.</li>
   <li>Marvel at its beauty.
-<img src="/assets/images/noisetexture.png" alt="Tux, the Linux mascot">
-</li>
+<img src="/assets/images/noisetexture.png" alt="Tux, the Linux mascot" /></li>
   <li>Close the file.</li>
 </ol>
 
-<hr>
+<hr />
 
 <ol>
   <li>First item</li>
@@ -289,11 +215,11 @@ This is really<strong><em>very</em></strong>important text.</p>
 
 <p><code class="language-plaintext highlighter-rouge">Use `code` in your Markdown file.</code></p>
 
-<hr>
+<hr />
 
-<hr>
+<hr />
 
-<hr>
+<hr />
 
 <p>My favorite search engine is <a href="https://duckduckgo.com">Duck Duck Go</a>.</p>
 
@@ -316,7 +242,7 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
 
 <p>* Without the backslash, this would be a bullet in an unordered list.</p>
 
-<hr>
+<hr />
 
 <table>
   <thead>
@@ -337,7 +263,7 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
   </tbody>
 </table>
 
-<hr>
+<hr />
 
 <table>
   <thead>
@@ -361,7 +287,7 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
   </tbody>
 </table>
 
-<hr>
+<hr />
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"firstName"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
@@ -370,11 +296,11 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<hr>
+<hr />
 
 <p>Here’s a simple footnote,<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> and here’s a longer one.<sup id="fnref:bignote" role="doc-noteref"><a href="#fn:bignote" class="footnote" rel="footnote">2</a></sup></p>
 
-<hr>
+<hr />
 
 <h3 id="custom-id">My Great Heading</h3>
 
@@ -391,21 +317,18 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
 <p><del>The world is flat.</del> We now know that the world is round.</p>
 
 <ul class="task-list">
-  <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled checked>Write the press release</li>
-  <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled>Update the website</li>
-  <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled>Contact the media</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Write the press release</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Update the website</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Contact the media</li>
 </ul>
 
-<p>Gone camping! <img class="emoji" title=":tent:" alt=":tent:" src="https://github.githubassets.com/images/icons/emoji/unicode/26fa.png" height="20" width="20"> Be back soon.</p>
+<p>Gone camping! :tent: Be back soon.</p>
 
-<p>That is so funny! <img class="emoji" title=":joy:" alt=":joy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f602.png" height="20" width="20"></p>
+<p>That is so funny! :joy:</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>This is the first footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>This is the first footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:bignote" role="doc-endnote">
       <p>Here’s one with multiple paragraphs and code.</p>
@@ -414,27 +337,8 @@ eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Ho
 
       <p><code class="language-plaintext highlighter-rouge">{ my code }</code></p>
 
-      <p>Add as many paragraphs as you like. <a href="#fnref:bignote" class="reversefootnote" role="doc-backlink">↩</a></p>
+      <p>Add as many paragraphs as you like. <a href="#fnref:bignote" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>
-
-
-    </div>
-</div>
-
-            </div>
-
-            <div class="footer">
-                <footer>
-                    
-
-© Copyright 2021 RodFireProductions - All Rights Reserved
-
-                </footer>
-            </div>
-
-        </div>
-    </body>
-
-</html>
+:ET
