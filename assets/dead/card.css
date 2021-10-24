@@ -6,6 +6,8 @@
     position: relative;
 }
 
+.about_width { grid-template-rows: 2em 1fr 2em; width: 55%; }
+
 /* Avatar Image */
 
 
@@ -76,10 +78,6 @@
 
 .about_bt {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr; 
     padding-top: 1em;
-}
-
-.about_bts {
-
 }

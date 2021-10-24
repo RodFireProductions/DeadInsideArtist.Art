@@ -126,10 +126,9 @@ button:hover {
 }
 
 blockquote {
-    background-color: var(--shadow);
-    padding: .2em;
-    padding-left: 1em;
-    padding-right: 1em;
+    /*
+    background-color: #aea8b1;
+    */
 
     border-radius: 5px;
 }

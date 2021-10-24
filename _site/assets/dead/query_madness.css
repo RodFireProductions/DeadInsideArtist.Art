@@ -1,0 +1,34 @@
+/*
+    Rodrick hates their life... and media queries.
+*/
+
+@media only screen and (max-width: 1250px) {
+}
+
+@media screen and (max-wdith: 800px) {
+    /* Toggle */
+    .switch {
+        width: 70px;
+        height: 20px;
+    },
+    .switch::before {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about_bt {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    },
+    .about_width {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .back {
+        width: 95%;
+    }
+}

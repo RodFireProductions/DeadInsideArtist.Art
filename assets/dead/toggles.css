@@ -2,8 +2,8 @@
 
 .switch {
     background-color: var(--light_bg_trans);
-    width: 7em;
-    height: 2em;
+    width: 118px;
+    height: 36px;
 
     border-radius: 50px;
     padding: 2px;
@@ -16,8 +16,8 @@
 
 .switch::before {
     content: '';
-    width: 2em;
-    height: 2em;
+    width: 36px;
+    height: 36px;
     background-color: var(--purp_bg);
     position: absolute;
     border-radius: 50px;
@@ -26,7 +26,7 @@
 }
 
 input:checked + .switch:before {
-    transform: translateX(250%);
+    transform: translateX(225%);
 }
 
 .tog {
