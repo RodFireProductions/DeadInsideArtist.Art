@@ -24,7 +24,7 @@
 .back {
     background: linear-gradient(180deg, rgba(247,247,247,1) 0%, rgba(224,213,224,1) 100%);
     padding: 1em;
-    border-radius: 15px;
+    border-radius: 0px;
 
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
