@@ -36,6 +36,9 @@
 
 .page_h {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
 
@@ -48,7 +51,8 @@
     font-weight: lighter;
     transform: translate(0, 20%);
 }
-.page_title {  }
+.page_title {
+}
 
 .indent { text-indent: 2em; }
 .right { text-align: right; }

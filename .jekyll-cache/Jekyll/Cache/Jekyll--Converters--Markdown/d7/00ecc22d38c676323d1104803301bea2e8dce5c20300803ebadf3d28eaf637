@@ -1,4 +1,4 @@
-I"°#<div class="content_cir">
+I"²#<div class="content_cir">
   <h1 id="heading-level-1">Heading level 1</h1>
   <h2 class="scared">Heading level 2 (Iâ€™m scared!!!!!)</h2>
   <h3 class="scaredhover">Heading level 3 (Me too! Donâ€™t touch me!!)</h3>
@@ -193,7 +193,7 @@ This is really<strong><em>very</em></strong>important text.</p>
 <ol>
   <li>Open the file containing the Linux mascot.</li>
   <li>Marvel at its beauty.
-<img src="/assets/images/noisetexture.png" alt="Tux, the Linux mascot" /></li>
+<img src="/assets/images/skullfavicon.png" alt="Tux, the Linux mascot" />{}</li>
   <li>Close the file.</li>
 </ol>
 

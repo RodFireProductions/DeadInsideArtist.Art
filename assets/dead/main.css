@@ -161,3 +161,11 @@ td {
     border-width: thin;
     border-color: var(--dark_bg);
 }
+
+/* Image stuff */
+li img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}

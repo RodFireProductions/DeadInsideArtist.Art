@@ -24,11 +24,18 @@
     },
     .about_width {
         width: 90%;
+    },
+    .page_h {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     .back {
-        width: 95%;
+        width: 70%;
+    },
+    .content_width {
+        width: 70%;
     }
 }

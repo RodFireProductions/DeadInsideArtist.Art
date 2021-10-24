@@ -155,7 +155,7 @@ Try to put a blank line before...
 
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
-    ![Tux, the Linux mascot](/assets/images/noisetexture.png)
+    ![Tux, the Linux mascot](/assets/images/skullfavicon.png)
 3.  Close the file.
 
 ---
