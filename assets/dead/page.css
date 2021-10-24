@@ -6,7 +6,7 @@
     grid-auto-flow: row;
 }
 
-.content_width { grid-template-rows: 3em 1fr 2em; width: 60%; }
+.content_width { grid-template-rows: 3em 1fr 2em; width: 50%; }
 
 .content_holder {
     background: linear-gradient(180deg, rgba(17,7,22,0.5) 0%, rgba(64,62,64,0) 50%, rgba(17,7,22,.5) 100%);
