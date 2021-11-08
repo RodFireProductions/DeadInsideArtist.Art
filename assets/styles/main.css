@@ -1,13 +1,16 @@
 /* // Rodrick hates their life. // */
 
 :root {
-    --text-color    : black;
-    --back-color    : #eee;
+    --text-color    : #1f0d23;
+    --back-color    : #ddd;
 
 
-    --btn-back      : white;
-    --btn-back2     : yellow;
-    --btn-shad      : purple;
+    --btn-back      : var(--text-color);
+    --btn-back2     : var(--text-color); /* #fcf06a */
+    --btn-shad      : #AE89C3;
+
+    --grad-color    : #110716;
+    --grad-color2   : #352833;
 }
 
 ::selection { background: #00000099; color: white; }
@@ -20,14 +23,13 @@
     src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('opentype');
 }
 
-.noselect { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
-
 body {
     margin: 0;
     font-family: sans-serif;
     font-size: 1em;
-    background: url('../images/noisetexture.png'), var(--light_bg);
-    background: url('../images/noisetexture.png'), linear-gradient(0deg, #110716 0%, #352833 100%) fixed;
+    background: url('../images/noisetexture.png'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
 
 footer {
@@ -36,20 +38,21 @@ footer {
     position: relative;
     text-align: center;
     align-self: start;
+    font-size: 0.8em;
 }
 
 /* Main */
 
 .main_content {
     color: var(--text-color);
-    /*background: linear-gradient(180deg, rgba(17,7,22,0.5) 0%, rgba(64,62,64,0) 50%, rgba(17,7,22,.5) 100%);*/
+    /*background: linear-gradient(360deg, rgba(17,7,22,0.5) 0%, rgba(64,62,64,0) 100%)*/
     background-color: var(--back-color);
     width: 75%;
 
     display: grid;
     grid-auto-flow: row;
     margin: 5px auto;
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 20px;
     min-height: 20px;
 
@@ -66,23 +69,25 @@ button {
     font-family: monospace;
     padding: 10px;
     margin: 5px;
+    width: 180px;
 
+    color: var(--back-color);
     background-color: var(--btn-back);
     border-style: none;
-    border-radius: 15px;
+    border-radius: 5px;
 
-    transition: 0.4s;
+    transition: 0.8s;
 
-    box-shadow: 5px 11px 0px -3px var(--btn-shad);
-    -webkit-box-shadow: 5px 11px 0px -3px var(--btn-shad);
-    -moz-box-shadow: 5px 11px 0px -3px var(--btn-shad);
+    box-shadow: 0px 0px 0px -3px var(--btn-shad);
+    -webkit-box-shadow: 0px 0px 0px -3px var(--btn-shad);
+    -moz-box-shadow: 0px 0px 0px -3px var(--btn-shad);
 }
 button:hover {
     background-color: var(--btn-back2);
 
-    box-shadow: -5px 11px 0px -3px var(--btn-shad);
-    -webkit-box-shadow: -5px 11px 0px -3px var(--btn-shad);
-    -moz-box-shadow: -5px 11px 0px -3px var(--btn-shad);
+    box-shadow: 0px 0px 0px 10px var(--btn-shad);
+    -webkit-box-shadow: 0px 0px 0px 10px var(--btn-shad);
+    -moz-box-shadow: 0px 0px 0px 10px var(--btn-shad);
 }
 
 /* Toggle */

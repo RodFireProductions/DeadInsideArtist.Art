@@ -1,0 +1,27 @@
+
+/* Home page */
+
+#home_content {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#persona {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio_text {
+    display: block;
+    padding: 20px;
+}
+.bio_text p { text-indent: 2em; }
+
+.home_btn {
+    display: grid;
+    grid-auto-flow: column;
+}
+.home_btn button {
+    width: auto;
+}

@@ -4,7 +4,6 @@
     Injected variables and html
 */
 
-
 let footer = document.getElementById('footer');
 footer.innerHTML += '&#169; Copyright '+ year +' RodFireProductions - All Rights Reserved';
 
@@ -34,8 +33,14 @@ checkbox2.addEventListener('change', function() {
     if (this.checked == true) {
         document.documentElement.style.setProperty("--text-color", theme.light);
         document.documentElement.style.setProperty("--back-color", theme.dark);
+
+        //document.documentElement.style.setProperty("--grad-color", '#b7a4c0');
+        //document.documentElement.style.setProperty("--grad-color2", '#e2b2da');
     } else {
         document.documentElement.style.setProperty("--text-color", theme.dark);
         document.documentElement.style.setProperty("--back-color", theme.light);
+
+        //document.documentElement.style.setProperty("--grad-color", '#110716');
+        //document.documentElement.style.setProperty("--grad-color2", '#352833');
     }
 });

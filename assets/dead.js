@@ -10,8 +10,8 @@ let siteURL = 'https://deadinsideartist.art'
 let year = '2021'
 
 let theme = {
-    light: 'white',
-    dark: 'black'
+    light: '#ddd',
+    dark: '#1f0d23'
 }
 
 let author = {

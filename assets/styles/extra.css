@@ -3,6 +3,9 @@
 .right { text-align: right; }
 .center { text-align: center; }
 
+.noselect { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+
 /* Shakey */
 @keyframes an_shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

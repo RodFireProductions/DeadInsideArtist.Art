@@ -1,0 +1,11 @@
+
+/*@media only screen and (max-width: 625px) {}*/
+
+@media only screen and (max-width: 750px) {
+    #home_content {
+        grid-auto-flow: row;
+    }
+    .home_btn {
+        grid-auto-flow: row;
+    }
+}
