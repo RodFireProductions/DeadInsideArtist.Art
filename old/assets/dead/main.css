@@ -63,17 +63,7 @@ body {
     grid-auto-flow: row;
 }
 
-footer {
-    color: var(--txt_light);
-    opacity: 0.5;
-    /*position: absolute;
 
-    left: 50%;
-    transform: translate(-50%, 0);*/
-    position: relative;
-    text-align: center;
-    align-self: start;
-}
 
 /* Markdown Styling */
 
