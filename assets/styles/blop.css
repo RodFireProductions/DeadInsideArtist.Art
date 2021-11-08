@@ -15,6 +15,7 @@
 .bio_text {
     display: block;
     padding: 20px;
+    transition: none;
 }
 .bio_text p { text-indent: 2em; }
 

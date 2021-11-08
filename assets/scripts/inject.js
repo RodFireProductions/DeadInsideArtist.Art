@@ -22,7 +22,7 @@ var checkbox = document.querySelector("input[name=dyslexic]");
 checkbox.addEventListener('change', function() {
     if (this.checked == true) {
         document.body.style.setProperty("font-family", "'OpenDyslexic', sans-serif");
-        document.body.style.setProperty("font-size", "0.9em");
+        document.body.style.setProperty("font-size", "1em");
     } else {
         document.body.style.setProperty("font-family", "sans-serif");
         document.body.style.setProperty("font-size", "1em");
