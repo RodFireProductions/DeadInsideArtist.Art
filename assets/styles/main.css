@@ -28,7 +28,7 @@ body {
     margin: 0;
     font-family: 'Mukta', sans-serif;
     font-size: 1em;
-    background: url('../images/noisetexture.png'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
+    background: url('../images/noisetexture.webp'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }

@@ -59,7 +59,7 @@ let projects = {
             There is only one ending, so you don't have to take the choices into serious thought.`,
             'Game',
             null,
-            'assets/images/projects/mylittlecatgirl.png',
+            'assets/images/projects/mylittlecatgirl.webp',
             null,
             'May 2019'
         ],
@@ -73,7 +73,7 @@ let projects = {
             Poseidon's Orb and the merpeople of Aquatris, will Charlotte have a change of heart?`,
             'Game',
             null,
-            'assets/images/projects/poseidonorb.png',
+            'assets/images/projects/poseidonorb.webp',
             'Coding & CG/Title screen art',
             'SuNoFes 2021'
         ]
@@ -100,7 +100,7 @@ let projects = {
             dictionary knowledge is needed to begin working with DeadJournals.`,
             'Tool',
             null,
-            'assets/images/projects/deadjournals.png',
+            'assets/images/projects/deadjournals.webp',
             null,
             'October 2021 -> Current'
         ]
@@ -113,7 +113,7 @@ let projects = {
             `It's just a simple piece about one of my original characters, Chalice. Just something fun and creative I made while at school.`,
             'Zine',
             null,
-            'assets/images/projects/meetchalice.png',
+            'assets/images/projects/meetchalice.webp',
             null,
             'September 17, 2021'
         ],
@@ -125,9 +125,12 @@ let projects = {
             This is just a vent zine about dealing with thoughts of self harm.`,
             'Zine',
             'references to self harm',
-            'assets/images/projects/hurt.png',
+            'assets/images/projects/hurt.webp',
             null,
             'October 8, 2021'
         ]
     ]
 }
+
+
+let gallery = []
