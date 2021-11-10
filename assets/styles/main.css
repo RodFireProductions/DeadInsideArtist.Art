@@ -121,7 +121,7 @@ button:hover {
     content: '';
     width: 18px;
     height: 18px;
-    background-color: #352833;
+    background-color: white;
     position: absolute;
     border-radius: 50px;
     transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
