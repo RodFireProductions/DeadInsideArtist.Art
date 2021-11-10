@@ -75,6 +75,7 @@ function projectCards(x) {
         <div class="card_desc">
             <div>`+x[0]+' | '+href+`</div>
             <p>`+x[3]+`</p>
+            <div><b>`+x[4]+`</b></div>
             <div>`+team+warning+`</div>
             <div>`+x[8]+`</div>
         </div>
