@@ -3,7 +3,7 @@
 :root {
     --text-color    : #1f0d23;
     --back-color    : #ddd;
-
+    --mono          : monospace;
 
     --btn-back      : var(--text-color);
     --btn-back2     : var(--text-color); /* #fcf06a */
@@ -22,10 +22,11 @@
     font-family: 'OpenDyslexic', sans-serif;
     src: url(../assets/fonts/OpenDyslexic-Regular.otf) format('opentype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 1em;
     background: url('../images/noisetexture.png'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
     -webkit-transition: 0.4s;
@@ -39,6 +40,14 @@ footer {
     text-align: center;
     align-self: start;
     font-size: 0.8em;
+}
+
+hr {
+    border-style: none;
+    border-bottom-style: dotted;
+    border-bottom-width: medium;
+    border-color: var(--text-color);
+    width: 100%;
 }
 
 /* Main */
@@ -66,7 +75,7 @@ footer {
 
 button {
     font-style: lowercase;
-    font-family: monospace;
+    font-family: var(--mono);
     padding: 10px;
     margin: 5px;
     width: 180px;
