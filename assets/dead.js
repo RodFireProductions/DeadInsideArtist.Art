@@ -17,7 +17,7 @@ let theme = {
 let author = {
     name        : 'Rodrick \'RodFireProductions\'',
     pronouns    : 'they/them',
-    title       : 'You Nonbinary Demigod',
+    title       : 'Your Nonbinary Demigod',
     picture     : ''
 }
 
