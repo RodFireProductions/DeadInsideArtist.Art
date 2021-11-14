@@ -132,5 +132,8 @@ let projects = {
     ]
 }
 
+/// Gallery
 
-let gallery = []
+let art2021 = [
+    
+]
