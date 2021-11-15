@@ -6,7 +6,7 @@
 
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 810px) {
     #home_content { grid-auto-flow: row; }
     .home_btn { grid-auto-flow: row; }
 }
