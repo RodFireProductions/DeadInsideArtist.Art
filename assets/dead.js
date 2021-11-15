@@ -34,11 +34,13 @@ let socials = {
     carrd       : ['Carrd','https://deadinsideartist.carrd.co/'],
     gumroad     : ['Gumroad','https://rodfireproductions.gumroad.com/'],
     picarto     : ['Picarto','https://picarto.tv/rodfire8181'],
-    tapas       : ['Tapas', 'https://tapas.io/rodfireproductions81']
+    tapas       : ['Tapas', 'https://tapas.io/rodfireproductions81'],
+    toyhouse    : ['Toyhou.se', 'https://toyhou.se/RodFire8181'],
+    blog        : ['DeadRambles', 'https://deadrambles.deadinsideartist.art/']
 }
 
 let socialsShow = [
-    socials.twitter, socials.github, socials.kofi, socials.itch, socials.deviantart, socials.youtube
+    socials.twitter, socials.github, socials.kofi, socials.itch, socials.deviantart
 ]
 
 let widgets = {
@@ -135,5 +137,5 @@ let projects = {
 /// Gallery
 
 let art2021 = [
-    
+
 ]
