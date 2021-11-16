@@ -36,7 +36,8 @@ let socials = {
     picarto     : ['Picarto','https://picarto.tv/rodfire8181'],
     tapas       : ['Tapas', 'https://tapas.io/rodfireproductions81'],
     toyhouse    : ['Toyhou.se', 'https://toyhou.se/RodFire8181'],
-    blog        : ['DeadRambles', 'https://deadrambles.deadinsideartist.art/']
+    blog        : ['DeadRambles', 'https://deadrambles.deadinsideartist.art/'],
+    mastodon    : ['Masotdon', 'https://mastodon.art/web/@rodfire8181']
 }
 
 let socialsShow = [
