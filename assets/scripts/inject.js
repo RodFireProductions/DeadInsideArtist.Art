@@ -35,9 +35,13 @@ checkbox2.addEventListener('change', function() {
     if (this.checked == true) {
         document.documentElement.style.setProperty("--text-color", theme.light);
         document.documentElement.style.setProperty("--back-color", theme.dark);
+        //document.documentElement.style.setProperty("--grad-color", "#d4c2dd");
+        //document.documentElement.style.setProperty("--grad-color2", "#e7c8e3");
     } else {
         document.documentElement.style.setProperty("--text-color", theme.dark);
         document.documentElement.style.setProperty("--back-color", theme.light);
+        //document.documentElement.style.setProperty("--grad-color", "#110716");
+        //document.documentElement.style.setProperty("--grad-color2", "#352833")
     }
 });
 
