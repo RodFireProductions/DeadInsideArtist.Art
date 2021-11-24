@@ -161,6 +161,7 @@ input:checked + .switch:before {
     transition: 0.4s;
     filter: invert(100%);
 }
+/*
 
 img {
     -webkit-filter: grayscale(100%);
@@ -171,5 +172,5 @@ img:hover {
     transition: 0.4s;
     -webkit-filter: none;
     filter: none;
-    /*filter: invert(100%);*/
 }
+*/
