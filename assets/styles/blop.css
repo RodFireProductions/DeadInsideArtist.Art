@@ -109,7 +109,8 @@
 
 .card {
     padding: 20px;
-    color: var(--text-color);
+    color: var(--back-color);
+    background-color: var(--text-color);
     border-style: solid;
 
     display: grid;
