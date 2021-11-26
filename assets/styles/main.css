@@ -10,7 +10,7 @@
     --btn-shad      : #AE89C3;
 
     --grad-color    : black;  /*#110716;*/
-    --grad-color2   : #222; /*#352833;*/
+    --grad-color2   : #170e22; /*#352833;*/
 }
 
 ::selection { background: #000000; color: white; }
