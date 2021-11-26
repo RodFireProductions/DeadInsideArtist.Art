@@ -37,7 +37,6 @@
     width: 260px;
     display: block;
     margin: 0 auto;
-    border-radius: 150px;
     transform: translate(0, 1.5%);
 }
 
@@ -46,82 +45,6 @@
     padding: 20px;
 }
 #links button { width: auto; }
-
-.bio_avatar_1 {
-    width: 300px;
-    height: 300px;
-
-    background-color: black;
-    display: block;
-    margin: 0 auto;
-
-    border-radius: 150px;
-    transition: 0.4s;
-}
-
-.bio_avatar_2 {
-    width: 290px;
-    height: 290px;
-
-    background-color: #AE89C3;
-
-    display: block;
-    margin: 0 auto;
-    transform: translate(0, 1.5%);
-
-    border-radius: 150px;
-    transition: 0.4s;
-}
-
-.bio_avatar_3 {
-    width: 280px;
-    height: 280px;
-
-    background-color: #f7f7f7;
-
-    display: block;
-    margin: 0 auto;
-    transform: translate(0, 1.5%);
-
-    border-radius: 150px;
-    transition: 0.4s;
-}
-
-.bio_avatar_4 {
-    width: 270px;
-    height: 270px;
-
-    background: linear-gradient(180deg, #fcf06a 0%, #fcf06a 26%, #fcf06a 59%, #fcf06a 100%);
-
-    display: block;
-    margin: 0 auto;
-    transform: translate(0, 1.5%);
-
-    border-radius: 150px;
-    transition: 0.4s;
-}
-
-.bio_avatar_1:hover, .bio_avatar_3:hover { background-color: black; border-radius: 15px; }
-.bio_avatar_2:hover { background-color: #fcf06a; border-radius: 15px; }
-.bio_avatar_4:hover { background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(174,137,195,1) 26%, rgba(250,245,251,1) 59%, rgba(252,240,106,1) 100%); }
-
-/* Project */
-
-.card {
-    padding: 20px;
-    color: var(--back-color);
-    background-color: var(--text-color);
-    border-style: solid;
-
-    display: grid;
-    grid-auto-flow: column;
-
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
 
 .card img {
     width: 300px;
