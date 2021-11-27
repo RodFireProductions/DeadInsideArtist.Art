@@ -93,7 +93,7 @@ let projects = {
             'assets/images/projects/deskdrop.gif',
             null,
             'Dec 2020'
-        ],
+        ]/*,
         [
             'DeadJournals',
             null,
@@ -106,7 +106,7 @@ let projects = {
             'assets/images/projects/deadjournals.webp',
             null,
             'October 2021 -> Current'
-        ]
+        ]*/
     ],
     writings: [
         [
