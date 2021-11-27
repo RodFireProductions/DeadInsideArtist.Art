@@ -32,7 +32,7 @@ body {
     /*
     background: url('../images/noisetexture.webp'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
     */
-    background: url('../images/texture2.png'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
+    background: url('../images/texture3.png'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
 
     -webkit-transition: 0.4s;
     transition: 0.4s;
