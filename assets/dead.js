@@ -41,7 +41,7 @@ let socials = {
 }
 
 let socialsShow = [
-    socials.twitter, socials.github, socials.kofi, socials.itch, socials.deviantart
+    socials.mastodon, socials.twitter, socials.github, socials.kofi, socials.itch, socials.deviantart
 ]
 
 let widgets = {
