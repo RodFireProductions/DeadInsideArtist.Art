@@ -140,3 +140,26 @@ let projects = {
 let art2021 = [
 
 ]
+
+let artUnorganized = [ // [alt, source] // ./assets/images/gallery/webp/.webp
+    ["Cover of Chalice zine", "./assets/images/gallery/webp/bah2.webp"],
+    ["Crona from Soul Eater", "./assets/images/gallery/webp/cronapage.webp"],
+    ["Pretty", "./assets/images/gallery/webp/024.webp"],
+    ["A drawing I made for @yaoyuren's draw this in your style #yyrnDTIYS", "./assets/images/gallery/webp/yyrnDTIYS.webp"],
+    ["Crona from Soul Eater", "./assets/images/gallery/webp/crona.webp"],
+    ["Sketchy Angel", "./assets/images/gallery/sketches_extracolor.png"],
+
+    ["The Lone Unicorn", "./assets/images/gallery/webp/test.webp"],
+    ["Pretty", "./assets/images/gallery/webp/025.webp"],
+    ["Fluttershy", "./assets/images/gallery/webp/flutter.webp"],
+    ["Chalice", "./assets/images/gallery/webp/icon22.webp"],
+    ["Jacob", "./assets/images/gallery/webp/1_s.webp"],
+    ["Hijabi Strawberry Cow", "./assets/images/gallery/strawcow.png"],
+
+    ["Jacob", "./assets/images/gallery/webp/1_1_s.webp"],
+    ["Fuzzypants from Chronicles of Tal’Dun: The Remainder", "./assets/images/gallery/webp/kityy.webp"],
+    ["Chalice", "./assets/images/gallery/webp/outfit_1_alter.webp"],
+    ["Random sketch of pretty lady", "./assets/images/gallery/webp/woman.webp"],
+    ["Two fems in black and white", "./assets/images/gallery/webp/print2.webp"],
+    ["Chalice in pink", "./assets/images/gallery/webp/pinkielolita.webp"]
+]

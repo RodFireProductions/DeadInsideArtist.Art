@@ -76,3 +76,19 @@
 .card span {
     color: red;
 }
+
+/* Gallery */
+
+#Gallery {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#column1, #column2, #column3 {
+    width: 100%;
+    min-height: 50px;
+}
+
+#Gallery img {
+    width: inherit;
+}
