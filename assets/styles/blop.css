@@ -36,17 +36,22 @@
 #links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
+    grid-row-gap: 2em;
     padding: 20px;
 }
 
 #links div {
     width: 100%;
+    min-height: 20px;
 }
-#links a {
+#links div a {
+    display: block;
+    margin: 0 auto;
     text-align: center;
+    width: 90px;
     padding: 10px;
     border-style: dotted;
+
 
 }
 
