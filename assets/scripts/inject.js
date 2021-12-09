@@ -49,7 +49,7 @@ let linkPage = document.getElementById('links');
 if (linkPage != null) {
     let i;
     for (i = 0; i < socialsShow.length; i++) {
-        linkPage.innerHTML += `<button onclick="window.location.href='`+socialsShow[i][1]+`';" type="button" name="`+socialsShow[i][0]+`">`+socialsShow[i][0]+`</button>`
+        linkPage.innerHTML += `<div><a href="${socialsShow[i][1]}">${socialsShow[i][0]}</a></div>`
     }
 }
 

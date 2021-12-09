@@ -33,18 +33,23 @@
     grid-auto-flow: row;
 }
 
-#persona2 {
-    width: 260px;
-    display: block;
-    margin: 0 auto;
-    transform: translate(0, 1.5%);
-}
-
 #links {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
     padding: 20px;
 }
-#links button { width: auto; }
+
+#links div {
+    width: 100%;
+}
+#links a {
+    text-align: center;
+    padding: 10px;
+    border-style: dotted;
+
+}
+
 
 /* Project */
 

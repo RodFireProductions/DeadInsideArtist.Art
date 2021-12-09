@@ -44,14 +44,27 @@
                         </div>
 
                         <p>
-                            I’m Rodrick, a young, nonbinary, poc artist. I draw digital
-                            illustrations for commissions, concept art, game projects,
-                            and fun. I also do a bit of coding, whether that be game
+                            I’m Rodrick, a young, nonbinary, poc artist. I do
+                            illustrations, concept art, coding for game projects
+                            and sites, and small writings. I also do a bit of coding, whether that be game
                             development, web development, or an attempt at software
                             development. For example, I coded this website.
                         </p>
                         <p>
                             For a longer 'about me' section, see <a href="https://rambles.deadinsideartist.art/about.html">here</a>.
+
+                            Anyways, have a nice <span id="weekDay"></span>!
+                        <script>
+                            let now = new Date();
+                            if (now.getDay() == 0 ) { day = "Sunday" }
+                            if (now.getDay() == 1 ) { day = "Monday" }
+                            if (now.getDay() == 2 ) { day = "Tuesday" }
+                            if (now.getDay() == 3 ) { day = "Wednesday" }
+                            if (now.getDay() == 4 ) { day = "Thursday" }
+                            if (now.getDay() == 5 ) { day = "Friday" }
+                            if (now.getDay() == 6 ) { day = "Saturday" }
+                            document.getElementById('weekDay').innerHTML = day;
+                        </script>
                         </p>
 
                     </div>
