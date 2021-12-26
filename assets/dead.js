@@ -137,9 +137,7 @@ let projects = {
 
 /// Gallery
 
-let art2021 = [
-
-]
+//let art2021 = []
 
 let artUnorganized = [ // [alt, source] // ./assets/images/gallery/webp/.webp
     ["Cover of Chalice zine", "./assets/images/gallery/webp/bah2.webp"],

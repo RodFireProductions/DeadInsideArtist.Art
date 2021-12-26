@@ -34,7 +34,7 @@ body {
     */
     background: url('../images/texture3.png'), linear-gradient(0deg, var(--grad-color) 0%, var(--grad-color2) 100%) fixed;
     background-attachment: fixed;
-    
+
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }

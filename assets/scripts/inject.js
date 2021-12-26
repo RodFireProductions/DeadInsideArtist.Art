@@ -83,7 +83,7 @@ function projectCards(x) {
             <div>`+team+warning+`</div>
             <div>`+x[8]+`</div>
         </div>
-        <img draggable="false" src="`+x[6]+`" alt="`+x[0]+`">
+        <img loading="lazy" draggable="false" src="`+x[6]+`" alt="`+x[0]+`">
     </div>
     `
     return dog

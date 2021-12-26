@@ -11,13 +11,13 @@ let deviation = Math.round(artUnorganized.length / 3)
 function buildGrid(y){
     // y is the deviation
     for (i = 0; i < y; i++) {
-        c1.innerHTML += `<img draggable="false" alt="${artUnorganized[i][0]}" src="${artUnorganized[i][1]}" title="${artUnorganized[i][0]}">`
+        c1.innerHTML += `<img loading="lazy" draggable="false" alt="${artUnorganized[i][0]}" src="${artUnorganized[i][1]}" title="${artUnorganized[i][0]}">`
     }
     for (i = y; i < y*2; i++) {
-        c2.innerHTML += `<img draggable="false" alt="${artUnorganized[i][0]}" src="${artUnorganized[i][1]}" title="${artUnorganized[i][0]}">`
+        c2.innerHTML += `<img loading="lazy" draggable="false" alt="${artUnorganized[i][0]}" src="${artUnorganized[i][1]}" title="${artUnorganized[i][0]}">`
     }
     for (i = y*2; i < artUnorganized.length; i++) {
-        c3.innerHTML += `<img draggable="false" alt="${artUnorganized[i][0]}" src="${artUnorganized[i][1]}" title="${artUnorganized[i][0]}">`
+        c3.innerHTML += `<img loading="lazy" draggable="false" alt="${artUnorganized[i][0]}" src="${artUnorganized[i][1]}" title="${artUnorganized[i][0]}">`
     }
 
 }
