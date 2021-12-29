@@ -11,10 +11,10 @@ let fontToggle = document.getElementById('toggle');
 if (fontToggle != null) {
     fontToggle.innerHTML += `
     <input id="dyslexic" name="dyslexic" type="checkbox" hidden>
-    <label for="dyslexic" class="switch dyslexic">
+    <label for="dyslexic" class="switch dyslexic" title="Change Font">
     </label>
     <input id="theme" name="theme" type="checkbox" hidden>
-    <label for="theme" class="switch theme">
+    <label for="theme" class="switch theme" title="Dark/Light Mode">
     </label>
     `
 }

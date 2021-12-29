@@ -1,0 +1,33 @@
+
+.tabbed {
+    margin: 20px auto;
+    width: 200px;
+}
+
+/* What I Use */
+
+#whatIuse .heading {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+
+#whatIuse summary {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+#whatIuse details {
+    text-align: center;
+    background: var(--text-color);
+    color: var(--back-color);
+    border-radius: 15px;
+}
+
+#whatIuse div {
+    font-weight: bold;
+}
+
+#whatIuse span::before { content: "☆ "; }
+#whatIuse span::after { content: " ☆"; }
