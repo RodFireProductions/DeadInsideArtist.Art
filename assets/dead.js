@@ -79,6 +79,22 @@ let projects = {
             'assets/images/projects/poseidonorb.webp',
             'Coding & CG/Title screen art',
             'SuNoFes 2021'
+        ],
+        [
+            'Blooming Hearts!',
+            null,
+            ['Itch', 'https://lavinnia.itch.io/blooming-hearts'],
+            `During the day, Rowan (trans girl, she/her) is an ordinary high school
+            student and kind of a loner. At night, she fights the Aphids as a magical
+            girl called Carnation. One day her companion Aster (asshole flying rabbit,
+            he/him) turns her crush Penelope (she/her) into a magical girl. Rowan
+            must teach Penelope how to be a magical girl. Will they defeat the enemy
+            and find love? Play to find out! Bloom my Heart!`,
+            'Game',
+            null,
+            'assets/images/projects/bloominghearts.webp',
+            'Character Sprites',
+            'Aug - Sep 2021'
         ]
     ],
     tools: [
