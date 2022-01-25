@@ -7,7 +7,7 @@
 
 let siteName = 'RodFireProductions'
 let siteURL = 'https://deadinsideartist.art'
-let year = '2021'
+let year = '2022'
 
 let theme = {
     light: '#ddd',

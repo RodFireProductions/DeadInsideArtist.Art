@@ -5,7 +5,7 @@
 */
 
 let footer = document.getElementById('footer');
-footer.innerHTML += '&#169; Copyright '+ year +' RodFireProductions - All Rights Reserved';
+footer.innerHTML += '&#169; Copyright 2021-'+ year +' RodFireProductions - All Rights Reserved';
 
 let fontToggle = document.getElementById('toggle');
 if (fontToggle != null) {
