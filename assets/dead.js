@@ -161,14 +161,15 @@ let artUnorganized = [ // [alt, source] // ./assets/images/gallery/webp/.webp
     ["Pretty", "./assets/images/gallery/webp/024.webp"],
     ["A drawing I made for @yaoyuren's draw this in your style #yyrnDTIYS", "./assets/images/gallery/webp/yyrnDTIYS.webp"],
     ["Crona from Soul Eater", "./assets/images/gallery/webp/crona.webp"],
-    ["Sketchy Angel", "./assets/images/gallery/sketches_extracolor.png"],
+    ["Sketchy Angel", "./assets/images/gallery/webp/sketches_extracolor.webp"],
+    ["A random sketch", "./assets/images/gallery/webp/sketch.webp"],
 
     ["The Lone Unicorn", "./assets/images/gallery/webp/test.webp"],
     ["Pretty", "./assets/images/gallery/webp/025.webp"],
     ["Fluttershy", "./assets/images/gallery/webp/flutter.webp"],
     ["Chalice", "./assets/images/gallery/webp/icon22.webp"],
     ["Jacob", "./assets/images/gallery/webp/1_s.webp"],
-    ["Hijabi Strawberry Cow", "./assets/images/gallery/strawcow.png"],
+    ["Hijabi Strawberry Cow", "./assets/images/gallery/webp/strawcow.webp"],
 
     ["Jacob", "./assets/images/gallery/webp/1_1_s.webp"],
     ["Fuzzypants from Chronicles of Tal’Dun: The Remainder", "./assets/images/gallery/webp/kityy.webp"],
