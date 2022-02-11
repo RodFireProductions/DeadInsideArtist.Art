@@ -21,29 +21,6 @@ let author = {
     picture     : ''
 }
 
-let socials = {
-    twitter     : ['Twitter', 'https://twitter.com/rodfire8181'],
-    instagram   : ['Instagram','https://www.instagram.com/rodfireproductions/'],
-    github      : ['GitHub','https://github.com/RodFireProductions'],
-    itch        : ['Itch','https://rodfireproductions.itch.io/'],
-    deviantart  : ['DeviantArt','https://deviantart.com/rodfireproductions'],
-    kofi        : ['Ko-fi','https://ko-fi.com/rodfireproductions'],
-    steam       : ['Steam','https://steamcommunity.com/id/rodfire8181'],
-    youtube     : ['YouTube','https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw'],
-    linktree    : ['Linktree','https://linktr.ee/rodfireproductions'],
-    carrd       : ['Carrd','https://deadinsideartist.carrd.co/'],
-    gumroad     : ['Gumroad','https://rodfireproductions.gumroad.com/'],
-    picarto     : ['Picarto','https://picarto.tv/rodfire8181'],
-    tapas       : ['Tapas', 'https://tapas.io/rodfireproductions81'],
-    toyhouse    : ['Toyhou.se', 'https://toyhou.se/RodFire8181'],
-    blog        : ['DeadRambles', 'https://deadrambles.deadinsideartist.art/'],
-    mastodon    : ['Masotdon', 'https://mastodon.art/web/@rodfire8181']
-}
-
-let socialsShow = [
-    socials.mastodon, socials.twitter, socials.github, socials.kofi, socials.itch, socials.deviantart
-]
-
 let widgets = {
     kofi        : "<div style='display: block; margin:0 auto; text-align: center;'><script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#71507e', 'R6R34PDMQ');kofiwidget2.draw();</script></div>"
 }
@@ -150,31 +127,3 @@ let projects = {
         ]
     ]
 }
-
-/// Gallery
-
-//let art2021 = []
-
-let artUnorganized = [ // [alt, source] // ./assets/images/gallery/webp/.webp
-    ["Cover of Chalice zine", "./assets/images/gallery/webp/bah2.webp"],
-    ["Crona from Soul Eater", "./assets/images/gallery/webp/cronapage.webp"],
-    ["Pretty", "./assets/images/gallery/webp/024.webp"],
-    ["A drawing I made for @yaoyuren's draw this in your style #yyrnDTIYS", "./assets/images/gallery/webp/yyrnDTIYS.webp"],
-    ["Crona from Soul Eater", "./assets/images/gallery/webp/crona.webp"],
-    ["Sketchy Angel", "./assets/images/gallery/webp/sketches_extracolor.webp"],
-    ["A random sketch", "./assets/images/gallery/webp/sketch.webp"],
-
-    ["The Lone Unicorn", "./assets/images/gallery/webp/test.webp"],
-    ["Pretty", "./assets/images/gallery/webp/025.webp"],
-    ["Fluttershy", "./assets/images/gallery/webp/flutter.webp"],
-    ["Chalice", "./assets/images/gallery/webp/icon22.webp"],
-    ["Jacob", "./assets/images/gallery/webp/1_s.webp"],
-    ["Hijabi Strawberry Cow", "./assets/images/gallery/webp/strawcow.webp"],
-
-    ["Jacob", "./assets/images/gallery/webp/1_1_s.webp"],
-    ["Fuzzypants from Chronicles of Tal’Dun: The Remainder", "./assets/images/gallery/webp/kityy.webp"],
-    ["Chalice", "./assets/images/gallery/webp/outfit_1_alter.webp"],
-    ["Random sketch of pretty lady", "./assets/images/gallery/webp/woman.webp"],
-    ["Two fems in black and white", "./assets/images/gallery/webp/print2.webp"],
-    ["Chalice in pink", "./assets/images/gallery/webp/pinkielolita.webp"]
-]

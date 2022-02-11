@@ -4,7 +4,6 @@
 	Console log custom group.
 */
 
-// Feel free to change the default settings! ♡
 let credit = {
 	emoji: "💀♡",
 	name: 'This site',
@@ -12,11 +11,11 @@ let credit = {
 	description: [
         "--------------------------------",
         "✨Trans Rights has been and will always be Human Rights!✨",
-        "♡ POC lives will always matter! ♡"
+        "♡ POC lives will always matter! ♡",
+		"Be gay, do crime! /j"
     ]
 }
 
-// I wouldn't recommend touching this!
 
 if (credit != null){
 	console.group("💀♡ Lookin' under the hood? ♡💀")
