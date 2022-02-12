@@ -23,8 +23,22 @@
     display: grid;
     grid-auto-flow: column;
 }
-.home_btn button {
+.home_btn button, a {
     width: auto;
+}
+.home_a {
+    position: absolute;
+    top: 50px;
+    right: calc((100% - 75%) / 2);
+    display: grid;
+    grid-auto-flow: column;
+}
+.home_a a {
+    font-style: lowercase;
+    font-family: var(--mono);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
 }
 
 /* Link page */
@@ -58,6 +72,15 @@
 
 /* Project */
 
+.projectsnav {
+    text-align: center;
+}
+
+#projects h3 {
+    margin: 5px;
+    text-align: center;
+}
+
 .card {
     padding: 20px;
     color: var(--back-color);
@@ -87,18 +110,14 @@
     color: red;
 }
 
-/* Gallery */
-
-#Gallery {
-    display: grid;
-    grid-auto-flow: column;
+.card a {
+    color: var(--btn-shad2);
+    text-decoration: underline;
+    text-decoration-color: var(--text-color);
 }
 
-#column1, #column2, #column3 {
-    width: 100%;
-    min-height: 50px;
-}
-
-#Gallery img {
-    width: inherit;
+.card a:hover {
+    color: var(--text-color);
+    text-decoration: overline;
+    text-decoration-color: var(--text-color);
 }

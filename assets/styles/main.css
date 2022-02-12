@@ -7,7 +7,8 @@
 
     --btn-back      : var(--text-color);
     --btn-back2     : black; /* #fcf06a */
-    --btn-shad      : #AE89C3;
+    --btn-shad      : #320d46; /* #AE89C3 */
+    --btn-shad2     : #AE89C3;
 
     --grad-color    : black;  /*#110716;*/
     --grad-color2   : #170e22; /*#352833;*/
@@ -67,7 +68,7 @@ a {
     text-decoration-color: var(--text-color);
 }
 a:hover {
-    color: black;
+    color: var(--text-color);
     text-decoration: overline;
     text-decoration-color: var(--text-color);
 }
@@ -129,8 +130,8 @@ button:hover {
 
 /* Toggle */
 
-.dyslexic { top: 8px; }
-.theme { top: 40px }
+.dyslexic { top: 40px; }
+.theme { top: 8px }
 
 .switch {
     background-color: var(--back-color);

@@ -4,8 +4,10 @@
     Injected variables and html
 */
 
+// Basics //
 let footer = document.getElementById('footer');
 footer.innerHTML += '&#169; Copyright 2021-'+ year +' RodFireProductions - All Rights Reserved';
+
 
 let fontToggle = document.getElementById('toggle');
 if (fontToggle != null) {
@@ -35,23 +37,21 @@ checkbox2.addEventListener('change', function() {
     if (this.checked == true) {
         document.documentElement.style.setProperty("--text-color", theme.light);
         document.documentElement.style.setProperty("--back-color", theme.dark);
+        document.documentElement.style.setProperty("--btn-shad", theme.linksl);
+        document.documentElement.style.setProperty("--btn-shad2", theme.linksd);
         //document.documentElement.style.setProperty("--grad-color", "#d4c2dd");
         //document.documentElement.style.setProperty("--grad-color2", "#e7c8e3");
     } else {
         document.documentElement.style.setProperty("--text-color", theme.dark);
         document.documentElement.style.setProperty("--back-color", theme.light);
+        document.documentElement.style.setProperty("--btn-shad", theme.linksd);
+        document.documentElement.style.setProperty("--btn-shad2", theme.linksl);
         //document.documentElement.style.setProperty("--grad-color", "#110716");
         //document.documentElement.style.setProperty("--grad-color2", "#352833")
     }
 });
 
-let linkPage = document.getElementById('links');
-if (linkPage != null) {
-    let i;
-    for (i = 0; i < socialsShow.length; i++) {
-        linkPage.innerHTML += `<div><a href="${socialsShow[i][1]}">${socialsShow[i][0]}</a></div>`
-    }
-}
+// Project page //
 
 let projectGames = document.getElementById('games');
 let projectTools = document.getElementById('tools');

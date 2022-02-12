@@ -11,7 +11,9 @@ let year = '2022'
 
 let theme = {
     light: '#ddd',
-    dark: '#1f0d23'
+    dark: '#1f0d23',
+    linksl: '#AE89C3',
+    linksd: '#320d46'
 }
 
 let author = {
@@ -111,7 +113,7 @@ let projects = {
             null,
             'assets/images/projects/meetchalice.webp',
             null,
-            'September 17, 2021'
+            'Electric Zine Jame 2.0' //September 17, 2021
         ],
         [
             'Hurt✂️',
