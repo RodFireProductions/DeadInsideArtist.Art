@@ -11,6 +11,7 @@
 @media only screen and (max-width: 985px) {
     #home_content { grid-auto-flow: row; margin-top: 5px; }
     .home_btn { grid-auto-flow: row; }
+    #persona { margin-top: 20px; }
 
 }
 /*
