@@ -1,0 +1,125 @@
+<script>
+	import { page } from '$app/stores';
+
+	import home from '$lib/assets/eye.png';
+</script>
+
+<header>
+
+	<div id="toggle" class="noselect">
+				<input id="theme" name="theme" type="checkbox" hidden>
+				<label for="theme" class="switch theme" title="Dark/Light Mode"></label>
+	</div>
+
+	<nav>
+
+		<a alt="Home button" sveltekit:prefetch href="/"><img id="homebutton" alt="Home button" class="noselect" src={home}></a>
+
+		<div class="navbuttons">
+			<div class:active={$page.url.pathname === '/portfolio'}>
+				<a sveltekit:prefetch href="/portfolio">Portfolio</a>
+			</div>
+			<div class:active={$page.url.pathname === '/about'}>
+				<a sveltekit:prefetch href="/about">About</a>
+			</div>
+			<div class:active={$page.url.pathname === '/contact'}>
+				<a sveltekit:prefetch href="/contact">Contact</a>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<style>
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+nav {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	display: block;
+
+	display: grid;
+	grid-template-columns: 50px 1fr;
+}
+
+/* Buttons */
+
+.navbuttons {
+	background: var(--back-color);
+	display: grid;
+	grid-auto-flow: column;
+
+	border-radius: 15px;
+	position: relative;
+	top: 10px;
+	height: 20px;
+	padding: 7px;
+	padding-top: 3px;
+
+	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
+	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
+	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
+}
+
+.navbuttons div {
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+
+/* Home button */
+
+#homebutton {
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+
+    align-self: center;
+    transition: 0.4s;
+}
+#homebutton:hover {
+    transition: 0.4s;
+    filter: invert(100%);
+}
+
+
+/* Toggle */
+
+.theme { top: 20px }
+
+.switch {
+    background-color: var(--back-color);
+    width: 40px;
+    height: 18px;
+
+    border-radius: 50px;
+    padding: 2px;
+
+    position: fixed;
+    right: .5em;
+    z-index: 2;
+}
+
+.switch::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-color: var(--text-color);
+    position: absolute;
+    border-radius: 50px;
+    transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+    transform-origin: right center;
+}
+
+input:checked + .switch:before {
+    transform: translateX(120%);
+}
+
+</style>
