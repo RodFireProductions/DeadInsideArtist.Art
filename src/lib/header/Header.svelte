@@ -6,12 +6,12 @@
 
 <header>
 
-	<div id="toggle" class="noselect">
+	<div id="toggle" class="noselect header">
 				<input id="theme" name="theme" type="checkbox" hidden>
-				<label for="theme" class="switch theme" title="Dark/Light Mode"></label>
+				<label for="theme" class="switch theme" title="Dark/Light Mode" alt="Dark/Light Mode"></label>
 	</div>
 
-	<nav>
+	<nav class="header">
 
 		<a alt="Home button" sveltekit:prefetch href="/"><img id="homebutton" alt="Home button" class="noselect" src={home}></a>
 
@@ -30,6 +30,8 @@
 </header>
 
 <style>
+
+.header { z-index: 5; }
 
 a {
     color: var(--text-color);
@@ -63,9 +65,9 @@ nav {
 	padding: 7px;
 	padding-top: 3px;
 
-	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
+	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
+	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
+	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 }
 
 .navbuttons div {
@@ -105,6 +107,10 @@ nav {
     position: fixed;
     right: .5em;
     z-index: 2;
+
+	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
+	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
+	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 }
 
 .switch::before {

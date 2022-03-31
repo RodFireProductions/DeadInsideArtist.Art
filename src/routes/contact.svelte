@@ -7,8 +7,12 @@
 </script>
 
 <svelte:head>
-	<title>RodFireProductions | A Dead Inside Artist and Their Work</title>
+	<title>Contact | A Dead Inside Artist and Their Work</title>
 </svelte:head>
 
 <Base>
+	<h1>Stalk Me!</h1>
+
+	rodrick [at] deadinsideartist.art
+
 </Base>

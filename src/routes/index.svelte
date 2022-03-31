@@ -31,7 +31,8 @@
 </div>
 
 <div class="area">
-	Welcome to my domain.
+	Welcome to my domain.<br>
+	<a sveltekit:prefetch href="/about">Learn</a> more about me or look at my <a sveltekit:prefetch href="/portfolio">projects</a>.
 </div>
 
 <!--
@@ -46,6 +47,18 @@
 -->
 
 <style>
+/*@media only screen and (max-width: 625px) {}*/
+@media only screen and (max-width: 625px) {
+	.area {
+		width: 90% !important;
+		top: 0px;
+	}
+	.banner { width: 90% !important; top: 50px; }
+}
+@media only screen and (max-width: 300px) {
+	.area { width: 100% !important; }
+	.banner { width: 100% !important; }
+}
 
 .area {
 	text-align: center;
@@ -55,8 +68,6 @@
 	width: 75%;
 	margin: 5px auto;
 
-	display: grid;
-    grid-auto-flow: row;
     padding: 20px;
     min-height: 20px;
 
@@ -75,6 +86,7 @@
 .banner {
 	width: 80%;
 	margin: 0px auto;
+	position: relative;
 }
 
 #banner {
