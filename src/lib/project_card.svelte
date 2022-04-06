@@ -56,10 +56,20 @@
 
 }
 
+@media only screen and (max-width: 1250px) {
+    article {
+        width: 90% !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    article {
+        width: 275px !important;
+    }
+}
+
 
 /**/
 article {
-    border-radius: 2px;
     padding: 10px;
 
     margin: 5px;
@@ -67,8 +77,10 @@ article {
     width: 275px;
     height: 320px;
 
-    box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.75);
-	-webkit-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.75);
-	-moz-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.75);
+    border: #666 1px dotted;
+
+    box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
+	-webkit-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
+	-moz-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
 }
 </style>

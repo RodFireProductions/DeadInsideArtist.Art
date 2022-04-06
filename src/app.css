@@ -36,6 +36,10 @@ html { scrollbar-color: #eee #000; }
 ::-webkit-scrollbar-track { background-color: #000; }
 ::-webkit-scrollbar-thumb { background-color: #eee; }
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+
 footer {
     color: white;
     opacity: 0.9;
@@ -59,7 +63,7 @@ hr {
 }
 
 a {
-    color: var(--btn-shad2);
+    color: var(--grad-color2);
     text-decoration: underline dotted black;
 }
 a:hover {
@@ -94,7 +98,11 @@ a:hover {
 	.main_content { width: 90% !important; }
 }
 @media only screen and (max-width: 300px) {
-	.main_content { width: 100% !important; }
+	.main_content {
+		width: 100% !important;
+		margin: 0px;
+		margin-top: 60px;
+	}
 }
 
 button {

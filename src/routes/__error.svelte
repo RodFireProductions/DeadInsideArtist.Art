@@ -16,11 +16,12 @@
 		<!--
         <div style="font-size: 2em;">Error 404</div>
 		-->
-		<img src="https://http.cat/404.jpg">
-		
+		<img src="https://http.cat/404.jpg" draggable="false">
+
         <div>This page doesn't exist.</div>
         <div>Head to <a sveltekit:prefetch href="/">home</a>?</div>
 
+		Image provided by <a target="_blank" href="https://http.cat/">Http.cat</a>
     </div>
 
 </Base>

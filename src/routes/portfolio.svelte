@@ -12,6 +12,7 @@
 
 	let te = ['RenPy', 'Python', 'NodeJS', 'Svelte'];
 	let tee = ['SvelteKit', 'HTML', 'CSS'];
+
 </script>
 
 <svelte:head>
@@ -19,7 +20,7 @@
 </svelte:head>
 
 <Base>
-	Last updated March 30, 2022
+	Last updated April 4, 2022
 
 	<div>
 	Languages: JavaScript, Svelte, Python<br>
@@ -28,6 +29,8 @@
 	Game Development: Ren'Py<br>
 	Art/Visuals: FireAlpaca, Photoshop, After Effects<br>
 	</div>
+	<br>
+	grid-auto-flow: dense; if gallery
 
 	<hr>
 
@@ -41,16 +44,6 @@
 			<span slot="link">Go to Home Page</span>
 		</Card>
 
-		<Card img="https://coffin.deadinsideartist.art/flowersflourish/banner2.jpg" link="http://pen.shroomink.tk/oeI">
-
-			<span slot="title">Lorem Ipsum Dolor Sit Amet</span>
-			<span slot="description">
-				Ut enim ad minim veniam, quis nostrud exercitation
-				ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</span>
-			<span slot="link">Visit</span>
-		</Card>
-
 	</div>
 </Base>
 
@@ -62,5 +55,17 @@
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 1250px) {
+    .portfolio_grid {
+		grid-template-columns: 1fr 1fr;
+		justify-items: center !important;
+	}
+}
+@media only screen and (max-width: 800px) {
+    .portfolio_grid {
+		grid-template-columns: 1fr;
+		justify-items: center !important;
+	}
+}
 
 </style>

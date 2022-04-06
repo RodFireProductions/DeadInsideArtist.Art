@@ -18,21 +18,35 @@
     if (now.getDay() == 5 ) { day = "Friday" };
     if (now.getDay() == 6 ) { day = "Saturday" };
 
+	let m = { x: 0, y: 0 };
+
+	function handleMousemove(event) {
+		m.x = event.clientX;
+		m.y = event.clientY;
+	}
+
 </script>
 
 <svelte:head>
 	<title>RodFireProductions | A Dead Inside Artist and Their Work</title>
 </svelte:head>
 
+<svelte:body on:mousemove={handleMousemove}/>
+
 
 <div class="banner">
-	<img src={banner} alt="Banner" id="banner">
-	<img src={title} alt="RodFireProductions" id="title">
+	<img src={banner} alt="Banner" id="banner" draggable="false">
+	<img src={title} alt="RodFireProductions" id="title" draggable="false">
 </div>
 
 <div class="area">
 	Welcome to my domain.<br>
 	<a sveltekit:prefetch href="/about">Learn</a> more about me or look at my <a sveltekit:prefetch href="/portfolio">projects</a>.
+	<br>—☆—
+	<div style="line-height: 15px;">
+	I can see you:<br>
+	<div style="display:grid; grid-auto-flow: column;"><code>{m.x} ☆ {m.y}</code></div>
+	</div>
 </div>
 
 <!--

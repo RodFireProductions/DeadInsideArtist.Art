@@ -18,7 +18,7 @@
 		<img id="pfp" src={pfp} alt="Rodrick's Picture">
 		<div id="bio">
 			<div>
-			<img id="rodrick" src={title} alt="Rodrick">
+			<img draggable="false" id="rodrick" src={title} alt="Rodrick">
 			<span class="pronouns">[they/them]</span>
 			</div>
 			<div>
