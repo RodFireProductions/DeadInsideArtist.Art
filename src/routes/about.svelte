@@ -23,7 +23,16 @@
 			</div>
 			<div>
 				Howdy, I'm Rodrick!<br>
-				I'm a student, artist, game dev, and web dev.
+				I'm a queer and trans Afro Mexican.
+				<br>
+				I'm a student that does art, game development, and web development.
+				<br><br>
+				<em>Being mentally ill in this economy is going to be the end of me.</em>
+				<br>
+				<figure>
+					<blockquote>When I die, you stay away from my funeral.</blockquote>
+					<figcaption>- Squidward Tentacles, <cite>Spongbob Squarepants.</cite></figcaption>
+				</figure>
 
 			</div>
 		</div>
@@ -36,7 +45,7 @@
 
 .top {
 	display: grid;
-	grid-template-columns: 30% 1fr;
+	grid-template-columns: 40% 1fr;
 	grid-template-rows: 1fr;
 }
 
@@ -46,6 +55,8 @@
 	margin: auto;
 
 	border-radius: 50%;
+
+	justify-self: center;
 }
 
 #bio { width: 100%; }
@@ -64,6 +75,20 @@
 	display: block;
 	width: 70%;
 	margin: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .top {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
+	}
+
+	#pfp { height: 300px; width: auto; }
+}
+
+figure {
+	width: 70%;
+	margin: 5px auto;
 }
 
 

@@ -10,13 +10,25 @@
 	import artst from '$lib/assets/icons/artstation.webp';
 	import itch from '$lib/assets/icons/itchio.webp';
 	import github from '$lib/assets/icons/github.webp';
+	import mastodon from '$lib/assets/icons/mastodon.png';
+	import kofi from '$lib/assets/icons/kofi.png';
+	import da from '$lib/assets/icons/deviantart.jpg';
+	import pronouns from '$lib/assets/icons/pronouns.png';
+	import youtube from '$lib/assets/icons/youtube.png';
+	import curiouscat from '$lib/assets/icons/curiouscat.png';
 
 	let socials = [
 		//{social: "", link: "", at: "", img:  }
-		{social: "Twitter", link: "https://twitter.com/RodFire8181", at: "@RodFire8181", img: twitter },
+		{social: "Ko-fi", link: "https://ko-fi.com/rodfireproductions", at: "RodFireProductions", img: kofi },
 		{social: "ArtStation", link: "https://www.artstation.com/RodFireProductions", at: "RodFireProductions", img: artst },
 		{social: "Itch.io", link: "https://RodFireProductions.itch.io", at: "RodFireProductions", img: itch },
-		{social: "GitHub", link: "https://github.com/RodFireProductions", at: "RodFireProductions", img: github }
+		{social: "Twitter", link: "https://twitter.com/RodFire8181", at: "@RodFire8181", img: twitter },
+		{social: "GitHub", link: "https://github.com/RodFireProductions", at: "RodFireProductions", img: github },
+		{social: "Youtube", link: "https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw", at: "RodFireProductions", img: youtube },
+		{social: "Mastodon", link: "https://mastodon.art/@rodfire8181", at: "@RodFire8181", img: mastodon },
+		{social: "DeviantArt", link: "https://www.deviantart.com/rodfireproductions", at: "RodFireProductions", img: da },
+		{social: "Pronouns.page", link: "https://en.pronouns.page/@RodFire8181", at: "@RodFire8181", img: pronouns },
+		{social: "CuriousCat", link: "https://curiouscat.live/RodFireProductions", at: "RodFireProductions", img: curiouscat }
 	]
 </script>
 
@@ -27,8 +39,9 @@
 <Base>
 	<div class="center">
 		<h1>Stalk Me!</h1>
-
-		rodrick [at] deadinsideartist.art
+		You can email me for business and/or collaborations inquiries at:<br>
+		rodrick [at] deadinsideartist.art<br>
+		You can also contact me on other sites as well. Twitter and Discord (RodFire8181#0924) are your best options.
 	</div>
 
 	<hr>

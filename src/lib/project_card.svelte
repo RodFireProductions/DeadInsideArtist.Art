@@ -3,6 +3,9 @@
     export let img;
     export let link;
     export let tech;
+    export let desc;
+    export let name;
+    export let type;
 
     let technologies = "";
 
@@ -18,17 +21,20 @@
     <div class="card_img" style="background: url({img}); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
 
     <div class="card_body">
-        <span class="card_Title"><slot name="title">Untitled</slot></span>
+        <span class="card_Title">{@html name}</span>
         <br>
-        <span class="card_description"><slot name="description">No description.</slot></span>
+        <span class="card_description">{@html desc}</span>
         <br>
-        {#if tech}
+        {#if tech != null}
             <span class="card_tech">{@html technologies}</span>
         <br>
         {/if}
+        <span class="card_type">{@html type}</span>
+        <br>
         {#if link}
-            <a class="card_link" href={link} target="_blank"><slot name="link"></slot></a>
+            <a class="card_link" href={link} target="_blank">link</a>
         {/if}
+
     </div>
 
 
@@ -56,17 +62,22 @@
 
 }
 
+.card_type {
+    font-family: monospace;
+}
+
 @media only screen and (max-width: 1250px) {
     article {
         width: 90% !important;
     }
 }
+/*
 @media only screen and (max-width: 800px) {
     article {
         width: 275px !important;
     }
 }
-
+*/
 
 /**/
 article {
@@ -79,8 +90,8 @@ article {
 
     border: #666 1px dotted;
 
-    box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
-	-webkit-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
-	-moz-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
+    box-shadow: 0px 0px 4px -2px var(--text-color);
+	-webkit-box-shadow: 0px 0px 4px -2px var(--text-color);
+	-moz-box-shadow: 0px 0px 4px -2px var(--text-color);
 }
 </style>

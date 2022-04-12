@@ -2,12 +2,32 @@
 	import { page } from '$app/stores';
 
 	import home from '$lib/assets/eye.png';
+
+	function theme() {
+		let x = document.getElementById("theme");
+		if (x.checked == true) {
+			// dark
+			document.documentElement.style.setProperty("--back-color", "#1f0d23");
+			document.documentElement.style.setProperty("--text-color", "#F8FFFF");
+			document.documentElement.style.setProperty("--a", "lightblue");
+			document.documentElement.style.setProperty("--t", "var(--grad-color2)");
+
+		} else {
+			// light
+			document.documentElement.style.setProperty("--back-color", "#F8FFFF");
+			document.documentElement.style.setProperty("--text-color", "#1f0d23");
+			document.documentElement.style.setProperty("--a", "darkblue");
+			document.documentElement.style.setProperty("--t", "#ddd");
+
+		}
+	}
+
 </script>
 
 <header>
 
 	<div id="toggle" class="noselect header">
-				<input id="theme" name="theme" type="checkbox" hidden>
+				<input id="theme" name="theme" type="checkbox" on:click={theme}  hidden>
 				<label for="theme" class="switch theme" title="Dark/Light Mode" alt="Dark/Light Mode"></label>
 	</div>
 

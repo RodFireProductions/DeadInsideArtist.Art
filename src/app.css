@@ -6,6 +6,10 @@
 	--back-color    : #F8FFFF; /*#ddd*/
 	--mono          : monospace;
 
+	--a				: darkblue;
+	--t 			: #ddd;
+	--q 			: linear-gradient(5deg, rgba(50,45,87,1) 0%, rgba(67,79,121,1) 75%);
+
 	--btn-back      : var(--text-color);
 	--btn-back2     : black; /* #fcf06a */
 	--btn-shad      : #320d46; /* #AE89C3 */
@@ -28,6 +32,8 @@ body {
 	*/
     background-attachment: fixed;
 	color: var(--text-color);
+
+	transition: 0.4s;
 }
 
 html { scrollbar-color: #eee #000; }
@@ -63,7 +69,7 @@ hr {
 }
 
 a {
-    color: var(--grad-color2);
+    color: var(--a);
     text-decoration: underline dotted black;
 }
 a:hover {
@@ -133,13 +139,43 @@ button:hover {
     */
 }
 
+figure {
+	background: var(--q);
+	color: #F8FFFF;
+
+	border-radius: 5px;
+	line-height: 10px;
+	padding: 5px;
+	padding-top: 0px;
+}
+
+figcaption {
+	position: relative;
+	top: -10px;
+	font-size: .8em;
+}
+
+blockquote:before {
+    content: "\201C";
+	font-size: 1.8em;
+	padding: 2px;
+	font-family: serif;
+}
+
+blockquote {
+	padding: 5px;
+	font-family: serif;
+	font-size: 1em;
+	line-height: normal;
+}
+
 /* Extras */
 
 .card_tech .tech {
     font-style: oblique;
 	font-size: .9em;
 
-	background-color: #ddd;
+	background-color: var(--t);
 	padding-right: 5px;
 	padding-left: 5px;
 	border-radius: 15%;

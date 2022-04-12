@@ -81,6 +81,7 @@
 	top: -50px;
 	width: 75%;
 	margin: 5px auto;
+	margin-bottom: -40px;
 
     padding: 20px;
     min-height: 20px;

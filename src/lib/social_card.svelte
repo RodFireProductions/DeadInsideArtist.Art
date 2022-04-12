@@ -23,6 +23,8 @@ article {
     display: grid;
     grid-template-columns: 30% 1fr;
 
+    background: var(--t);
+
     border: #666 1px dotted;
 
     box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
