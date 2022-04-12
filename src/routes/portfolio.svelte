@@ -1,0 +1,150 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
+<script>
+	import Base from '$lib/base.svelte';
+	import Card from '$lib/project_card.svelte';
+
+	import img1 from '$lib/assets/projects/site.png';
+	import img2 from '$lib/assets/projects/meetchalice.webp';
+	import img3 from '$lib/assets/projects/hurt.webp';
+	import img4 from '$lib/assets/projects/mylittlecatgirl.webp';
+	import img5 from '$lib/assets/projects/poseidonorb.webp';
+	import img6 from '$lib/assets/projects/bloominghearts.webp';
+	import img7 from '$lib/assets/projects/deskdrop.png';
+	import img8 from '$lib/assets/projects/waswere.gif';
+
+	// import img from '$lib/assets/projects/';
+
+	let date = "April 12, 2022";
+
+	let solo = [
+		{
+			name: "RodFireProductions Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
+			link: "https://deadinsideartist.art", img: img1,
+			desc: "The current site you're looking at!"
+		},
+		{
+			name: "Meet Chalice<3", type: "zine 2021", tech: null,
+			link: "https://rodfireproductions.itch.io/meet-chalice3", img: img2,
+			desc: "It's just a simple piece about one of my original characters, Chalice."
+		},
+		{
+			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
+			link: "https://rodfireproductions.itch.io/waswere", img: img8,
+			desc: "Murdering a person that hurt you is hot, right?"
+		},
+		{
+			name: "Hurt✂️", type: "zine 2021", tech: null,
+			link: "https://rodfireproductions.itch.io/hurt", img: img3,
+			desc: "This is just a vent zine about dealing with thoughts of self harm."
+		},
+		{
+			name: "My Little Cat Girl", type: "game 2019", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/my-little-cat-girl", img: img4,
+			desc: "Take in a sickly,homeless cat girl and nurse her to health. "
+		},
+		{
+			name: "Desktop Backdrop", type: "tool 2021", tech: ['ElectronJs'],
+			link: "https://rodfireproductions.itch.io/desktop-backdrop", img: img7,
+			desc: "Covers up that pesky, cluttered desktop."
+		}
+		/*
+		{
+			name: "", type: "", tech: [],
+			link: "", img: null,
+			desc: ""
+		}
+		*/
+	]
+
+	let team = [
+		{
+			name: "Poseidon's Orb", type: "game 2021", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/poseidons-orb", img: img5,
+			desc: "Charlotte is turned into a merperson and threatened by a sea witch!"
+		},
+		{
+			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
+			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
+			desc: " Rowan must teach Penelope, her crush, how to be a magical girl."
+		}
+		/*
+		{
+			name: "", type: "", tech: [],
+			link: "", img: null,
+			desc: ""
+		}
+		*/
+	]
+
+</script>
+
+<svelte:head>
+	<title>Portfolio | A Dead Inside Artist and Their Work</title>
+</svelte:head>
+
+<Base>
+	<div class="center">
+		[ Last updated {date} ]
+	</div>
+	<!--
+	<div>
+	Languages: JavaScript, Svelte, Python<br>
+	Frontend: HTML, CSS, SvelteKit<br>
+	Backend: NodeJS<br>
+	Game Development: Ren'Py<br>
+	Art/Visuals: FireAlpaca, Photoshop, After Effects<br>
+	</div>
+	<br>
+	grid-auto-flow: dense; if gallery
+	-->
+	<div>
+		You can view my art here: [ <a target="_blank" href="https://www.artstation.com/RodFireProductions">artstation</a> ]
+		[ <a target="_blank" href="https://www.deviantart.com/rodfireproductions">deviantart</a> ]
+		[ <a target="_blank" href="https://deadinsideartist.carrd.co/">this random carrd I made</a> ]
+	</div>
+	<hr>
+
+	<h3 class="center">Solo Projects</h3>
+	<div class="portfolio_grid">
+
+		{#each solo as p}
+			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} />
+		{/each}
+
+	</div>
+
+	<h3 class="center">Team Projects</h3>
+	<div class="portfolio_grid">
+
+		{#each team as p}
+			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} />
+		{/each}
+
+	</div>
+</Base>
+
+
+<style>
+
+.portfolio_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1250px) {
+    .portfolio_grid {
+		grid-template-columns: 1fr 1fr;
+		justify-items: center !important;
+	}
+}
+@media only screen and (max-width: 800px) {
+    .portfolio_grid {
+		grid-template-columns: 1fr;
+		justify-items: center !important;
+	}
+}
+
+</style>
