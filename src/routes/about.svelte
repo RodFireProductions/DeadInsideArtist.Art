@@ -22,7 +22,7 @@
 			<span class="pronouns">[they/them]</span>
 			</div>
 			<div>
-				Howdy, I'm Rodrick!<br>
+				Howdy! I'm Rodrick, your demigod.<br>
 				I'm a queer and trans Afro Mexican.
 				<br>
 				I'm a student that does art, game development, and web development.
