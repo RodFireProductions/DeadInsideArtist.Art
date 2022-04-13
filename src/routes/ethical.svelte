@@ -13,14 +13,14 @@
 <Base>
 	<h1 class="center">Code of Ethics</h1>
 	This is the ethical code that RodFireProductions strives to stand by with any and all
-	actions that are taken and causes and/or others that are supported and colaborated with.
+	actions that are taken and causes/others that are supported and colaborated with.
 	<hr>
 	<section>
 		<h3>Expectations</h3>
 		Here it is implored and expected that one shows support, empathy, and
 		hospitality to others regardless of:
 		<ul>
-		<li>Race or Ethnicity</li>
+		<li>Race or ethnicity</li>
 		<li>Sex</li>
 		<li>Gender identity or expression</li>
 		<li>Sexual or romantic orientation</li>
