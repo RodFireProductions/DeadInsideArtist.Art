@@ -91,7 +91,7 @@
 	</div>
 	<!--
 	<div>
-	Languages: JavaScript, Svelte, Python<br>
+	Languages: JavaScript, Svelte, Python, PHP<br>
 	Frontend: HTML, CSS, SvelteKit<br>
 	Backend: NodeJS<br>
 	Game Development: Ren'Py<br>
@@ -101,9 +101,9 @@
 	grid-auto-flow: dense; if gallery
 	-->
 	<div>
-		You can view my art here: [ <a target="_blank" href="https://www.artstation.com/RodFireProductions">artstation</a> ]
-		[ <a target="_blank" href="https://www.deviantart.com/rodfireproductions">deviantart</a> ]
-		[ <a target="_blank" href="https://deadinsideartist.carrd.co/">this random carrd I made</a> ]
+		You can view my art here: <a target="_blank" href="https://www.artstation.com/RodFireProductions">artstation</a>,
+		<a target="_blank" href="https://www.deviantart.com/rodfireproductions">deviantart</a>,
+		and this random <a target="_blank" href="https://deadinsideartist.carrd.co/">carrd</a> I made.
 	</div>
 	<hr>
 

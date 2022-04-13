@@ -25,7 +25,7 @@
 		{social: "Twitter", link: "https://twitter.com/RodFire8181", at: "@RodFire8181", img: twitter },
 		{social: "GitHub", link: "https://github.com/RodFireProductions", at: "RodFireProductions", img: github },
 		{social: "Youtube", link: "https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw", at: "RodFireProductions", img: youtube },
-		{social: "Mastodon", link: "https://mastodon.art/@rodfire8181", at: "@RodFire8181", img: mastodon },
+		{social: "Mastodon", link: "https://mastodon.art/@rodfire8181", at: "@RodFire8181@mastodon.art", img: mastodon },
 		{social: "DeviantArt", link: "https://www.deviantart.com/rodfireproductions", at: "RodFireProductions", img: da },
 		{social: "Pronouns.page", link: "https://en.pronouns.page/@RodFire8181", at: "@RodFire8181", img: pronouns },
 		{social: "CuriousCat", link: "https://curiouscat.live/RodFireProductions", at: "RodFireProductions", img: curiouscat }
