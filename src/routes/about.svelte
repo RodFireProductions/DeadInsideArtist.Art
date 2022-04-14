@@ -31,7 +31,7 @@
 				<br>
 				<figure>
 					<blockquote>When I die, you stay away from my funeral.</blockquote>
-					<figcaption>- Squidward Tentacles, <cite>Spongbob Squarepants.</cite></figcaption>
+					<figcaption>- Squidward Tentacles, <cite>SpongeBob SquarePants.</cite></figcaption>
 				</figure>
 
 			</div>
