@@ -17,7 +17,7 @@
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "April 12, 2022";
+	let date = "April 16, 2022";
 
 	let solo = [
 		{
@@ -63,18 +63,21 @@
 		{
 			name: "Poseidon's Orb", type: "game 2021", tech: ['Ren\'Py'],
 			link: "https://rodfireproductions.itch.io/poseidons-orb", img: img5,
-			desc: "Charlotte is turned into a merperson and threatened by a sea witch!"
+			desc: "Charlotte is turned into a merperson and threatened by a sea witch!",
+			contribute: "coding & cg art"
 		},
 		{
 			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
 			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
-			desc: " Rowan must teach Penelope, her crush, how to be a magical girl."
+			desc: " Rowan must teach Penelope, her crush, how to be a magical girl.",
+			contribute: "sprite art"
 		}
 		/*
 		{
 			name: "", type: "", tech: [],
 			link: "", img: null,
-			desc: ""
+			desc: "",
+			contribute: ""
 		}
 		*/
 	]
@@ -120,7 +123,7 @@
 	<div class="portfolio_grid">
 
 		{#each team as p}
-			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} />
+			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} part={p.contribute} />
 		{/each}
 
 	</div>
