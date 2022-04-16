@@ -50,6 +50,7 @@
 		<li>Anti-semitism</li>
 		<li>Ableism</li>
 		<li>Pedophilia</li>
+		<li>Zooplilia and/or bestiality</li>
 		<li>Misogyny</li>
 		<li>Queerphobia</li>
 		<li>Queer exclusionism</li>
