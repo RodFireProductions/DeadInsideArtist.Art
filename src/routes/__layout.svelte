@@ -1,7 +1,6 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
-	import './usual.css';
 	import './console.js';
 	let year = 2022;
 </script>
@@ -19,4 +18,8 @@
 </footer>
 
 <style>
+footer a {
+	color: lightblue;
+}
+
 </style>
