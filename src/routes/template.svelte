@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Press Kit(s) | A Dead Inside Artist and Their Work</title>
+	<title>Template | A Dead Inside Artist and Their Work</title>
 </svelte:head>
 
 <Base />
