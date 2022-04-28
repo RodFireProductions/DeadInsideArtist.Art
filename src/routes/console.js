@@ -12,7 +12,9 @@ let credit = {
 	description: [
         //"--------------------------------",
         "✨Trans Rights has been and will always be Human Rights!✨",
-        "♡ POC lives will always matter! ♡"
+        "♡ POC lives will always matter! ♡",
+		"—☆—",
+		"Have a lovely day."
     ]
 }
 
@@ -21,7 +23,7 @@ let credit = {
 if (credit != null){
 	console.group("💀♡ Lookin' under the hood? ♡💀")
 	/*console.log(
-		"%c"+ credit.name + " belongs to " + author.name, "font-style: italic;"
+		"%c"+ credit.name + " belongs to " + credit.author, "font-style: italic;"
 	)*/
 	let z;
     for (z = 0; z < credit.description.length; z++) {

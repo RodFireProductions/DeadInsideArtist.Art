@@ -17,12 +17,12 @@
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "April 16, 2022";
+	let date = "April 28, 2022";
 
 	let solo = [
 		{
 			name: "RodFireProductions Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
-			link: "https://deadinsideartist.art", img: img1,
+			link: "https://github.com/RodFireProductions/deadinsideartist.art", img: img1,
 			desc: "The current site you're looking at!"
 		},
 		{
@@ -94,11 +94,12 @@
 	</div>
 	<!--
 	<div>
-	Languages: JavaScript, Svelte, Python, PHP<br>
-	Frontend: HTML, CSS, SvelteKit<br>
-	Backend: NodeJS<br>
-	Game Development: Ren'Py<br>
-	Art/Visuals: FireAlpaca, Photoshop, After Effects<br>
+	// This needs some figuring out. Needs a better format.
+		Languages: JavaScript, Svelte, Python, PHP<br>
+		Frontend: HTML, CSS, SvelteKit<br>
+		Backend: NodeJS<br>
+		Game Development: Ren'Py<br>
+		Art/Visuals: FireAlpaca, Photoshop, After Effects, AnimeEffects<br>
 	</div>
 	<br>
 	grid-auto-flow: dense; if gallery
