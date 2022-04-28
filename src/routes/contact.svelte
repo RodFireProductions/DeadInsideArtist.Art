@@ -39,8 +39,10 @@
 <Base>
 	<div class="center">
 		<h1>Stalk Me!</h1>
-		You can email me for business and/or collaborations inquiries at:<br>
-		rodrick [at] deadinsideartist.art<br>
+		You can email me for <b>business and/or collaborations</b> inquiries at:<br>
+		<em>rodrick [at] deadinsideartist.art</em><br>
+		For <b>general questions, etc,</b> you can email me here:<br>
+		<em>howdy [at] deadinsideartist.art<em><br>
 		You can also contact me on other sites as well. Twitter and Discord (RodFire8181#0924) are your best options.
 	</div>
 

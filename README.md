@@ -1,5 +1,12 @@
 <h2 align="center">— 💀♡<a target="_blank" href="https://deadinsideartist.art/">RodFireProductions Website</a>♡💀 —</h2>
 
+Todo:
+* Accessibility check and integration where needed.
+* Project pages
+* Blog(?)
+
+<hr>
+
 <p align="center">
   This site has gone through mutliple iterations over a few years as I slowly learned more and more about web development.
 </p>
@@ -16,7 +23,7 @@
 <p align="center">—☆—</p>
 
 <p align="center">
-  2nd version: No framework or Django?? 
+  2nd version: No framework or Django??
 </p>
 <img src="https://deadinsideartist.art/oldsite2.png" align="center">
 <p align="center">—☆—</p>
