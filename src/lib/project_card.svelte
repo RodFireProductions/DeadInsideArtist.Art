@@ -93,6 +93,5 @@ article {
 
     box-shadow: 0px 0px 4px -2px var(--text-color);
 	-webkit-box-shadow: 0px 0px 4px -2px var(--text-color);
-	-moz-box-shadow: 0px 0px 4px -2px var(--text-color);
 }
 </style>

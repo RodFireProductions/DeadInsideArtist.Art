@@ -114,7 +114,7 @@ nav {
 
 /* Toggle */
 
-#toggle:hover { cursor: pointer; }
+label:hover { cursor: pointer; }
 
 .theme { top: 20px }
 
@@ -132,7 +132,6 @@ nav {
 
 	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
-	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 }
 
 .switch::before {

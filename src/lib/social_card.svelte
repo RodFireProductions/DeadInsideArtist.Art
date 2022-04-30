@@ -29,7 +29,6 @@ article {
 
     box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
 	-webkit-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
-	-moz-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
 }
 
 @media only screen and (max-width: 850px) {
