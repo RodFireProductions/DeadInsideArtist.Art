@@ -21,7 +21,7 @@
 article {
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 30% 70%;
 
     background: var(--t);
 
@@ -57,6 +57,7 @@ article img {
 
 .text {
     padding: 10px;
+    overflow-wrap: break-word;
 }
 
 </style>

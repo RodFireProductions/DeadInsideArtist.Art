@@ -111,7 +111,7 @@ a:hover {
 }
 
 button {
-    font-style: lowercase;
+    text-transform: lowercase;
     font-family: var(--mono);
     padding: 10px;
     margin: 5px;
