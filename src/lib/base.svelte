@@ -5,8 +5,9 @@
 
     <div class="main_content">
 		<slot>
-			<div class="em"><em>This page seems to be empty. Not an error 404 but this is peculiar, don't you think?</em></div>
-            <img src="https://http.cat/204.jpg" draggable="false">
+            <h1 class="center">This page seems to be empty.</h1>
+			<div class="em"><em>Not an error 404 but this is peculiar, don't you think?</em></div>
+            <img src="https://http.cat/204.jpg" draggable="false" alt="Error 204">
             <div class="em">Image provided by <a target="_blank" href="https://http.cat/">Http.cat</a></div>
 		</slot>
 	</div>

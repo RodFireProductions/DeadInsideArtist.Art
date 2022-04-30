@@ -18,6 +18,7 @@
 		<img id="pfp" src={pfp} alt="Rodrick's Picture">
 		<div id="bio">
 			<div>
+			<h1 class="invisible">About</h1>
 			<img draggable="false" id="rodrick" src={title} alt="Rodrick">
 			<span class="pronouns">[they/them]</span>
 			</div>
@@ -42,6 +43,8 @@
 </Base>
 
 <style>
+
+.invisible { display: none; }
 
 .top {
 	display: grid;

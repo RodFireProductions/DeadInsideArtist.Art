@@ -9,10 +9,10 @@
 
 
 <article>
-    <img src={img} alt={social}>
+    <img src={img} alt="">
     <div class="text">
         <div>{social}</div>
-        <a href={link} target="_blank" alt={social}>{at}</a>
+        <a href={link} target="_blank" alt="{social}">{at}</a>
     </div>
 </article>
 

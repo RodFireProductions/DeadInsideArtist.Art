@@ -40,7 +40,7 @@
 </div>
 
 <div class="area">
-	Welcome to my domain.<br>
+	<h1 class="smaller">Welcome to my domain.</h1>
 	<a sveltekit:prefetch href="/about">Learn</a> more about me or look at my <a sveltekit:prefetch href="/portfolio">projects</a>.
 	<br>—☆—
 	<div style="line-height: 15px;">
@@ -73,6 +73,8 @@
 	.area { width: 100% !important; }
 	.banner { width: 100% !important; }
 }
+
+.smaller { font-size: 1.2em; }
 
 .area {
 	text-align: center;

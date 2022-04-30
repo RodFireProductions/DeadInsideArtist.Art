@@ -16,7 +16,7 @@
 	actions that are taken and causes/others that are supported and colaborated with.
 	<hr>
 	<section>
-		<h3>Expectations</h3>
+		<h2>Expectations</h2>
 		Here it is implored and expected that one shows support, empathy, and
 		hospitality to others regardless of:
 		<ul>
@@ -40,7 +40,7 @@
 	</section>
 	<br>
 	<section>
-		<h3>Prohibited</h3>
+		<h2>Prohibited</h2>
 		It is prohibited for one to encourage, support, or engage in
 		bigoted or prejudice purposes or action, including but not limited to:
 		<ul>

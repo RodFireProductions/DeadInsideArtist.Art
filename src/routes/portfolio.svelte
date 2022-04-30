@@ -17,7 +17,7 @@
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "April 28, 2022";
+	let date = "April 30, 2022";
 
 	let solo = [
 		{
@@ -89,6 +89,7 @@
 </svelte:head>
 
 <Base>
+	<h1 class="center">Portfolio</h1>
 	<div class="center">
 		[ Last updated {date} ]
 	</div>
@@ -111,7 +112,7 @@
 	</div>
 	<hr>
 
-	<h3 class="center">Solo Projects</h3>
+	<h2 class="center">Solo Projects</h2>
 	<div class="portfolio_grid">
 
 		{#each solo as p}
@@ -120,7 +121,7 @@
 
 	</div>
 
-	<h3 class="center">Team Projects</h3>
+	<h2 class="center">Team Projects</h2>
 	<div class="portfolio_grid">
 
 		{#each team as p}

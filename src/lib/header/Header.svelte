@@ -28,7 +28,7 @@
 
 	<div id="toggle" class="noselect header">
 				<input id="theme" name="theme" type="checkbox" on:click={theme} aria-label="Dark/Light Mode Switch" hidden>
-				<label for="theme" class="switch theme" title="Dark/Light Mode" alt="Dark/Light Mode"></label>
+				<label for="theme" class="switch theme" aria-label="Dark/Light Mode Switch">Dark/Light Mode Switch</label>
 	</div>
 
 	<nav class="header">
@@ -114,6 +114,9 @@ nav {
 /* Toggle */
 
 label:hover { cursor: pointer; }
+label {
+	color: #ffffff00;
+}
 
 .theme { top: 20px }
 
