@@ -114,6 +114,8 @@ nav {
 
 /* Toggle */
 
+#toggle:hover { cursor: pointer; }
+
 .theme { top: 20px }
 
 .switch {
