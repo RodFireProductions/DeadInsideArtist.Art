@@ -91,7 +91,6 @@
 
 	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
 	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
 
     -webkit-transition: 0.4s;
     transition: 0.4s;
