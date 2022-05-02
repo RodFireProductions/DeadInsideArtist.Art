@@ -6,18 +6,19 @@
 	import Base from '$lib/base.svelte';
 	import Card from '$lib/project_card.svelte';
 
-	import img1 from '$lib/assets/projects/site.png';
+	import img1 from '$lib/assets/projects/site.webp';
 	import img2 from '$lib/assets/projects/meetchalice.webp';
 	import img3 from '$lib/assets/projects/hurt.webp';
 	import img4 from '$lib/assets/projects/mylittlecatgirl.webp';
 	import img5 from '$lib/assets/projects/poseidonorb.webp';
 	import img6 from '$lib/assets/projects/bloominghearts.webp';
-	import img7 from '$lib/assets/projects/deskdrop.png';
-	import img8 from '$lib/assets/projects/waswere.gif';
+	import img7 from '$lib/assets/projects/deskdrop.webp';
+	import img8 from '$lib/assets/projects/waswere.webp';
+	import img9 from '$lib/assets/projects/figurepantry.webp'
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "April 30, 2022";
+	let date = "May 1, 2022";
 
 	let solo = [
 		{
@@ -26,14 +27,19 @@
 			desc: "The current site you're looking at!"
 		},
 		{
-			name: "Meet Chalice<3", type: "zine 2021", tech: null,
-			link: "https://rodfireproductions.itch.io/meet-chalice3", img: img2,
-			desc: "It's just a simple piece about one of my original characters, Chalice."
-		},
-		{
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
 			link: "https://rodfireproductions.itch.io/waswere", img: img8,
 			desc: "Murdering a person that hurt you is hot, right?"
+		},
+		{
+			name: "The Figure in the Pantry", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/figure-in-the-pantry", img: img9,
+			desc: "Late night snacks aren't suppose to be like this."
+		},
+		{
+			name: "Meet Chalice<3", type: "zine 2021", tech: null,
+			link: "https://rodfireproductions.itch.io/meet-chalice3", img: img2,
+			desc: "It's just a simple piece about one of my original characters, Chalice."
 		},
 		{
 			name: "Hurt✂️", type: "zine 2021", tech: null,
@@ -41,14 +47,14 @@
 			desc: "This is just a vent zine about dealing with thoughts of self harm."
 		},
 		{
-			name: "My Little Cat Girl", type: "game 2019", tech: ['Ren\'Py'],
-			link: "https://rodfireproductions.itch.io/my-little-cat-girl", img: img4,
-			desc: "Take in a sickly,homeless cat girl and nurse her to health. "
-		},
-		{
 			name: "Desktop Backdrop", type: "tool 2021", tech: ['ElectronJs'],
 			link: "https://rodfireproductions.itch.io/desktop-backdrop", img: img7,
 			desc: "Covers up that pesky, cluttered desktop."
+		},
+		{
+			name: "My Little Cat Girl", type: "game 2019", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/my-little-cat-girl", img: img4,
+			desc: "Take in a sickly homeless cat girl and nurse her to health. "
 		}
 		/*
 		{
@@ -120,6 +126,8 @@
 		{/each}
 
 	</div>
+
+	<hr>
 
 	<h2 class="center">Team Projects</h2>
 	<div class="portfolio_grid">
