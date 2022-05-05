@@ -8,7 +8,7 @@ Todo:
 <hr>
 
 <p align="center">
-  This site has gone through mutliple iterations over a few years as I slowly learned more and more about web development.
+  This site has gone through multiple iterations over a few years as I slowly learned more and more about web development.
 </p>
 <p align="center">
   I thought it would be fun to go through the timeline (I don't know the dates, just the order).
@@ -47,6 +47,6 @@ Todo:
 <p align="center">—☆—</p>
 
 <p align="center">
-  Current version: SvelteKit
+  Current version (image may not be up-to-date): SvelteKit
 </p>
 <img src="https://deadinsideartist.art/currentsite.png" align="center">

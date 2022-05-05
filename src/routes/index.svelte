@@ -9,7 +9,7 @@
 	import title from '$lib/assets/bannertitle.png';
 
 	let now = new Date();
-	let day;
+	let day; let time; let ye = now.getFullYear();
     if (now.getDay() == 0 ) { day = "Sunday" };
     if (now.getDay() == 1 ) { day = "Monday" };
     if (now.getDay() == 2 ) { day = "Tuesday" };
@@ -17,6 +17,10 @@
     if (now.getDay() == 4 ) { day = "Thursday" };
     if (now.getDay() == 5 ) { day = "Friday" };
     if (now.getDay() == 6 ) { day = "Saturday" };
+
+	if ( now.getHours() < 11 && now.getHours() > 4 ) { time = "morning"; }
+	else if ( now.getHours() < 19 && now.getHours() > 12 ) { time = "afternoon"; }
+	else { time = "night"; }
 
 	let m = { x: 0, y: 0 };
 
@@ -41,11 +45,15 @@
 
 <div class="area">
 	<h1 class="smaller">Welcome to my domain.</h1>
-	<a sveltekit:prefetch href="/about">Learn</a> more about me or look at my <a sveltekit:prefetch href="/portfolio">projects</a>.
+	<div>I'm an artist and game/web developer.</div>
+	<a sveltekit:prefetch href="/about">Learn</a> more about me or look at my <a sveltekit:prefetch href="/portfolio">work</a>.
 	<br>—☆—
-	<div style="line-height: 15px;">
-	I can see you:<br>
-	<div style="display:grid; grid-auto-flow: column;"><code>{m.x} ☆ {m.y}</code></div>
+	<div >
+		What a fine {day} {time} it is. How's {ye} going? Treating you well??<br>
+		<div>
+			Anyways, I can see you:<br>
+			<div style="display:grid; grid-auto-flow: column;"><code>{m.x} ☆ {m.y}</code></div>
+		</div>
 	</div>
 </div>
 
