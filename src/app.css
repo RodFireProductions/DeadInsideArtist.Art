@@ -70,7 +70,7 @@ hr {
 
 a {
     color: var(--a);
-    text-decoration: underline dotted black;
+    text-decoration: underline dotted var(--text-color) 1.5px;
 }
 a:hover {
     color: var(--text-color);
