@@ -65,7 +65,7 @@
 .social_grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-gap: 10px;
+	grid-gap: 15px;
 }
 
 @media only screen and (max-width: 920px) {
