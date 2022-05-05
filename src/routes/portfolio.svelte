@@ -34,7 +34,7 @@
 		{
 			name: "The Figure in the Pantry", type: "game 2022", tech: ['Ren\'Py'],
 			link: "https://rodfireproductions.itch.io/figure-in-the-pantry", img: img9,
-			desc: "Late night snacks aren't suppose to be like this."
+			desc: "Late night snacks aren't supposed to be like this."
 		},
 		{
 			name: "Meet Chalice<3", type: "zine 2021", tech: null,

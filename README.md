@@ -4,6 +4,8 @@ Todo:
 * Accessibility check and integration where needed.
 * Project pages
 * Blog(?)
+* Sort system for portfolio
+* Add art gallery to portfolio
 
 <hr>
 
