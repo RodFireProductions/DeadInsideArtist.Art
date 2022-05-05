@@ -6,6 +6,7 @@
     export let desc;
     export let name;
     export let type;
+    export let part;
 
     let technologies = "";
 
@@ -21,7 +22,7 @@
     <div class="card_img" style="background: url({img}); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
 
     <div class="card_body">
-        <span class="card_Title">{@html name}</span>
+        <a href={link} target="_blank"><span class="card_Title">{@html name}</span></a>
         <br>
         <span class="card_description">{@html desc}</span>
         <br>
@@ -31,8 +32,8 @@
         {/if}
         <span class="card_type">{@html type}</span>
         <br>
-        {#if link}
-            <a class="card_link" href={link} target="_blank">link</a>
+        {#if part}
+            <span class="card_part">{@html part}</span>
         {/if}
 
     </div>
@@ -62,7 +63,7 @@
 
 }
 
-.card_type {
+.card_type, .card_part {
     font-family: monospace;
 }
 
@@ -92,6 +93,5 @@ article {
 
     box-shadow: 0px 0px 4px -2px var(--text-color);
 	-webkit-box-shadow: 0px 0px 4px -2px var(--text-color);
-	-moz-box-shadow: 0px 0px 4px -2px var(--text-color);
 }
 </style>

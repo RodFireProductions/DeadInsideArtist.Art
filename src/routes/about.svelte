@@ -18,11 +18,12 @@
 		<img id="pfp" src={pfp} alt="Rodrick's Picture">
 		<div id="bio">
 			<div>
+			<h1 class="invisible">About</h1>
 			<img draggable="false" id="rodrick" src={title} alt="Rodrick">
 			<span class="pronouns">[they/them]</span>
 			</div>
 			<div>
-				Howdy, I'm Rodrick!<br>
+				Howdy! I'm Rodrick, your demigod.<br>
 				I'm a queer and trans Afro Mexican.
 				<br>
 				I'm a student that does art, game development, and web development.
@@ -31,7 +32,7 @@
 				<br>
 				<figure>
 					<blockquote>When I die, you stay away from my funeral.</blockquote>
-					<figcaption>- Squidward Tentacles, <cite>Spongbob Squarepants.</cite></figcaption>
+					<figcaption>- Squidward Tentacles, <cite>SpongeBob SquarePants.</cite></figcaption>
 				</figure>
 
 			</div>
@@ -42,6 +43,8 @@
 </Base>
 
 <style>
+
+.invisible { display: none; }
 
 .top {
 	display: grid;

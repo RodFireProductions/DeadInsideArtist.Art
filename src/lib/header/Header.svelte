@@ -27,13 +27,13 @@
 <header>
 
 	<div id="toggle" class="noselect header">
-				<input id="theme" name="theme" type="checkbox" on:click={theme}  hidden>
-				<label for="theme" class="switch theme" title="Dark/Light Mode" alt="Dark/Light Mode"></label>
+				<input id="theme" name="theme" type="checkbox" on:click={theme} aria-label="Dark/Light Mode Switch" hidden>
+				<label for="theme" class="switch theme" aria-label="Dark/Light Mode Switch">Dark/Light Mode Switch</label>
 	</div>
 
 	<nav class="header">
 
-		<a alt="Home button" sveltekit:prefetch href="/"><img draggable="false" id="homebutton" alt="Home button" class="noselect" src={home}></a>
+		<a aria-label="Home button" sveltekit:prefetch href="/"><img draggable="false" id="homebutton" alt="Home button" class="noselect" src={home}></a>
 
 		<div class="navbuttons">
 			<div class:active={$page.url.pathname === '/portfolio'}>
@@ -87,7 +87,6 @@ nav {
 
 	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
-	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 }
 
 .navbuttons div {
@@ -114,6 +113,11 @@ nav {
 
 /* Toggle */
 
+label:hover { cursor: pointer; }
+label {
+	color: #ffffff00;
+}
+
 .theme { top: 20px }
 
 .switch {
@@ -130,7 +134,6 @@ nav {
 
 	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
-	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.5);
 }
 
 .switch::before {

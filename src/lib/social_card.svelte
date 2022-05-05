@@ -9,10 +9,10 @@
 
 
 <article>
-    <img src={img} alt={social}>
+    <img src={img} alt="">
     <div class="text">
         <div>{social}</div>
-        <a href={link} target="_blank" alt={social}>{at}</a>
+        <a href={link} target="_blank" alt="{social}">{at}</a>
     </div>
 </article>
 
@@ -21,7 +21,7 @@
 article {
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 30% 70%;
 
     background: var(--t);
 
@@ -29,7 +29,6 @@ article {
 
     box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
 	-webkit-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
-	-moz-box-shadow: 0px 0px 8px -2px rgba(31,13,35,0.5);
 }
 
 @media only screen and (max-width: 850px) {
@@ -58,6 +57,7 @@ article img {
 
 .text {
     padding: 10px;
+    overflow-wrap: break-word;
 }
 
 </style>

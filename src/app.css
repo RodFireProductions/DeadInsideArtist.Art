@@ -94,7 +94,6 @@ a:hover {
 
 	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
 	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-	-moz-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
 
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -112,7 +111,7 @@ a:hover {
 }
 
 button {
-    font-style: lowercase;
+    text-transform: lowercase;
     font-family: var(--mono);
     padding: 10px;
     margin: 5px;
@@ -127,7 +126,6 @@ button {
 
     box-shadow: 0px 0px 0px -3px var(--btn-shad);
     -webkit-box-shadow: 0px 0px 0px -3px var(--btn-shad);
-    -moz-box-shadow: 0px 0px 0px -3px var(--btn-shad);
 }
 
 button:hover {
@@ -135,7 +133,6 @@ button:hover {
     /*
     box-shadow: 0px 0px 0px 10px var(--btn-shad);
     -webkit-box-shadow: 0px 0px 0px 10px var(--btn-shad);
-    -moz-box-shadow: 0px 0px 0px 10px var(--btn-shad);
     */
 }
 

@@ -6,29 +6,25 @@
 	import Base from '$lib/base.svelte';
 	import Card from '$lib/project_card.svelte';
 
-	import img1 from '$lib/assets/projects/site.png';
+	import img1 from '$lib/assets/projects/site.webp';
 	import img2 from '$lib/assets/projects/meetchalice.webp';
 	import img3 from '$lib/assets/projects/hurt.webp';
 	import img4 from '$lib/assets/projects/mylittlecatgirl.webp';
 	import img5 from '$lib/assets/projects/poseidonorb.webp';
 	import img6 from '$lib/assets/projects/bloominghearts.webp';
-	import img7 from '$lib/assets/projects/deskdrop.png';
-	import img8 from '$lib/assets/projects/waswere.gif';
+	import img7 from '$lib/assets/projects/deskdrop.webp';
+	import img8 from '$lib/assets/projects/waswere.webp';
+	import img9 from '$lib/assets/projects/figurepantry.webp'
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "April 12, 2022";
+	let date = "May 1, 2022";
 
 	let solo = [
 		{
 			name: "RodFireProductions Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
-			link: "https://deadinsideartist.art", img: img1,
+			link: "https://github.com/RodFireProductions/deadinsideartist.art", img: img1,
 			desc: "The current site you're looking at!"
-		},
-		{
-			name: "Meet Chalice<3", type: "zine 2021", tech: null,
-			link: "https://rodfireproductions.itch.io/meet-chalice3", img: img2,
-			desc: "It's just a simple piece about one of my original characters, Chalice."
 		},
 		{
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
@@ -36,19 +32,29 @@
 			desc: "Murdering a person that hurt you is hot, right?"
 		},
 		{
+			name: "The Figure in the Pantry", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/figure-in-the-pantry", img: img9,
+			desc: "Late night snacks aren't supposed to be like this."
+		},
+		{
+			name: "Meet Chalice<3", type: "zine 2021", tech: null,
+			link: "https://rodfireproductions.itch.io/meet-chalice3", img: img2,
+			desc: "It's just a simple piece about one of my original characters, Chalice."
+		},
+		{
 			name: "Hurt✂️", type: "zine 2021", tech: null,
 			link: "https://rodfireproductions.itch.io/hurt", img: img3,
 			desc: "This is just a vent zine about dealing with thoughts of self harm."
 		},
 		{
-			name: "My Little Cat Girl", type: "game 2019", tech: ['Ren\'Py'],
-			link: "https://rodfireproductions.itch.io/my-little-cat-girl", img: img4,
-			desc: "Take in a sickly,homeless cat girl and nurse her to health. "
-		},
-		{
 			name: "Desktop Backdrop", type: "tool 2021", tech: ['ElectronJs'],
 			link: "https://rodfireproductions.itch.io/desktop-backdrop", img: img7,
 			desc: "Covers up that pesky, cluttered desktop."
+		},
+		{
+			name: "My Little Cat Girl", type: "game 2019", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/my-little-cat-girl", img: img4,
+			desc: "Take in a sickly homeless cat girl and nurse her to health. "
 		}
 		/*
 		{
@@ -63,18 +69,21 @@
 		{
 			name: "Poseidon's Orb", type: "game 2021", tech: ['Ren\'Py'],
 			link: "https://rodfireproductions.itch.io/poseidons-orb", img: img5,
-			desc: "Charlotte is turned into a merperson and threatened by a sea witch!"
+			desc: "Charlotte is turned into a merperson and threatened by a sea witch!",
+			contribute: "coding & cg art"
 		},
 		{
 			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
 			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
-			desc: " Rowan must teach Penelope, her crush, how to be a magical girl."
+			desc: " Rowan must teach Penelope, her crush, how to be a magical girl.",
+			contribute: "sprite art"
 		}
 		/*
 		{
 			name: "", type: "", tech: [],
 			link: "", img: null,
-			desc: ""
+			desc: "",
+			contribute: ""
 		}
 		*/
 	]
@@ -86,28 +95,30 @@
 </svelte:head>
 
 <Base>
+	<h1 class="center">Portfolio</h1>
 	<div class="center">
 		[ Last updated {date} ]
 	</div>
 	<!--
 	<div>
-	Languages: JavaScript, Svelte, Python<br>
-	Frontend: HTML, CSS, SvelteKit<br>
-	Backend: NodeJS<br>
-	Game Development: Ren'Py<br>
-	Art/Visuals: FireAlpaca, Photoshop, After Effects<br>
+	// This needs some figuring out. Needs a better format.
+		Languages: JavaScript, Svelte, Python, PHP<br>
+		Frontend: HTML, CSS, SvelteKit<br>
+		Backend: NodeJS<br>
+		Game Development: Ren'Py<br>
+		Art/Visuals: FireAlpaca, Photoshop, After Effects, AnimeEffects<br>
 	</div>
 	<br>
 	grid-auto-flow: dense; if gallery
 	-->
 	<div>
-		You can view my art here: [ <a target="_blank" href="https://www.artstation.com/RodFireProductions">artstation</a> ]
-		[ <a target="_blank" href="https://www.deviantart.com/rodfireproductions">deviantart</a> ]
-		[ <a target="_blank" href="https://deadinsideartist.carrd.co/">this random carrd I made</a> ]
+		You can view my art here: <a target="_blank" href="https://www.artstation.com/RodFireProductions">artstation</a>,
+		<a target="_blank" href="https://www.deviantart.com/rodfireproductions">deviantart</a>,
+		and this random <a target="_blank" href="https://deadinsideartist.carrd.co/">carrd</a> I made.
 	</div>
 	<hr>
 
-	<h3 class="center">Solo Projects</h3>
+	<h2 class="center">Solo Projects</h2>
 	<div class="portfolio_grid">
 
 		{#each solo as p}
@@ -116,11 +127,13 @@
 
 	</div>
 
-	<h3 class="center">Team Projects</h3>
+	<hr>
+
+	<h2 class="center">Team Projects</h2>
 	<div class="portfolio_grid">
 
 		{#each team as p}
-			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} />
+			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} part={p.contribute} />
 		{/each}
 
 	</div>

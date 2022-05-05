@@ -1,42 +1,54 @@
-# create-svelte
+<h2 align="center">— 💀♡<a target="_blank" href="https://deadinsideartist.art/">RodFireProductions Website</a>♡💀 —</h2>
 
-npm run dev -- --host --port 3000
+Todo:
+* Accessibility check and integration where needed.
+* Project pages
+* Blog(?)
+* Sort system for portfolio
+* Add art gallery to portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<hr>
 
-## Creating a project
+<p align="center">
+  This site has gone through multiple iterations over a few years as I slowly learned more and more about web development.
+</p>
+<p align="center">
+  I thought it would be fun to go through the timeline (I don't know the dates, just the order).
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<hr>
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+<p align="center">
+  1st version: Vanilla JavaScript, HTML, & CSS
+</p>
+<img src="https://deadinsideartist.art/oldsite1.png" align="center">
+<p align="center">—☆—</p>
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+<p align="center">
+  2nd version: No framework or Django??
+</p>
+<img src="https://deadinsideartist.art/oldsite2.png" align="center">
+<p align="center">—☆—</p>
 
-> Note: the `@next` is temporary
+<p align="center">
+  3rd version: Django
+</p>
+<img src="https://deadinsideartist.art/oldsite3.png" align="center">
+<p align="center">—☆—</p>
 
-## Developing
+<p align="center">
+  4th version: Jekyll
+</p>
+<img src="https://deadinsideartist.art/oldsite4.png" align="center">
+<p align="center">—☆—</p>
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+<p align="center">
+  5th version: Vanilla JavaScript, HTML, & CSS
+</p>
+<img src="https://deadinsideartist.art/oldsite5.png" align="center">
+<p align="center">—☆—</p>
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+<p align="center">
+  Current version (image may not be up-to-date): SvelteKit
+</p>
+<img src="https://deadinsideartist.art/currentsite.png" align="center">
