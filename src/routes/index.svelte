@@ -73,9 +73,15 @@
 @media only screen and (max-width: 625px) {
 	.area {
 		width: 90% !important;
-		top: 0px;
 	}
 	.banner { width: 90% !important; top: 50px; }
+}
+@media only screen and (max-width: 420px) {
+	#banner { display: none !important; }
+	#title { top: 10px !important; }
+	.area {
+		margin-top: 110px !important;
+	}
 }
 @media only screen and (max-width: 300px) {
 	.area { width: 100% !important; }
