@@ -33,6 +33,7 @@
 
 <svelte:head>
 	<title>RodFireProductions | A Dead Inside Artist and Their Work</title>
+	<meta name="title" content="RodFireProductions | A Dead Inside Artist and Their Work">
 </svelte:head>
 
 <svelte:body on:mousemove={handleMousemove}/>

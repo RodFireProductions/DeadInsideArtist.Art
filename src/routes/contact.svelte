@@ -36,6 +36,7 @@
 
 <svelte:head>
 	<title>Contact | A Dead Inside Artist and Their Work</title>
+	<meta name="title" content="Contact | A Dead Inside Artist and Their Work">
 </svelte:head>
 
 <Base>

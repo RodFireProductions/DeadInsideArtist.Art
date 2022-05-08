@@ -11,6 +11,7 @@
 
 <svelte:head>
 	<title>About | A Dead Inside Artist and Their Work</title>
+	<meta name="title" content="About | A Dead Inside Artist and Their Work">
 </svelte:head>
 
 <Base>
