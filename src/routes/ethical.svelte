@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<title>Code of Ethics | A Dead Inside Artist and Their Work</title>
+	<meta name="title" content="Code of Ethics | A Dead Inside Artist and Their Work">
 </svelte:head>
 
 <Base>

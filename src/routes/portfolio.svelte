@@ -92,6 +92,7 @@
 
 <svelte:head>
 	<title>Portfolio | A Dead Inside Artist and Their Work</title>
+	<meta name="title" content="Portfolio | A Dead Inside Artist and Their Work">
 </svelte:head>
 
 <Base>

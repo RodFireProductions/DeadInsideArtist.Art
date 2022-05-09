@@ -16,7 +16,6 @@
 	import pronouns from '$lib/assets/icons/pronouns.png';
 	import youtube from '$lib/assets/icons/youtube.png';
 	import curiouscat from '$lib/assets/icons/curiouscat.png';
-	import matrix from '$lib/assets/icons/matrix.webp';
 
 	let socials = [
 		//{social: "", link: "", at: "", img:  }
@@ -27,7 +26,6 @@
 		{social: "GitHub", link: "https://github.com/RodFireProductions", at: "RodFireProductions", img: github },
 		{social: "Youtube", link: "https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw", at: "RodFireProductions", img: youtube },
 		{social: "Mastodon", link: "https://mastodon.art/@rodfire8181", at: "@RodFire8181@mastodon.art", img: mastodon },
-		{social: "Matrix", link: "https://matrix.to/#/@rodricklovin81:matrix.org", at: "@rodricklovin81:matrix.org", img: matrix },
 		{social: "DeviantArt", link: "https://www.deviantart.com/rodfireproductions", at: "RodFireProductions", img: da },
 		{social: "Pronouns.page", link: "https://en.pronouns.page/@RodFire8181", at: "@RodFire8181", img: pronouns },
 		{social: "CuriousCat", link: "https://curiouscat.live/RodFireProductions", at: "RodFireProductions", img: curiouscat }
@@ -36,6 +34,7 @@
 
 <svelte:head>
 	<title>Contact | A Dead Inside Artist and Their Work</title>
+	<meta name="title" content="Contact | A Dead Inside Artist and Their Work">
 </svelte:head>
 
 <Base>
