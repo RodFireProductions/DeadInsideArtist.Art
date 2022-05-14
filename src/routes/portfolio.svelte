@@ -14,17 +14,23 @@
 	import img6 from '$lib/assets/projects/bloominghearts.webp';
 	import img7 from '$lib/assets/projects/deskdrop.webp';
 	import img8 from '$lib/assets/projects/waswere.webp';
-	import img9 from '$lib/assets/projects/figurepantry.webp'
+	import img9 from '$lib/assets/projects/figurepantry.webp';
+	import img10 from '$lib/assets/projects/deadlogs.webp';
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "May 1, 2022";
+	let date = "May 14, 2022";
 
 	let solo = [
 		{
 			name: "RodFireProductions Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
 			link: "https://github.com/RodFireProductions/deadinsideartist.art", img: img1,
 			desc: "The current site you're looking at!"
+		},
+		{
+			name: "DeadLogs", type: "tool 2022", tech: ['JavaScript', 'HTML', 'CSS'],
+			link: "https://deadlogs.shroom.ink/", img: img10,
+			desc: "A tool for making static blogs and sites."
 		},
 		{
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
