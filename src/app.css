@@ -1,5 +1,4 @@
 /* Rodrick Hates Their Life */ /*@media only screen and (max-width: 625px) {}*/
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 
 :root {
 	--text-color    : #1f0d23;
@@ -22,7 +21,7 @@
 }
 
 body {
-	font-family: 'Mukta', monospace;
+	font-family: sans-serif;
 	margin: 0;
 	/*
 	background: url('https://deadinsideartist.art/assets/images/texture3.png'), linear-gradient(
