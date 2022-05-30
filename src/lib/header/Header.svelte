@@ -3,6 +3,7 @@
 
 	import home from '$lib/assets/eye.png';
 
+	/*
 	function theme() {
 		let x = document.getElementById("theme");
 		if (x.checked == true) {
@@ -21,6 +22,7 @@
 
 		}
 	}
+	*/
 
 </script>
 
@@ -40,6 +42,9 @@
 		<div class="navbuttons">
 			<div class:active={$page.url.pathname === '/portfolio'}>
 				<a sveltekit:prefetch href="/portfolio">Portfolio</a>
+			</div>
+			<div class:active={$page.url.pathname === '/commissions'}>
+				<a sveltekit:prefetch href="/commissions">Commissions</a>
 			</div>
 		</div>
 	</nav>

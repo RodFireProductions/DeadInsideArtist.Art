@@ -23,17 +23,13 @@
 
     <div class="card_body">
         <a href={link} target="_blank"><span class="card_Title">{@html name}</span></a>
-        <br>
-        <span class="card_description">{@html desc}</span>
-        <br>
+        <p class="card_description">{@html desc}</p>
         {#if tech != null}
-            <span class="card_tech">{@html technologies}</span>
-        <br>
+            <p class="card_tech">{@html technologies}</p>
         {/if}
-        <span class="card_type">{@html type}</span>
-        <br>
+        <p class="card_type">{@html type}</p>
         {#if part}
-            <span class="card_part">{@html part}</span>
+            <p class="card_part">{@html part}</p>
         {/if}
 
     </div>
@@ -88,11 +84,12 @@ article {
     margin: 5px;
 
     width: 275px;
-    height: 320px;
+    min-height: 320px;
+    max-height: 500px;
 
     border: #666 1px dotted;
 
-    box-shadow: 0px 0px 4px -2px var(--text-color);
-	-webkit-box-shadow: 0px 0px 4px -2px var(--text-color);
+    box-shadow: 0px 0px 4px -2px var(--accent-color);
+	-webkit-box-shadow: 0px 0px 4px -2px var(--accent-color);
 }
 </style>

@@ -13,13 +13,17 @@
 
 <Base>
 	<h1 class="center">Code of Ethics</h1>
-	This is the ethical code that RodFireProductions strives to stand by with any and all
-	actions that are taken and causes/others that are supported and colaborated with.
+	<p>
+		This is the ethical code that RodFireProductions strives to stand by with any and all
+		actions that are taken and causes/others that are supported and colaborated with.
+	</p>
 	<hr>
 	<section>
 		<h2>Expectations</h2>
+		<p>
 		Here it is implored and expected that one shows support, empathy, and
 		hospitality to others regardless of:
+		</p>
 		<ul>
 		<li>Race or ethnicity</li>
 		<li>Sex</li>
@@ -36,14 +40,20 @@
 		<li>Caste</li>
 		<li>Background</li>
 		</ul>
-		It is also expected of one to strive for further education when one is shown
-		to be ignorant. Science is real.
+		<p>
+			It is also expected of one to strive for further education when one is shown
+			to be ignorant. Science is real.
+		</p>
 	</section>
-	<br>
+
+	<hr>
+
 	<section>
 		<h2>Prohibited</h2>
-		It is prohibited for one to encourage, support, or engage in
-		bigoted or prejudice purposes or action, including but not limited to:
+		<p>
+			It is prohibited for one to encourage, support, or engage in
+			bigoted or prejudice purposes or action, including but not limited to:
+		</p>
 		<ul>
 		<li>Racism</li>
 		<li>Xenophobia</li>
@@ -62,12 +72,11 @@
 		</ul>
 	</section>
 
-	<section>
-	</section>
+	<hr>
 
-	<section>
+	<p>
 		Inspired by: <a target="_blank" href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla Community Participation Guidelines</a>, and <a target="_blank" href="https://oql.avris.it">Opinionated Queer License v1.0</a>.
-	</section>
+	</p>
 
 
 
