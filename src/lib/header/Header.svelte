@@ -114,6 +114,7 @@ nav {
 
 /* Toggle */
 
+/*
 label:hover { cursor: pointer; }
 label {
 	color: #ffffff00;
@@ -151,5 +152,5 @@ label {
 input:checked + .switch:before {
     transform: translateX(120%);
 }
-
+*/
 </style>
