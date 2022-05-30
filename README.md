@@ -49,6 +49,11 @@ Todo:
 <p align="center">—☆—</p>
 
 <p align="center">
+  6th version: SvelteKit
+</p>
+<img src="https://deadinsideartist.art/oldsite6.png" align="center">
+
+<p align="center">
   Current version (image may not be up-to-date): SvelteKit
 </p>
 <img src="https://deadinsideartist.art/currentsite.png" align="center">

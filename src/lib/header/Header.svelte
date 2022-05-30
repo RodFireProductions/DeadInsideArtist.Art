@@ -26,10 +26,12 @@
 
 <header>
 
+	<!--
 	<div id="toggle" class="noselect header">
 				<input id="theme" name="theme" type="checkbox" on:click={theme} aria-label="Dark/Light Mode Switch" hidden>
 				<label for="theme" class="switch theme" aria-label="Dark/Light Mode Switch">Dark/Light Mode Switch</label>
 	</div>
+	-->
 
 	<nav class="header">
 
@@ -38,12 +40,6 @@
 		<div class="navbuttons">
 			<div class:active={$page.url.pathname === '/portfolio'}>
 				<a sveltekit:prefetch href="/portfolio">Portfolio</a>
-			</div>
-			<div class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</div>
-			<div class:active={$page.url.pathname === '/contact'}>
-				<a sveltekit:prefetch href="/contact">Contact</a>
 			</div>
 		</div>
 	</nav>
@@ -78,7 +74,7 @@ nav {
 	display: grid;
 	grid-auto-flow: column;
 
-	border-radius: 15px;
+	/*border-radius: 15px;*/
 	position: relative;
 	top: 10px;
 	height: 20px;

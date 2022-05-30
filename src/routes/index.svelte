@@ -3,10 +3,13 @@
 </script>
 
 <script>
-	//import Base from '$lib/base.svelte';
+	import Base from '$lib/base.svelte';
+	import Quote from '$lib/quote.svelte';
 
 	import banner from '$lib/assets/banner2.png';
 	import title from '$lib/assets/bannertitle.png';
+	import title2 from '$lib/assets/rodricktitle.png';
+	import pfp from '$lib/assets/pfp.png';
 
 	let now = new Date();
 	let day; let time; let ye = now.getFullYear();
@@ -39,100 +42,116 @@
 <svelte:body on:mousemove={handleMousemove}/>
 
 
-<div class="banner">
-	<img src={banner} alt="Banner" id="banner" draggable="false">
-	<img src={title} alt="RodFireProductions" id="title" draggable="false">
-</div>
-
-<div class="area">
-	<h1 class="smaller">Welcome to my domain.</h1>
-	<div>I'm an artist and game/web developer.</div>
-	<a sveltekit:prefetch href="/about">Learn</a> more about me or look at my <a sveltekit:prefetch href="/portfolio">work</a>.
-	<br>—☆—
-	<div >
-		What a fine {day} {time} it is. How's {ye} going? Treating you well??<br>
-		<div>
-			Anyways, I can see you:<br>
-			<div style="display:grid; grid-auto-flow: column;"><code>{m.x} ☆ {m.y}</code></div>
-		</div>
-	</div>
-</div>
-
-<!--
 <Base>
+	<h1><img draggable="false" src={title} alt="RodFireProductions"></h1>
 
-	Have a nice {day}!<br>
+	<hr>
 
-	I should have a page that talks about the history of my website.
-	A ethical code page.
+	<section id="about">
+		<div id="per">
+			<img draggable="false" src={pfp} alt="Rodrick's persona" id="persona">
+		</div>
+		<div id="bio">
+			<div>
+				<h2><img draggable="false" src={title2} alt="Rodrick" id="rodrick"></h2>
+
+				<p>
+					Howdy! I'm your nonbinary demigod.
+				</p>
+
+				<p>
+					I'm a queer, Afro Mexican artist, developer, and student.
+				</p>
+			</div>
+		</div>
+
+	</section>
+
+	<hr>
+
+	<section id="contact" class="center">
+		<h2>Stalk me</h2>
+		<div>
+			<a href="https://ko-fi.com/rodfireproductions" target="_blank">Ko-fi</a>
+			|
+			<a href="https://www.artstation.com/RodFireProductions" target="_blank">ArtStation</a>
+			|
+			<a href="https://RodFireProductions.itch.io" target="_blank">Itch</a>
+			|
+			<a href="https://twitter.com/RodFire8181" target="_blank">Twitter</a>
+			|
+			<a href="https://github.com/RodFireProductions" target="_blank">GitHub</a>
+			|
+			<a href="https://mastodon.art/@rodfire8181" target="_blank">Mastodon.art</a>
+			|
+			<a href="https://en.pronouns.page/@RodFire8181" target="_blank">Pronouns</a>
+			|
+			<a href="https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw" target="_blank">YouTube</a>
+		</div>
+
+		<p>
+			<a href="https://linktr.ee/rodfireproductions" target="_blank">Full list of links.</a>
+		</p>
+
+		<h2>Contact me</h2>
+
+		<p>
+			You can email me for <b>business and/or collaborations</b> inquiries at
+			<code>rodrick [at] deadinsideartist [dot] art</code>.
+		</p>
+
+		<p>
+			For <b>general questions, etc,</b> you can email me at
+			<code>howdy [at] deadinsideartist [dot] art</code>.
+		</p>
+	</section>
+
+	<hr>
+
+	<Quote quote="When I die, you stay away from my funeral." person="Squidward Tentacles" media="SpongeBob SquarePants"/>
+
+
 
 </Base>
--->
 
 <style>
-/*@media only screen and (max-width: 625px) {}*/
-@media only screen and (max-width: 625px) {
-	.area {
-		width: 90% !important;
+
+h1 { line-height: inherit; }
+
+img { width: 100%; }
+
+/* About */
+#about {
+	display: grid;
+	grid-template-columns: 50% 1fr;
+	text-align: left;
+}
+@media only screen and (max-width: 700px) {
+    #about {
+		grid-template-columns: 1fr;
+		text-align: center;
 	}
-	.banner { width: 90% !important; top: 50px; }
-}
-@media only screen and (max-width: 420px) {
-	#banner { display: none !important; }
-	#title { top: 10px !important; }
-	.area {
-		margin-top: 110px !important;
-	}
-}
-@media only screen and (max-width: 300px) {
-	.area { width: 100% !important; }
-	.banner { width: 100% !important; }
+	#about img { display:block; margin: 5px auto; }
+	#persona { float: none !important; }
 }
 
-.smaller { font-size: 1.2em; }
 
-.area {
-	text-align: center;
-
-	position: relative;
-	top: -50px;
-	width: 75%;
-	margin: 5px auto;
-	margin-bottom: -40px;
-
-    padding: 20px;
-    min-height: 20px;
-
-	color: var(--text-color);
-    background-color: var(--back-color);
-
-	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-}
-
-/* Banner */
-.banner {
+#per { padding: 20px; }
+#persona {
+	border-radius: 50%;
+	float: right;
 	width: 80%;
-	margin: 0px auto;
-	position: relative;
 }
 
-#banner {
-	display: block;
-	width: 75%;
-	margin: auto;
+#rodrick {
+	width: 60%;
 }
 
-#title {
-	display: block;
-	z-index: 2;
-	width: 100%;
-	position: relative;
-	top: -100px;
-	margin: auto;
+#bio {
+	display:flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 </style>

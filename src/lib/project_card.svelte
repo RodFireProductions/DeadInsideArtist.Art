@@ -67,7 +67,8 @@
     font-family: monospace;
 }
 
-@media only screen and (max-width: 1250px) {
+
+@media only screen and (max-width: 1300px) {
     article {
         width: 90% !important;
     }
