@@ -4,7 +4,7 @@
 :root {
 	--text-color    : #ddd;
 	--back-color    : #000; /*#ddd*/
-	--accent-color	: #C62929;
+	--accent-color	: #F44141;
 
 	--mono          : monospace;
 
@@ -39,8 +39,8 @@ body {
 }
 
 html { scrollbar-color: #eee #000; }
-::selection { background: #000000; color: white; }
-::-moz-selection { background: #000000; color: white; }
+::selection { background: #C62929; color: white; }
+::-moz-selection { background: #C62929; color: white; }
 ::-webkit-scrollbar-track { background-color: #000; }
 ::-webkit-scrollbar-thumb { background-color: #eee; }
 
@@ -53,17 +53,10 @@ code {
 	padding: 3px;
 }
 
-footer {
-    color: white;
-    position: relative;
-    text-align: center;
-    align-self: start;
-    font-size: 0.8em;
-
-    margin: auto;
-    width: 300px;
-    padding: 10px;
-    background-color: black;
+mark {
+	background: var(--q);
+	color: white;
+	padding: 2px 3px;
 }
 
 hr {
@@ -109,6 +102,27 @@ button:hover {
     box-shadow: 0px 0px 0px 10px var(--btn-shad);
     -webkit-box-shadow: 0px 0px 0px 10px var(--btn-shad);
     */
+}
+
+table {
+	border: dotted 2px var(--accent-color);
+	padding: 10px;
+	min-width: 200px;
+	max-width: auto;
+	margin: 10px auto;
+}
+th {
+	border-bottom: solid 2px var(--accent-color);
+}
+td {
+	width: 50%;
+	border-left: solid 1px var(--accent-color);
+	padding-left: 5px;
+	padding-right: 5px;
+	padding: 2px;
+}
+tfoot td {
+	border-top: dotted 2px var(--accent-color);
 }
 
 

@@ -56,7 +56,7 @@ img {
 }
 
 @media only screen and (max-width: 625px) {
-	.main_content { width: 90% !important; }
+	.main_content { width: 85% !important; }
 }
 @media only screen and (max-width: 300px) {
 	.main_content {

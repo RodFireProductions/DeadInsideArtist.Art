@@ -3,7 +3,6 @@
     export let quote;
     export let person;
     export let media;
-    export let width;
 
 </script>
 
