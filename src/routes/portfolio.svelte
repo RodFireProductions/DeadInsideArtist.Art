@@ -19,11 +19,11 @@
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "May 14, 2022";
+	let date = "May 29, 2022";
 
 	let solo = [
 		{
-			name: "RodFireProductions Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
+			name: "This Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
 			link: "https://github.com/RodFireProductions/deadinsideartist.art", img: img1,
 			desc: "The current site you're looking at!"
 		},
@@ -104,24 +104,15 @@
 <Base>
 	<h1 class="center">Portfolio</h1>
 	<div class="center">
-		[ Last updated {date} ]
-	</div>
-	<!--
-	<div>
-	// This needs some figuring out. Needs a better format.
-		Languages: JavaScript, Svelte, Python, PHP<br>
-		Frontend: HTML, CSS, SvelteKit<br>
-		Backend: NodeJS<br>
-		Game Development: Ren'Py<br>
-		Art/Visuals: FireAlpaca, Photoshop, After Effects, AnimeEffects<br>
-	</div>
-	<br>
-	grid-auto-flow: dense; if gallery
-	-->
-	<div>
-		You can view my art here: <a target="_blank" href="https://www.artstation.com/RodFireProductions">artstation</a>,
-		<a target="_blank" href="https://www.deviantart.com/rodfireproductions">deviantart</a>,
-		and this random <a target="_blank" href="https://deadinsideartist.carrd.co/">carrd</a> I made.
+		<p>
+			[ Last updated {date} ]
+		</p>
+		<p>
+			You can view my art here: <a target="_blank" href="https://www.artstation.com/RodFireProductions">ArtStation</a>,
+			<a target="_blank" href="https://www.deviantart.com/rodfireproductions">DeviantArt</a>,
+			and this random <a target="_blank" href="https://deadinsideartist.carrd.co/">Carrd</a> I made.
+		</p>
+
 	</div>
 	<hr>
 
@@ -154,7 +145,7 @@
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
     .portfolio_grid {
 		grid-template-columns: 1fr 1fr;
 		justify-items: center !important;

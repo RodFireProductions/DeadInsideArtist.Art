@@ -1,13 +1,15 @@
 /* Rodrick Hates Their Life */ /*@media only screen and (max-width: 625px) {}*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-	--text-color    : #1f0d23;
-	--back-color    : #F8FFFF; /*#ddd*/
+	--text-color    : #ddd;
+	--back-color    : #000; /*#ddd*/
+	--accent-color	: #C62929;
+
 	--mono          : monospace;
 
-	--a				: darkblue;
-	--t 			: #ddd;
-	--q 			: linear-gradient(5deg, rgba(50,45,87,1) 0%, rgba(67,79,121,1) 75%);
+	--t 			: #C6292966;
+	--q 			: linear-gradient(0deg, #C62929 50%, #C6292900 100%);
 
 	--btn-back      : var(--text-color);
 	--btn-back2     : black; /* #fcf06a */
@@ -21,7 +23,8 @@
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Mukta', sans-serif;
+	line-height: 1.4;
 	margin: 0;
 	/*
 	background: url('https://deadinsideartist.art/assets/images/texture3.png'), linear-gradient(
@@ -45,9 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
 }
 
+code {
+	background: #C6292955;
+	padding: 3px;
+}
+
 footer {
     color: white;
-    opacity: 0.9;
     position: relative;
     text-align: center;
     align-self: start;
@@ -60,53 +67,22 @@ footer {
 }
 
 hr {
+	display: block;
     border-style: none;
     border-bottom-style: dotted;
-    border-bottom-width: medium;
-    border-color: var(--text-color);
-    width: 100%;
+    border-bottom-width: 2px;
+    border-color: var(--accent-color);
+    width: 50%;
+	margin: 15px auto;
 }
 
 a {
-    color: var(--a);
-    text-decoration: underline dotted var(--text-color) 1.5px;
+    color: var(--accent-color);
+	text-decoration: none;
 }
 a:hover {
     color: var(--text-color);
-    text-decoration: none;
-}
-
-/* Main */
-
-.main_content {
-    color: var(--text-color);
-    /*background: linear-gradient(360deg, rgba(17,7,22,0.5) 0%, rgba(64,62,64,0) 100%)*/
-    background-color: var(--back-color);
-    width: 75%;
-
-    display: grid;
-    grid-auto-flow: row;
-    margin: 5px auto;
-    margin-top: 60px;
-    padding: 20px;
-    min-height: 20px;
-
-	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
-
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-}
-
-@media only screen and (max-width: 625px) {
-	.main_content { width: 90% !important; }
-}
-@media only screen and (max-width: 300px) {
-	.main_content {
-		width: 100% !important;
-		margin: 0px;
-		margin-top: 60px;
-	}
+    text-decoration: underline var(--text-color) .6px;
 }
 
 button {
@@ -135,35 +111,7 @@ button:hover {
     */
 }
 
-figure {
-	background: var(--q);
-	color: #F8FFFF;
 
-	border-radius: 5px;
-	line-height: 10px;
-	padding: 5px;
-	padding-top: 0px;
-}
-
-figcaption {
-	position: relative;
-	top: -10px;
-	font-size: .8em;
-}
-
-blockquote:before {
-    content: "\201C";
-	font-size: 1.8em;
-	padding: 2px;
-	font-family: serif;
-}
-
-blockquote {
-	padding: 5px;
-	font-family: serif;
-	font-size: 1em;
-	line-height: normal;
-}
 
 /* Extras */
 
