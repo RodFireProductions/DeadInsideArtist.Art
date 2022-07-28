@@ -16,10 +16,11 @@
 	import img8 from '$lib/assets/projects/waswere.webp';
 	import img9 from '$lib/assets/projects/figurepantry.webp';
 	import img10 from '$lib/assets/projects/deadlogs.webp';
+	import img11 from '$lib/assets/projects/bloodasher.png';
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "May 29, 2022";
+	let date = "July 28th, 2022";
 
 	let solo = [
 		{
@@ -81,8 +82,14 @@
 		{
 			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
 			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
-			desc: " Rowan must teach Penelope, her crush, how to be a magical girl.",
+			desc: "Rowan must teach Penelope, her crush, how to be a magical girl.",
 			contribute: "sprite art"
+		},
+		{
+			name: "Blood of the Covenant", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://opheliaveu.itch.io/blood-of-the-covenant", img: img11,
+			desc: "You meet someone in a chilly alleyway at night.",
+			contribute: "coding"
 		}
 		/*
 		{
