@@ -17,10 +17,11 @@
 	import img9 from '$lib/assets/projects/figurepantry.webp';
 	import img10 from '$lib/assets/projects/deadlogs.webp';
 	import img11 from '$lib/assets/projects/bloodasher.png';
+	import img12 from '$lib/assets/projects/creature.png';
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "July 28th, 2022";
+	let date = "August 2nd, 2022";
 
 	let solo = [
 		{
@@ -37,6 +38,11 @@
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
 			link: "https://rodfireproductions.itch.io/waswere", img: img8,
 			desc: "Murdering a person that hurt you is hot, right?"
+		},
+		{
+			name: "The Creature", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/the-creature", img: img12,
+			desc: "An injured creature enters your tent at night."
 		},
 		{
 			name: "The Figure in the Pantry", type: "game 2022", tech: ['Ren\'Py'],
