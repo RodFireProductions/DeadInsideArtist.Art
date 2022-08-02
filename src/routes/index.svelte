@@ -21,16 +21,16 @@
     if (now.getDay() == 5 ) { day = "Friday" };
     if (now.getDay() == 6 ) { day = "Saturday" };
 
-	if ( now.getHours() < 11 && now.getHours() > 4 ) { time = "morning"; }
-	else if ( now.getHours() < 19 && now.getHours() > 12 ) { time = "afternoon"; }
+	if ( now.getHours() <= 11 && now.getHours() >= 0 ) { time = "morning"; }
+	else if ( now.getHours() <= 19 && now.getHours() >= 12 ) { time = "afternoon"; }
 	else { time = "night"; }
 
-	let m = { x: 0, y: 0 };
+	//let m = { x: 0, y: 0 };
 
-	function handleMousemove(event) {
-		m.x = event.clientX;
-		m.y = event.clientY;
-	}
+	//function handleMousemove(event) {
+	//	m.x = event.clientX;
+	//	m.y = event.clientY;
+	//}
 
 </script>
 
@@ -60,7 +60,11 @@
 				</p>
 
 				<p>
-					I'm a queer, Afro Mexican artist, developer, and student.
+					I'm a queer, Afro Mexican artist, developer, and full-time student.
+				</p>
+
+				<p>
+					I hope you're having a lovely {day} {time}.
 				</p>
 			</div>
 		</div>
