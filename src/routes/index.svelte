@@ -80,7 +80,7 @@
 			|
 			<a href="https://www.artstation.com/RodFireProductions" target="_blank">ArtStation</a>
 			|
-			<a href="https://RodFireProductions.itch.io" target="_blank">Itch</a>
+			<a href="https://RodFireProductions.itch.io" target="_blank">Itch.io</a>
 			|
 			<a href="https://twitter.com/RodFire8181" target="_blank">Twitter</a>
 			|
@@ -88,8 +88,8 @@
 			|
 			<a href="https://mastodon.art/@rodfire8181" target="_blank">Mastodon.art</a>
 			|
-			<a href="https://en.pronouns.page/@RodFire8181" target="_blank">Pronouns</a>
-			|
+			<!--<a href="https://en.pronouns.page/@RodFire8181" target="_blank">Pronouns</a>
+			|-->
 			<a href="https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw" target="_blank">YouTube</a>
 		</div>
 
@@ -101,13 +101,9 @@
 
 		<p>
 			You can email me for <b>business and/or collaborations</b> inquiries at
-			<code>rodrick [at] deadinsideartist [dot] art</code>.
+			<code>howdy [at] deadinsideartist [dot] art</code> or DM me on Twitter.
 		</p>
 
-		<p>
-			For <b>general questions, etc,</b> you can email me at
-			<code>howdy [at] deadinsideartist [dot] art</code>.
-		</p>
 	</section>
 
 	<hr>
