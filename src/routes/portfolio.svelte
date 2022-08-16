@@ -121,6 +121,9 @@
 			[ Last updated {date} ]
 		</p>
 		<p>
+			This page is still in the works and expected to change.
+		</p>
+		<p>
 			You can view my art here: <a target="_blank" href="https://www.artstation.com/RodFireProductions">ArtStation</a>,
 			<a target="_blank" href="https://www.deviantart.com/rodfireproductions">DeviantArt</a>,
 			and this random <a target="_blank" href="https://deadinsideartist.carrd.co/">Carrd</a> I made.
