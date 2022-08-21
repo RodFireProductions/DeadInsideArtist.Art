@@ -18,10 +18,11 @@
 	import img10 from '$lib/assets/projects/deadlogs.webp';
 	import img11 from '$lib/assets/projects/bloodasher.png';
 	import img12 from '$lib/assets/projects/creature.png';
+	import img13 from '$lib/assets/projects/leftathome.png';
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "August 2nd, 2022";
+	let date = "August 21st, 2022";
 
 	let solo = [
 		{
@@ -33,6 +34,11 @@
 			name: "DeadLogs", type: "tool 2022", tech: ['JavaScript', 'HTML', 'CSS'],
 			link: "https://deadlogs.shroom.ink/", img: img10,
 			desc: "A tool for making static blogs and sites."
+		},
+		{
+			name: "Left At Home", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
+			link: "https://rodfireproductions.itch.io/left-at-home", img: img13,
+			desc: "Freckles is left at home sick as their partner, Beads, goes out to buy them medication."
 		},
 		{
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],

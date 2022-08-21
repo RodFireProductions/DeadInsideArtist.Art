@@ -39,7 +39,8 @@
 	<meta name="title" content="RodFireProductions | A Dead Inside Artist and Their Work">
 </svelte:head>
 
-<svelte:body on:mousemove={handleMousemove}/>
+<!--<svelte:body on:mousemove={handleMousemove}/>-->
+<svelte:body/>
 
 
 <Base>
