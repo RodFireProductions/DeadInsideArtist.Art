@@ -64,12 +64,15 @@
 }
 
 
+
+/*
 @media only screen and (max-width: 1300px) {
     article {
         width: 90% !important;
     }
 }
-/*
+
+
 @media only screen and (max-width: 800px) {
     article {
         width: 275px !important;
@@ -83,7 +86,7 @@ article {
 
     margin: 5px;
 
-    width: 275px;
+    width: 90%;
     min-height: 320px;
     max-height: 500px;
 
