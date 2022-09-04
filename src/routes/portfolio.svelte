@@ -6,7 +6,7 @@
 	import Base from '$lib/base.svelte';
 	import Card from '$lib/project_card.svelte';
 
-	import img1 from '$lib/assets/projects/site.webp';
+	import img1 from '$lib/assets/projects/site.png';
 	import img2 from '$lib/assets/projects/meetchalice.webp';
 	import img3 from '$lib/assets/projects/hurt.webp';
 	import img4 from '$lib/assets/projects/mylittlecatgirl.webp';
@@ -19,10 +19,12 @@
 	import img11 from '$lib/assets/projects/bloodasher.png';
 	import img12 from '$lib/assets/projects/creature.png';
 	import img13 from '$lib/assets/projects/leftathome.png';
+	import img14 from '$lib/assets/projects/mgla.png';
+	import img15 from '$lib/assets/projects/knights.png';
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "August 21st, 2022";
+	let date = "September 4th, 2022";
 
 	let solo = [
 		{
@@ -92,16 +94,28 @@
 			contribute: "coding & cg art"
 		},
 		{
-			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
-			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
-			desc: "Rowan must teach Penelope, her crush, how to be a magical girl.",
-			contribute: "sprite art"
-		},
-		{
 			name: "Blood of the Covenant", type: "game 2022", tech: ['Ren\'Py'],
 			link: "https://opheliaveu.itch.io/blood-of-the-covenant", img: img11,
 			desc: "You meet someone in a chilly alleyway at night.",
 			contribute: "coding"
+		},
+		{
+			name: "My Grandma's Last Adventure", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/my-grandmas-last-adventure", img: img14,
+			desc: "What would you do if your adventuring party was joined by… your grandma?!",
+			contribute: "coding & logo"
+		},
+		{
+			name: "The Knight's Dilemma", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://lavinnia.itch.io/the-knights-dilemma", img: img15,
+			desc: "When the king is incompetent you face a dilemma: will you try to change his ways or join the rebellion?",
+			contribute: "coding"
+		},
+		{
+			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
+			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
+			desc: "Rowan must teach Penelope, her crush, how to be a magical girl.",
+			contribute: "sprite art"
 		}
 		/*
 		{

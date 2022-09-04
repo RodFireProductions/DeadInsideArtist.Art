@@ -61,7 +61,7 @@
 				</p>
 
 				<p>
-					I'm a queer, Afro Mexican artist, developer, and full-time student.
+					I'm a queer, Afro Mexican artist, web and game developer, and full-time student.
 				</p>
 
 				<p>
