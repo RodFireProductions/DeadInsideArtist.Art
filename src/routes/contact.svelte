@@ -27,7 +27,7 @@
             <a href="https://mastodon.art/@rodfire8181" target="_blank">Mastodon</a>.
         </p>
         <p>
-            My preferred method of communication is via Discord,<br>so feel free to send me your tag.
+            My preferred method of communication is via Discord;<br>feel free to send me your tag.
         </p>
     </section>
 
@@ -49,10 +49,12 @@
             |
             <a href="https://mastodon.art/@rodfire8181" target="_blank">Mastodon.art</a>
             |
+            <a href="https://rodfire8181.tumblr.com/" target="_blank">Tumblr</a>
             <!--
             <a href="https://en.pronouns.page/@RodFire8181" target="_blank">Pronouns</a>
-            |-->
+            |
             <a href="https://www.youtube.com/@RodFireProductions" target="_blank">YouTube</a>
+            -->
         </div>
 
         <p>
