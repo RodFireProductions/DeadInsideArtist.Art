@@ -24,7 +24,7 @@
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "September 4th, 2022";
+	let date = "November 29th, 2022";
 
 	let solo = [
 		{
@@ -67,11 +67,13 @@
 			link: "https://rodfireproductions.itch.io/hurt", img: img3,
 			desc: "This is just a vent zine about dealing with thoughts of self harm."
 		},
+		/*
 		{
 			name: "Desktop Backdrop", type: "tool 2021", tech: ['ElectronJs'],
 			link: "https://rodfireproductions.itch.io/desktop-backdrop", img: img7,
 			desc: "Covers up that pesky, cluttered desktop."
 		},
+		*/
 		{
 			name: "My Little Cat Girl", type: "game 2019", tech: ['Ren\'Py'],
 			link: "https://rodfireproductions.itch.io/my-little-cat-girl", img: img4,
@@ -111,12 +113,14 @@
 			desc: "When the king is incompetent you face a dilemma: will you try to change his ways or join the rebellion?",
 			contribute: "coding"
 		},
+		/*
 		{
 			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
 			link: "https://lavinnia.itch.io/blooming-hearts", img: img6,
 			desc: "Rowan must teach Penelope, her crush, how to be a magical girl.",
 			contribute: "sprite art"
 		}
+		*/
 		/*
 		{
 			name: "", type: "", tech: [],
@@ -126,6 +130,10 @@
 		}
 		*/
 	]
+
+	let sections = 1;
+	let soloprojects = 1;
+	import { fade } from 'svelte/transition';
 
 </script>
 
@@ -143,38 +151,85 @@
 		<p>
 			This page is still in the works and expected to change.
 		</p>
-		<p>
-			You can view my art here: <a target="_blank" href="https://www.artstation.com/RodFireProductions">ArtStation</a>,
-			<a target="_blank" href="https://www.deviantart.com/rodfireproductions">DeviantArt</a>,
-			and this random <a target="_blank" href="https://deadinsideartist.carrd.co/">Carrd</a> I made.
-		</p>
 
 	</div>
 	<hr>
-
-	<h2 class="center">Solo Projects</h2>
-	<div class="portfolio_grid">
-
-		{#each solo as p}
-			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} />
-		{/each}
-
+	<div class="radio_container radio1">
+		<label class="radio1_1">
+			<input type=radio bind:group={sections} value={1}>
+			Solo Projects
+		</label>
+		<span class="radio1_2">|</span>
+		<label class="radio_1_3">
+			<input type=radio bind:group={sections} value={2}>
+			Team Projects
+		</label>
 	</div>
 
 	<hr>
 
-	<h2 class="center">Team Projects</h2>
-	<div class="portfolio_grid">
+	{#if sections == 1}
+	<section transition:fade>
+		<h2 class="center">Solo Projects</h2>
+		<!--
+		<div class="radio_container radio2">
+			<label class="radio1_1">
+				<input type=radio bind:group={soloprojects} value={1}>
+				Solo Projects
+			</label>
+			<span class="radio1_2">|</span>
+			<label class="radio_1_3">
+				<input type=radio bind:group={soloprojects} value={2}>
+				Team Projects
+			</label>
+		</div>
+		-->
+		<div class="portfolio_grid">
 
-		{#each team as p}
-			<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} part={p.contribute} />
-		{/each}
+			{#each solo as p}
+				<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} />
+			{/each}
 
-	</div>
+		</div>
+	</section>
+	{/if}
+
+	<!--<hr>-->
+
+	{#if sections == 2}
+	<section transition:fade>
+		<h2 class="center">Team Projects</h2>
+		<div class="portfolio_grid">
+
+			{#each team as p}
+				<Card tech={p.tech} img={p.img} link={p.link} desc={p.desc} name={p.name} type={p.type} part={p.contribute} />
+			{/each}
+
+		</div>
+	</section>
+	{/if}
 </Base>
 
-
 <style>
+
+.radio_container {
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.radio1 {
+	grid-template-columns: 1fr 15px 1fr;
+}
+
+.radio1_1 {
+	text-align: right;
+}
+.radio1_2 {
+	text-align: center;
+}
+.radio1_3 {
+	text-align: left;
+}
 
 .portfolio_grid {
 	display: grid;

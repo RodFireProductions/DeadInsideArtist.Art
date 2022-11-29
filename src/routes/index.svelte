@@ -74,35 +74,9 @@
 
 	<hr>
 
-	<section id="contact" class="center">
-		<h2>Stalk me</h2>
-		<div>
-			<a href="https://ko-fi.com/rodfireproductions" target="_blank">Ko-fi</a>
-			|
-			<a href="https://www.artstation.com/RodFireProductions" target="_blank">ArtStation</a>
-			|
-			<a href="https://RodFireProductions.itch.io" target="_blank">Itch.io</a>
-			|
-			<a href="https://twitter.com/RodFire8181" target="_blank">Twitter</a>
-			|
-			<a href="https://github.com/RodFireProductions" target="_blank">GitHub</a>
-			|
-			<a href="https://mastodon.art/@rodfire8181" target="_blank">Mastodon.art</a>
-			|
-			<!--<a href="https://en.pronouns.page/@RodFire8181" target="_blank">Pronouns</a>
-			|-->
-			<a href="https://www.youtube.com/channel/UC9x1ux5Qw09CmKCngIFy7kw" target="_blank">YouTube</a>
-		</div>
-
+	<section class="center">
 		<p>
-			<a href="https://linktr.ee/rodfireproductions" target="_blank">Full list of links.</a>
-		</p>
-
-		<h2>Contact me</h2>
-
-		<p>
-			You can email me for <b>business and/or collaborations</b> inquiries at
-			<code>howdy [at] deadinsideartist [dot] art</code> or DM me on Twitter.
+			View my <a href="https://www.artstation.com/rodfireproductions" target="_blank">artworks.</a>
 		</p>
 
 	</section>
