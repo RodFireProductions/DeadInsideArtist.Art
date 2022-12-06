@@ -136,6 +136,10 @@
 			</li>
 
 			<li>
+				All preparation materials, visuals, and sketches, including all exectronic files used to create the project remain my property.
+			</li>
+
+			<li>
 				Credit is apperciated but not required when posting the commission on the condition one doesn't
 				claim to have drawn the piece oneself. Do not resell my art either.
 			</li>
@@ -143,7 +147,6 @@
 			<li>
 				I will only remove my signature if commission was bought with commerical prices.
 			</li>
-
 		</ul>
 
 		<h3>Payment</h3>
