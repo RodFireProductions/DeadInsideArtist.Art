@@ -21,10 +21,11 @@
 	import img13 from '$lib/assets/projects/leftathome.png';
 	import img14 from '$lib/assets/projects/mgla.png';
 	import img15 from '$lib/assets/projects/knights.png';
+	import img16 from '$lib/assets/projects/Shroom.jpg'
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "November 29th, 2022";
+	let date = "December 27th, 2022";
 
 	let solo = {
 		games: [
@@ -89,7 +90,7 @@
 
 	webdev: [
 		{
-			name: "This Site", type: "website 2021-2022", tech: ['SvelteKit', 'HTML', 'CSS'],
+			name: "This Site", type: "website 2021-present", tech: ['SvelteKit', 'HTML', 'CSS'],
 			link: "https://github.com/RodFireProductions/deadinsideartist.art", img: img1,
 			desc: "The current site you're looking at!"
 		},
@@ -97,6 +98,11 @@
 			name: "DeadLogs", type: "tool 2022", tech: ['JavaScript', 'HTML', 'CSS'],
 			link: "https://deadlogs.shroom.ink/", img: img10,
 			desc: "A tool for making static blogs and sites."
+		},
+		{
+			name: "Shroom.Ink", type: "website 2022-present", tech: ['Hugo', 'HTML', 'CSS'],
+			link: "https://shroom.ink", img: img16,
+			desc: "Drown in the ink that oozes from the inkiest of caps. Be consumed and ripped apart by the holiest of fungi."
 		},
 		{
 			name: "Left At Home", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
