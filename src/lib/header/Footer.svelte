@@ -3,9 +3,9 @@
 </script>
 
 <footer>
-	&#169; 2021-{year} RodFireProductions. All Rights Reserved.
-	<br>
-	Powered by <a target="_blank" href="https://kit.svelte.dev/">SvelteKit</a> and blood.
+	<p>&#169; 2021-{year} RodFireProductions. All Rights Reserved.</p>
+    <img src="https://deadinsideartist.art/DeadInsideArtist.Art.gif">
+	<p>Powered by <a target="_blank" href="https://kit.svelte.dev/">SvelteKit</a> and blood.</p>
 </footer>
 <p></p>
 <style>
@@ -21,6 +21,18 @@ footer {
     width: 300px;
     padding: 10px;
     background-color: var(--back-color);
+}
+
+p {
+    margin: 5px;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
 </style>
