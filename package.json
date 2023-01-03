@@ -1,15 +1,16 @@
 {
-  "name": "deadinsideartist",
-  "version": "6.6.6",
+  "name": "deadinside",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "package": "vite package",
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
     "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
     "host": "svelte-kit dev --host --port 0666"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^1.0.0",
+    "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "svelte": "^3.46.0"
   },
