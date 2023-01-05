@@ -185,7 +185,7 @@
 			[ Last updated {date} ]
 		</p>
 		<p>
-			View my <a href="https://www.artstation.com/rodfireproductions" target="_blank">artwork.</a>
+			View my <a href="https://gallery.deadinsideartist.art/" target="_blank">artwork.</a>
 		</p>
 
 	</div>
