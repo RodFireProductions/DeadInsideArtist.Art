@@ -71,7 +71,7 @@
 		<br>
 		<img draggable="false" src={meettheartist} alt="Rodrick's Meet The Artist alt text: Meet The Artist: Rodrick (they/them) is an Afro Mexican, aquarius, ageosexual, panromantic, nonbinary artist. They love visual novels, mushrooms (not for eating; they just think they're pretty), and coding. They dislike bigots, onions, and drawing hands and feet (though they are trying). They use FireAlpaca and a Wacom Intuos5 tablet to make their art." id="meetrodrick">
 		<p>
-			View my other <a href="https://www.artstation.com/rodfireproductions" target="_blank">artwork.</a>
+			View my <a href="https://gallery.deadinsideartist.art/" target="_blank">artwork.</a>
 		</p>
 
 	</section>
