@@ -9,7 +9,7 @@
 	import title from '$lib/assets/bannertitle.png';
 	import title2 from '$lib/assets/rodricktitle.png';
 	import pfp from '$lib/assets/pfp.png';
-	import meettheartist from '$lib/assets/meettheartist.png';
+	import meettheartist from '$lib/assets/MeetTheArtist.jpg';
 
 	let now = new Date();
 	let day; let time; let ye = now.getFullYear();
@@ -67,7 +67,7 @@
 	<hr>
 
 	<section class="center">
-		<h3>My #MeetTheArtist 2022:</h3>
+		<h3>My #MeetTheArtist 2023:</h3>
 		<br>
 		<img draggable="false" src={meettheartist} alt="Rodrick's Meet The Artist alt text: Meet The Artist: Rodrick (they/them) is an Afro Mexican, aquarius, ageosexual, panromantic, nonbinary artist. They love visual novels, mushrooms (not for eating; they just think they're pretty), and coding. They dislike bigots, onions, and drawing hands and feet (though they are trying). They use FireAlpaca and a Wacom Intuos5 tablet to make their art." id="meetrodrick">
 		<p>
