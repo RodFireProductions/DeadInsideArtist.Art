@@ -69,7 +69,7 @@
 	<section class="center">
 		<h3>My #MeetTheArtist 2023:</h3>
 		<br>
-		<img draggable="false" src={meettheartist} alt="Rodrick's Meet The Artist alt text: Meet The Artist: Rodrick (they/them) is an Afro Mexican, aquarius, ageosexual, panromantic, nonbinary artist. They love visual novels, mushrooms (not for eating; they just think they're pretty), and coding. They dislike bigots, onions, and drawing hands and feet (though they are trying). They use FireAlpaca and a Wacom Intuos5 tablet to make their art." id="meetrodrick">
+		<img draggable="false" src={meettheartist} alt="Rodrick (RodFireProductions) is a nonbinary, panromantic, asexual, Aquarius, black Mexican. They enjoy visual novels, coding, reading, and mushrooms. They dislike onions, bigots, big highways, and chalky watercolor. They use FireAlpace, Rebelle 5, and a Wacom Intuos 5 for their digital art." id="meetrodrick">
 		<p>
 			View my <a href="https://gallery.deadinsideartist.art/" target="_blank">artwork.</a>
 		</p>
