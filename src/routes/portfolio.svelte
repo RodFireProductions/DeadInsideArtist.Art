@@ -21,7 +21,8 @@
 	import img13 from '$lib/assets/projects/leftathome.png';
 	import img14 from '$lib/assets/projects/mgla.png';
 	import img15 from '$lib/assets/projects/knights.png';
-	import img16 from '$lib/assets/projects/Shroom.jpg'
+	import img16 from '$lib/assets/projects/Shroom.jpg';
+	import img17 from '$lib/assets/projects/unicorns.png';
 
 	// import img from '$lib/assets/projects/';
 
@@ -68,6 +69,11 @@
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
 			link: "https://rodfireproductions.itch.io/waswere", img: img8,
 			desc: "Murdering a person that hurt you is hot, right?"
+		},
+		{
+			name: "Rodrick's Unicorns 🦄", type: "zine 2023", tech: null,
+			link: "https://rodfireproductions.itch.io/unicorns", img: img17,
+			desc: "A zine that shows off a bit of the unicorn design and lore I've been working on for a little bit."
 		},
 		{
 			name: "Meet Chalice<3", type: "zine 2021", tech: null,

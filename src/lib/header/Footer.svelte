@@ -1,9 +1,8 @@
 <script>
-    let year = 2022;
 </script>
 
 <footer>
-	<p>&#169; 2021-{year} RodFireProductions. All Rights Reserved.</p>
+	<p>&#169; 2021-2023 RodFireProductions. All Rights Reserved.</p>
     <img src="https://deadinsideartist.art/DeadInsideArtist.Art.gif">
 	<p>Powered by <a target="_blank" href="https://kit.svelte.dev/">SvelteKit</a> and blood.</p>
 </footer>
