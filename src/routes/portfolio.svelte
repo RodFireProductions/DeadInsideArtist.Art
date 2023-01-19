@@ -26,7 +26,7 @@
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "December 27th, 2022";
+	let date = "January 16th, 2023";
 
 	let solo = {
 		games: [
