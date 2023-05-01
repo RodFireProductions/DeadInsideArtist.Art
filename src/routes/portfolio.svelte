@@ -6,7 +6,7 @@
 	import Base from '$lib/base.svelte';
 	import Card from '$lib/project_card.svelte';
 
-	import img1 from '$lib/assets/projects/site.png';
+	import img1 from '$lib/assets/projects/site.webp';
 	import img2 from '$lib/assets/projects/meetchalice.webp';
 	import img3 from '$lib/assets/projects/hurt.webp';
 	import img4 from '$lib/assets/projects/mylittlecatgirl.webp';
@@ -16,15 +16,16 @@
 	import img8 from '$lib/assets/projects/waswere.webp';
 	import img9 from '$lib/assets/projects/figurepantry.webp';
 	import img10 from '$lib/assets/projects/deadlogs.webp';
-	import img11 from '$lib/assets/projects/bloodasher.png';
-	import img12 from '$lib/assets/projects/creature.png';
-	import img13 from '$lib/assets/projects/leftathome.png';
-	import img14 from '$lib/assets/projects/mgla.png';
-	import img15 from '$lib/assets/projects/knights.png';
-	import img16 from '$lib/assets/projects/Shroom.jpg';
-	import img17 from '$lib/assets/projects/unicorns.png';
+	import img11 from '$lib/assets/projects/bloodasher.webp';
+	import img12 from '$lib/assets/projects/creature.webp';
+	import img13 from '$lib/assets/projects/leftathome.webp';
+	import img14 from '$lib/assets/projects/mgla.webp';
+	import img15 from '$lib/assets/projects/knights.webp';
+	import img16 from '$lib/assets/projects/Shroom.webp';
+	import img17 from '$lib/assets/projects/unicorns.webp';
 	import img18 from '$lib/assets/projects/OWR.webp';
 	import img19 from '$lib/assets/projects/Snowfall.webp';
+	import img20 from '$lib/assets/projects/CF.webp';
 
 	// import img from '$lib/assets/projects/';
 
@@ -71,6 +72,11 @@
 			name: "WAS/WERE", type: "game 2022", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
 			link: "https://rodfireproductions.itch.io/waswere", img: img8,
 			desc: "Murdering a person that hurt you is hot, right?"
+		},
+		{
+			name: "Clownish Fun", type: "IF 2023", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
+			link: "https://rodfireproductions.itch.io/clownish-fun", img: img20,
+			desc: "A triad of trans clowns engage in some after-work tomfoolery."
 		},
 		{
 			name: "Rodrick's Unicorns 🦄", type: "zine 2023", tech: null,
@@ -122,6 +128,11 @@
 			link: "https://rodfireproductions.itch.io/waswere", img: img8,
 			desc: "Murdering a person that hurt you is hot, right?"
 		},
+		{
+			name: "Clownish Fun", type: "IF 2023", tech: ['JavaScript', 'HTML', 'CSS', 'Ink'],
+			link: "https://rodfireproductions.itch.io/clownish-fun", img: img20,
+			desc: "A triad of trans clowns engage in some after-work tomfoolery."
+		}
 		/*
 		{
 			name: "", type: "", tech: [],
