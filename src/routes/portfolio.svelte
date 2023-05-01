@@ -23,10 +23,12 @@
 	import img15 from '$lib/assets/projects/knights.png';
 	import img16 from '$lib/assets/projects/Shroom.jpg';
 	import img17 from '$lib/assets/projects/unicorns.png';
+	import img18 from '$lib/assets/projects/OWR.webp';
+	import img19 from '$lib/assets/projects/Snowfall.webp';
 
 	// import img from '$lib/assets/projects/';
 
-	let date = "January 16th, 2023";
+	let date = "May 1st, 2023";
 
 	let solo = {
 		games: [
@@ -132,16 +134,16 @@
 
 	let team = [
 		{
-			name: "Poseidon's Orb", type: "game 2021", tech: ['Ren\'Py'],
-			link: "https://rodfireproductions.itch.io/poseidons-orb", img: img5,
-			desc: "Charlotte is turned into a merperson and threatened by a sea witch!",
-			contribute: "coding & cg art"
+			name: "Our Winding Road", type: "game 2023", tech: ['Ren\'Py'],
+			link: "https://nimphradora.itch.io/our-winding-road", img: img18,
+			desc: "Former heroes retrace the steps of the journey on which they fell in love, with the hopes of rekindling their strained relationship.",
+			contribute: "coding"
 		},
 		{
-			name: "Blood of the Covenant", type: "game 2022", tech: ['Ren\'Py'],
-			link: "https://opheliaveu.itch.io/blood-of-the-covenant", img: img11,
-			desc: "You meet someone in a chilly alleyway at night.",
-			contribute: "coding"
+			name: "Snowfall", type: "game 2023", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/snowfall", img: img19,
+			desc: "In a remote village surrounded by monsters, a pair of lovers stand guard. But the cold is a dangerous thing.",
+			contribute: "bg & ui art, coding"
 		},
 		{
 			name: "My Grandma's Last Adventure", type: "game 2022", tech: ['Ren\'Py'],
@@ -155,6 +157,18 @@
 			desc: "When the king is incompetent you face a dilemma: will you try to change his ways or join the rebellion?",
 			contribute: "coding"
 		},
+		{
+			name: "Blood of the Covenant", type: "game 2022", tech: ['Ren\'Py'],
+			link: "https://opheliaveu.itch.io/blood-of-the-covenant", img: img11,
+			desc: "You meet someone in a chilly alleyway at night.",
+			contribute: "coding"
+		},
+		{
+			name: "Poseidon's Orb", type: "game 2021", tech: ['Ren\'Py'],
+			link: "https://rodfireproductions.itch.io/poseidons-orb", img: img5,
+			desc: "Charlotte is turned into a merperson and threatened by a sea witch!",
+			contribute: "coding & cg art"
+		}
 		/*
 		{
 			name: "Blooming Hearts!", type: "game 2021", tech: ['Ren\'Py'],
