@@ -1,42 +1,25 @@
-/* Rodrick Hates Their Life */ /*@media only screen and (max-width: 625px) {}*/
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
-:root {
-	--text-color    : #ddd;
-	--back-color    : #000; /*#ddd*/
-	--accent-color	: #F44141;
+@import "root.css";
 
-	--mono          : monospace;
-
-	--t 			: #C6292966;
-	--q 			: linear-gradient(0deg, #C62929 50%, #C6292900 100%);
-
-	--btn-back      : var(--text-color);
-	--btn-back2     : black; /* #fcf06a */
-	--btn-shad      : #320d46; /* #AE89C3 */
-	--btn-shad2     : #AE89C3;
-
-	--grad-color    : #04080D;  /* bottom #355070 #355070 #101B2D #101B2D */
-	--grad-color2   : #322D57; /* top #60495a #907ad6 #4A34B2 #3F396E */
-
-	--dark 			: #06040E;
-}
+/* - General - */
 
 body {
-	font-family: 'Mukta', sans-serif;
-	line-height: 1.4;
+    background: var(--bg-img) var(--bg-color);
+    line-height: 1.4;
 	margin: 0;
-	/*
-	background: url('https://deadinsideartist.art/assets/images/texture3.png'), linear-gradient(
-		0deg,
-		var(--grad-color) 0%,
-		var(--grad-color2) 100%) fixed;
-	*/
-    background-attachment: fixed;
-	color: var(--text-color);
-
-	transition: 0.4s;
+    transition: 0.4s;
 }
+
+main {
+    background: var(--main-bg-img) var(--main-bg-color);
+    color: var(--main-color);
+}
+
+nav {}
+
+footer {}
+
+/* - Element Styling - */
 
 html { scrollbar-color: #eee #000; }
 ::selection { background: #C62929; color: white; }
@@ -125,9 +108,7 @@ tfoot td {
 	border-top: dotted 2px var(--accent-color);
 }
 
-
-
-/* Extras */
+/* - Extras - */
 
 .card_tech .tech {
     font-style: oblique;
@@ -148,7 +129,7 @@ tfoot td {
 .noselect { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 
 
-/* Shakey */
+/* - Animations - */
 @keyframes an_shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }

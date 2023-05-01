@@ -1,0 +1,27 @@
+
+:root {
+    --bg-color      : #0B0212;
+    --bg-img        : fixed url('../img/texture3.png');
+
+    --main-bg-color : black;
+    --main-bg-img   : ;
+    --main-color    : white;
+
+    --accent-color  : #F44141‎;
+
+    --font          : serif;
+    --mono          : monospace;
+
+	--t 			: #C6292966;
+	--q 			: linear-gradient(0deg, #C62929 50%, #C6292900 100%);
+
+	--btn-back      : var(--text-color);
+	--btn-back2     : black; /* #fcf06a */
+	--btn-shad      : #320d46; /* #AE89C3 */
+	--btn-shad2     : #AE89C3;
+
+	--grad-color    : #04080D;  /* bottom #355070 #355070 #101B2D #101B2D */
+	--grad-color2   : #322D57; /* top #60495a #907ad6 #4A34B2 #3F396E */
+
+	--dark 			: #06040E;
+}
