@@ -1,21 +1,5 @@
-<script>
 
-    export let quote;
-    export let person;
-    export let media;
-
-</script>
-
-
-
-<figure>
-    <blockquote>{quote}</blockquote>
-    <figcaption>- {person}, <cite>{media}.</cite></figcaption>
-</figure>
-
-
-<style>
-
+/* - Quote - */
 figure {
 	background: var(--q);
 	color: #F8FFFF;
@@ -53,4 +37,3 @@ blockquote {
 	font-size: 1.1em;
 	line-height: normal;
 }
-</style>

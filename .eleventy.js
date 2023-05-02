@@ -1,5 +1,6 @@
 const fs = require("fs");
-const NOT_FOUND_PATH = "_site/404.html";
+const NOT_FOUND_PATH = "_site/404/index.html";
+const isDev = process.env.ELEVENTY_ENV === 'development';
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.setBrowserSyncConfig({
@@ -22,6 +23,39 @@ module.exports = function(eleventyConfig) {
     }
     });
     eleventyConfig.addPassthroughCopy('src')
+
+    // Shortcodes
+    eleventyConfig.addLiquidShortcode("project", function (name, url, img, desc, type, tech, date, solo, contributed) {
+
+        let contributation = "";
+        if (solo) {
+            contributation = `<p>${contributed}</p>`;
+        }
+
+        return `
+        <article>
+            <img src="${img}">
+            <div>
+                <a href="${url}" target="_blank">${name}</a>
+                <p>${desc}</p>
+                <p>${tech}</p>
+                <p>${type}</p>
+                <p>${date}</p>
+                ${contributation}
+            </div>
+        </article>
+        `
+    });
+
+    eleventyConfig.addLiquidShortcode("quote", function (quote, person, media) {
+        return `
+        <figure>
+            <blockquote>${quote}</blockquote>
+            <figcaption>- ${person}, <cite>${media}.</cite></figcaption>
+        </figure>
+        `;
+    });
+
     return {
     passthroughFileCopy: true
     }

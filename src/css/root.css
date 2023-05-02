@@ -7,7 +7,9 @@
     --main-bg-img   : ;
     --main-color    : white;
 
-    --accent-color  : #F44141‎;
+    --accent-color  : #EB2626;
+
+    --border        : url('../img/border.png');
 
     --font          : serif;
     --mono          : monospace;
@@ -15,7 +17,7 @@
 	--t 			: #C6292966;
 	--q 			: linear-gradient(0deg, #C62929 50%, #C6292900 100%);
 
-	--btn-back      : var(--text-color);
+	--btn-back      : var(--main-color);
 	--btn-back2     : black; /* #fcf06a */
 	--btn-shad      : #320d46; /* #AE89C3 */
 	--btn-shad2     : #AE89C3;

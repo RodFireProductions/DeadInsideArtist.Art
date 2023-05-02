@@ -1,5 +1,6 @@
 
 @import "root.css";
+@import "shortcodes.css";
 
 /* - General - */
 
@@ -13,11 +14,38 @@ body {
 main {
     background: var(--main-bg-img) var(--main-bg-color);
     color: var(--main-color);
+
+    width: 65%;
+    margin: 2em auto;
+    padding: 25px;
+    min-height: 20px;
+
+	box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
+	-webkit-box-shadow: 0px 0px 12px -2px rgba(31,13,35,0.75);
+
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+
+    border-image: var(--border) 300 / 100px / 1.5em space;
 }
 
-nav {}
+nav {
+    background: var(--main-bg-img) var(--main-bg-color);
+    color: var(--main-color);
 
-footer {}
+    width: 40%;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+footer {
+    min-height: 2em;
+    background: var(--main-bg-img) var(--main-bg-color);
+    color: var(--main-color);
+
+    width: 40%;
+    margin: 1em auto;
+}
 
 /* - Element Styling - */
 
@@ -51,14 +79,23 @@ hr {
     width: 50%;
 	margin: 15px auto;
 }
+hr.rat {
+    display: block;
+    border: none;
+    height: 2em;
+    width: 90%;
+
+    background-image: url("../img/rat.png");
+    background-size: auto 2em;
+}
 
 a {
     color: var(--accent-color);
 	text-decoration: none;
 }
 a:hover {
-    color: var(--text-color);
-    text-decoration: underline var(--text-color) .6px;
+    color: var(--main-color);
+    text-decoration: underline var(--main-color) .6px;
 }
 
 button {
@@ -68,7 +105,7 @@ button {
     margin: 5px;
     width: 180px;
 
-    color: var(--back-color);
+    color: var(--main-bg-color);
     background-color: var(--btn-back);
     border-style: none;
     border-radius: 5px;
@@ -109,18 +146,6 @@ tfoot td {
 }
 
 /* - Extras - */
-
-.card_tech .tech {
-    font-style: oblique;
-	font-size: .9em;
-
-	background-color: var(--t);
-	padding-right: 5px;
-	padding-left: 5px;
-	border-radius: 15%;
-
-	margin: 2px;
-}
 
 .indent { text-indent: 2em; }
 .right { text-align: right; }
