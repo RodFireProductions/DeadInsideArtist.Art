@@ -1,4 +1,5 @@
 {
+    "imgFolder": "/src/img/projects/",
     "solo": [
         "games": [
             {
@@ -8,9 +9,9 @@
                 "desc": "",
                 "type": "",
                 "tech": "",
-                "data": "",
+                "date": "",
                 "solo": true,
-                "contributed": "",
+                "contributed": ""
             }
         ],
         "writings": [
@@ -21,9 +22,9 @@
                 "desc": "",
                 "type": "",
                 "tech": "",
-                "data": "",
+                "date": "",
                 "solo": true,
-                "contributed": "",
+                "contributed": ""
             }
         ],
         "webdev": [
@@ -34,13 +35,24 @@
                 "desc": "",
                 "type": "",
                 "tech": "",
-                "data": "",
+                "date": "",
                 "solo": true,
-                "contributed": "",
+                "contributed": ""
             }
         ]
     ],
     "team": [
+        {
+            "name": "Our Winding Road",
+            "url": "https://nimphradora.itch.io/our-winding-road",
+            "img": "OWR.webp",
+            "desc": "Disillusioned with civilian life, former heroes Rowan and Jori retrace the steps of the journey on which they fell in love, with the hopes of rekindling their strained relationship.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "April 2023",
+            "solo": false,
+            "contributed": "Coding"
+        },
         {
             "name": "",
             "url": "",
@@ -48,9 +60,9 @@
             "desc": "",
             "type": "",
             "tech": "",
-            "data": "",
+            "date": "",
             "solo": false,
-            "contributed": "",
+            "contributed": ""
         }
     ],
 }
