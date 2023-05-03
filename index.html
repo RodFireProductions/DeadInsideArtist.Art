@@ -3,15 +3,23 @@ layout: layouts/base.html
 title: RodFireProductions
 ---
 
-<div style="display: grid; grid-template-columns: 1fr 1fr;">
-    <img src="./src/img/pfp.png" style="clip-path: url(#path); width: 90%; margin: auto;">
-    <div style="display:flex; justify-content:center; align-items:center;">Have a lovely <span id="day"></span>!</div>
+<img draggable="false" src="./src/img/bannertitle.png" alt="RodFireProductions">
+
+<div class="two_grid">
+    <img class="col_1" draggable="false" src="./src/img/pfp.png" style="clip-path: url(#heartPath); width: 90%; margin: auto;">
+    <div class="col_2 centeredRows">
+        <img draggable="false" src="./src/img/rodricktitle.png" alt="Rodrick">
+        <p>
+            I hope you're having a lovely <span id="day"></span>!
+        </p>
+        <p>
+            I'm a queer, Afro Mexican artist, web and game developer, and full-time student.
+        </p>
+    </div>
 </div>
 
+<hr>
 <hr class="rat">
-
-<p class="center">Wow</p>
-
 <hr>
 
 {% quote "When I die, you stay away from my funeral." "Squidward Tentacles" "SpongeBob SquarePants" %}
@@ -22,12 +30,5 @@ title: RodFireProductions
 <script type="text/javascript">
     displayDay("day");
 </script>
-<svg height="0" width="0">
-  <clipPath id="path" clipPathUnits="objectBoundingBox">
-    <path d="M0.5,1
-      C 0.5,1,0,0.7,0,0.3
-      A 0.25,0.25,1,1,1,0.5,0.3
-      A 0.25,0.25,1,1,1,1,0.3
-      C 1,0.7,0.5,1,0.5,1 Z" />
-  </clipPath>
-</svg>
+
+{% svgPath "heart" %}

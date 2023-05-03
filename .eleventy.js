@@ -1,5 +1,5 @@
 const fs = require("fs");
-const NOT_FOUND_PATH = "_site/404/index.html";
+const NOT_FOUND_PATH = "_site/404/";
 const isDev = process.env.ELEVENTY_ENV === 'development';
 
 module.exports = function(eleventyConfig) {
@@ -25,6 +25,20 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src')
 
     // Shortcodes
+    eleventyConfig.addLiquidShortcode("svgPath", function (which) {
+        return `
+        <svg height="0" width="0">
+          <clipPath id="heartPath" clipPathUnits="objectBoundingBox">
+            <path d="M0.5,1
+              C 0.5,1,0,0.7,0,0.3
+              A 0.25,0.25,1,1,1,0.5,0.3
+              A 0.25,0.25,1,1,1,1,0.3
+              C 1,0.7,0.5,1,0.5,1 Z" />
+          </clipPath>
+        </svg>
+        `
+    });
+
     eleventyConfig.addLiquidShortcode("project", function (name, url, img, desc, type, tech, date, solo, contributed) {
 
         let contributation = "";
