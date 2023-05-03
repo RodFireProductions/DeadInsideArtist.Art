@@ -1,0 +1,56 @@
+{
+    "solo": [
+        "games": [
+            {
+                "name": "",
+                "url": "",
+                "img": "",
+                "desc": "",
+                "type": "",
+                "tech": "",
+                "data": "",
+                "solo": true,
+                "contributed": "",
+            }
+        ],
+        "writings": [
+            {
+                "name": "",
+                "url": "",
+                "img": "",
+                "desc": "",
+                "type": "",
+                "tech": "",
+                "data": "",
+                "solo": true,
+                "contributed": "",
+            }
+        ],
+        "webdev": [
+            {
+                "name": "",
+                "url": "",
+                "img": "",
+                "desc": "",
+                "type": "",
+                "tech": "",
+                "data": "",
+                "solo": true,
+                "contributed": "",
+            }
+        ]
+    ],
+    "team": [
+        {
+            "name": "",
+            "url": "",
+            "img": "",
+            "desc": "",
+            "type": "",
+            "tech": "",
+            "data": "",
+            "solo": false,
+            "contributed": "",
+        }
+    ],
+}
