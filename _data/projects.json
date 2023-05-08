@@ -1,0 +1,206 @@
+{
+    "update": "May 7th, 2023",
+    "imgFolder": "/src/img/projects/",
+    "solo": [
+        {
+            "name": "This Site!",
+            "url": "https://github.com/RodFireProductions/deadinsideartist.art",
+            "img": "site.webp",
+            "desc": "The current site you're looking at!",
+            "type": "Website",
+            "tech": "11ty, HTML, CSS",
+            "date": "2021 - Present",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "Shroom.Ink",
+            "url": "https://shroom.ink/",
+            "img": "Shroom.webp",
+            "desc": "Drown in the ink that oozes from the inkiest of caps. Be consumed and ripped apart by the holiest of fungi.",
+            "type": "Website",
+            "tech": "Hugo, HTML, CSS",
+            "date": "2022 - Present",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "WAS/WERE",
+            "url": "https://rodfireproductions.itch.io/waswere",
+            "img": "waswere.webp",
+            "desc": "Murdering a person that hurt you is hot, right?",
+            "type": "Interactive Fiction",
+            "tech": "JavaScript, HTML, CSS, Ink",
+            "date": "2022",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "Clownish Fun",
+            "url": "https://rodfireproductions.itch.io/clownish-fun",
+            "img": "CF.webp",
+            "desc": "A triad of trans clowns engage in some after-work tomfoolery.",
+            "type": "Interactive Fiction",
+            "tech": "JavaScript, HTML, CSS, Ink",
+            "date": "2023",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "DeadLogs",
+            "url": "https://deadlogs.shroom.ink/",
+            "img": "deadlogs.webp",
+            "desc": "A tool for making static blogs and sites.",
+            "type": "Tool",
+            "tech": "JavaScript, HTML, CSS",
+            "date": "2022",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "Left At Home",
+            "url": "https://rodfireproductions.itch.io/left-at-home",
+            "img": "leftathome.webp",
+            "desc": "Freckles is left at home sick as their partner, Beads, goes out to buy them medication.",
+            "type": "Interactive Fiction",
+            "tech": "JavaScript, HTML, CSS, Ink",
+            "date": "2022",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "Rodrick's Unicorns 🦄",
+            "url": "https://rodfireproductions.itch.io/unicorns",
+            "img": "unicorns.webp",
+            "desc": "A zine that shows off a bit of the unicorn design and lore I've been working on for a little bit.",
+            "type": "Zine",
+            "tech": "",
+            "date": "January 2023",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "The Figure in the Pantry",
+            "url": "https://rodfireproductions.itch.io/figure-in-the-pantry",
+            "img": "figurepantry.webp",
+            "desc": "Late night snacks aren't supposed to be like this.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2022",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "The Creature",
+            "url": "https://rodfireproductions.itch.io/the-creature",
+            "img": "creature.webp",
+            "desc": "An injured creature enters your tent at night.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2022",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "Meet Chalice<3",
+            "url": "https://rodfireproductions.itch.io/meet-chalice3",
+            "img": "meetchalice.webp",
+            "desc": "It's just a simple piece about one of my original characters, Chalice.",
+            "type": "Zine",
+            "tech": "",
+            "date": "2021",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "Hurt✂️",
+            "url": "https://rodfireproductions.itch.io/hurt",
+            "img": "hurt.webp",
+            "desc": "This is just a vent zine about dealing with thoughts of self harm.",
+            "type": "Zine",
+            "tech": "",
+            "date": "2021",
+            "team": false,
+            "contributed": ""
+        },
+        {
+            "name": "My Little Cat Girl",
+            "url": "https://rodfireproductions.itch.io/my-little-cat-girl",
+            "img": "mylittlecatgirl.webp",
+            "desc": "Take in a sickly homeless cat girl and nurse her to health.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2019",
+            "team": false,
+            "contributed": ""
+        }
+    ],
+    "team": [
+        {
+            "name": "Our Winding Road",
+            "url": "https://nimphradora.itch.io/our-winding-road",
+            "img": "OWR.webp",
+            "desc": "Disillusioned with civilian life, former heroes Rowan and Jori retrace the steps of the journey on which they fell in love, with the hopes of rekindling their strained relationship.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "April 2023",
+            "team": true,
+            "contributed": "Coding"
+        },
+        {
+            "name": "Snowfall",
+            "url": "https://rodfireproductions.itch.io/snowfall",
+            "img": "Snowfall.webp",
+            "desc": "In a remote village surrounded by monsters, a pair of lovers stand guard. But the cold is a dangerous thing.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2023",
+            "team": true,
+            "contributed": "Background & UI Art, Coding"
+        },
+        {
+            "name": "My Grandma's Last Adventure",
+            "url": "https://rodfireproductions.itch.io/my-grandmas-last-adventure",
+            "img": "mgla.webp",
+            "desc": "What would you do if your adventuring party was joined by… your grandma?!",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2022",
+            "team": true,
+            "contributed": "Coding & Logo"
+        },
+        {
+            "name": "The Knight Dilemma",
+            "url": "https://lavinnia.itch.io/the-knights-dilemma",
+            "img": "knights.webp",
+            "desc": "When the king is incompetent you face a dilemma: will you try to change his ways or join the rebellion?",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2022",
+            "team": true,
+            "contributed": "Coding"
+        },
+        {
+            "name": "Blood of the Covenant",
+            "url": "https://opheliaveu.itch.io/blood-of-the-covenant",
+            "img": "bloodasher.webp",
+            "desc": "You meet someone in a chilly alleyway at night.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2022",
+            "team": true,
+            "contributed": "Coding"
+        },
+        {
+            "name": "Poseidon's Orb",
+            "url": "https://rodfireproductions.itch.io/poseidons-orb",
+            "img": "poseidonorb.webp",
+            "desc": "Charlotte is turned into a merperson and threatened by a sea witch!",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2021",
+            "team": true,
+            "contributed": "Coding & CG Art"
+        }
+    ]
+}

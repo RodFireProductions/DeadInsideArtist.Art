@@ -1,26 +1,25 @@
 {
-  "name": "deadinside",
-  "version": "0.0.1",
+  "name": "DeadInsideArtist.Art",
+  "version": "1.0.0",
+  "description": "Portfolio / Personal Website",
+  "main": "index.js",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync",
-    "host": "svelte-kit dev --host --port 0666"
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodFireProductions/deadinsideartist.art.git"
+  },
+  "keywords": [],
+  "author": "RodFireProductions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodFireProductions/deadinsideartist.art/issues"
+  },
+  "homepage": "https://deadinsideartist.art",
   "devDependencies": {
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "next",
-    "svelte": "^3.46.0"
-  },
-  "type": "module",
-  "dependencies": {
-    "@fontsource/fira-mono": "^4.5.0",
-    "@lukeed/uuid": "^2.0.0",
-    "@mapbox/node-pre-gyp": "^1.0.9",
-    "cookie": "^0.4.1",
-    "kit": "github:sveltejs/kit",
-    "svelte-kit": "^1.0.0"
+    "@11ty/eleventy": "^1.0.2"
   }
 }
