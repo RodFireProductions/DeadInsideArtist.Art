@@ -1,5 +1,5 @@
 const fs = require("fs");
-const NOT_FOUND_PATH = "_site/404/";
+const NOT_FOUND_PATH = "_site/404/index.html";
 const isDev = process.env.ELEVENTY_ENV === 'development';
 
 module.exports = function(eleventyConfig) {
@@ -39,10 +39,10 @@ module.exports = function(eleventyConfig) {
         `
     });
 
-    eleventyConfig.addLiquidShortcode("project", function (name, url, img, desc, type, tech, date, solo, contributed) {
+    eleventyConfig.addLiquidShortcode("project", function (name, url, img, desc, type, tech, date, team, contributed) {
 
         let contributation = "";
-        if (solo) {
+        if (team) {
             contributation = `<p>${contributed}</p>`;
         }
 
@@ -52,10 +52,14 @@ module.exports = function(eleventyConfig) {
             <div>
                 <a href="${url}" target="_blank">${name}</a>
                 <p>${desc}</p>
-                <p>${tech}</p>
-                <p>${type}</p>
-                <p>${date}</p>
-                ${contributation}
+                <div class="side">
+                    <p>${type}</p>
+                    <p>${date}</p>
+                </div>
+                <div class="side">
+                    <p>${tech}</p>
+                    ${contributation}
+                </div>
             </div>
         </article>
         `

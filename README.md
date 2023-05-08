@@ -59,4 +59,4 @@ Todo:
 <p align="center">
   Current version: 11ty
 </p>
-<img src="https://deadinsideartist.art/src/img/misc/currentsite.png" align="center">
+<img src="https://deadinsideartist.art/src/img/misc/currentsite.webp" align="center">

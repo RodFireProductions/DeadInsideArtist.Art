@@ -33,12 +33,19 @@ main {
 
 nav {
     color: var(--main-color);
-    width: 40%;
+    width: 45%;
     margin: .5em auto 0px auto;
 
     display: grid;
-    grid-template-columns: 1fr 20% 1fr;
+    grid-template-columns: 40% 1fr 40%;
     grid-template-rows: 1fr;
+    grid-template-areas: left eye right;
+    grid-gap: .5em;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 nav div {
     display: flex;
