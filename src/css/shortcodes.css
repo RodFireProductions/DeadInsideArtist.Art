@@ -1,0 +1,77 @@
+
+/* - Quote - */
+figure {
+	background: var(--q);
+	color: #F8FFFF;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 10px;
+	padding: 5px;
+	padding-top: 0px;
+	margin: 5px auto;
+
+    width: 50%;
+}
+@media all and (max-width: 800px) {
+    figure { width: 100%; }
+}
+
+figcaption {
+	position: relative;
+	top: -15px;
+	font-size: .8em;
+}
+
+blockquote:before {
+    content: "\201C";
+	font-size: 1.8em;
+	padding: 2px;
+	font-family: serif;
+}
+
+blockquote {
+    position: relative;
+    top: -10px;
+	padding: 5px;
+	font-family: serif;
+	font-size: 1.1em;
+	line-height: normal;
+}
+
+/* - Project Cards - */
+
+.projects {
+    display: grid;
+    grid-gap: 1em;
+    justify-content: flex-start;
+    align-content: center;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+    grid-template-rows: auto;
+
+	text-align: center;
+}
+
+.projects img, .projects div {
+    width: 100%;
+    display: block;
+    margin: 1rem auto;
+}
+.projects div.side {
+	display: flex;
+	justify-content: center;
+	grid-gap: 1em;
+}
+.projects div.side p {
+	margin: 0px;
+}
+
+.projects article {
+	border: dotted 2px var(--accent-color);
+	padding: 1em;
+	transition: 0.4s;
+}
+.projects article:hover {
+	border-color: var(--main-color);
+	transition: 0.4s;
+}

@@ -1,0 +1,36 @@
+---
+layout: layouts/base.html
+title: Portfolio
+---
+
+<div class="center">
+    <h1>Portfolio</h1>
+    <p>Last Updated: {{ projects.update }}</p>
+    <p>
+        <a href="#solo">Solo</a>
+        |
+        <a href="#team">Team</a>
+    </p>
+    <hr class="rat">
+    <p>Visit my <a href="https://gallery.deadinsideartist.art">gallery</a> to see my art.</p>
+</div>
+
+<h2 id="solo" class="center">Solo</h2>
+<hr>
+<div class="projects">
+{% for p in projects.solo %}
+    {% assign image = x.baseURL | append: projects.imgFolder | append: p.img %}
+    {% project p.name p.url image p.desc p.type p.tech p.date p.team p.contributed %}
+{% endfor %}
+</div>
+
+<hr class="rat">
+
+<h2 id="team" class="center">Team</h2>
+<hr>
+<div class="projects">
+{% for p in projects.team %}
+    {% assign image = x.baseURL | append: projects.imgFolder | append: p.img %}
+    {% project p.name p.url image p.desc p.type p.tech p.date p.team p.contributed %}
+{% endfor %}
+</div>
