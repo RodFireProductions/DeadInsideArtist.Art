@@ -81,5 +81,5 @@ blockquote {
 
 @media all and (max-width: 450px) {
 	.projects article { max-width: calc(100% - 2em) !important; padding: .5em; }
-	.projects { grid-template-columns: 1fr; }
+	.projects { grid-template-columns: none; }
 }
