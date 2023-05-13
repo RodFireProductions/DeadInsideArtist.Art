@@ -30,6 +30,12 @@ main {
 
     border-image: var(--border) 300 / 100px / 1.5em space;
 }
+@media all and (max-width: 800px) {
+	main { width: 70%; }
+}
+@media all and (max-width: 450px) {
+	main { padding: .5em; }
+}
 
 nav {
     color: var(--main-color);
