@@ -30,6 +30,9 @@ main {
 
     border-image: var(--border) 300 / 100px / 1.5em space;
 }
+@media all and (min-width: 1500px) {
+	main { width: 45%; }
+}
 @media all and (max-width: 800px) {
 	main { width: 70%; }
 }
