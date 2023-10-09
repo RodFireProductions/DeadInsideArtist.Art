@@ -1,5 +1,5 @@
 {
-    "update": "May 7th, 2023",
+    "update": "October 9th, 2023",
     "imgFolder": "/src/img/projects/",
     "solo": [
         {
@@ -21,6 +21,17 @@
             "type": "Website",
             "tech": "Hugo, HTML, CSS",
             "date": "2022 - Present",
+            "team": false,
+            "contributed": ""
+        },
+		{
+            "name": "Biswas Museum of Art",
+            "url": "https://museumofart.marigold.town/",
+            "img": "BMOF.webp",
+            "desc": "A small digital art museum to showcase the works of locals artists in Marigold Town.",
+            "type": "Website",
+            "tech": "Jekyll, HTML, CSS",
+            "date": "2023 - Present",
             "team": false,
             "contributed": ""
         },
