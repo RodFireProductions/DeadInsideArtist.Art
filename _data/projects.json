@@ -24,6 +24,17 @@
             "team": false,
             "contributed": ""
         },
+		{
+            "name": "Biswas Museum of Art",
+            "url": "https://museumofart.marigold.town/",
+            "img": "BMOF.webp",
+            "desc": "A small digital art museum to showcase the works of locals artists in Marigold Town.",
+            "type": "Website",
+            "tech": "Jekyll, HTML, CSS",
+            "date": "2023 - Present",
+            "team": false,
+            "contributed": ""
+        },
         {
             "name": "WAS/WERE",
             "url": "https://rodfireproductions.itch.io/waswere",
