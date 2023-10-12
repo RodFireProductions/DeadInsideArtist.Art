@@ -158,6 +158,17 @@
             "team": true,
             "contributed": "Coding"
         },
+		{
+            "name": "Get Home",
+            "url": "https://samlovstad.itch.io/get-home",
+            "img": "GetHome.webp",
+            "desc": "It’s time to get home, and you have to walk through a forest to get there.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "August 2023",
+            "team": true,
+            "contributed": "Coding, Art"
+        },
         {
             "name": "Snowfall",
             "url": "https://rodfireproductions.itch.io/snowfall",
