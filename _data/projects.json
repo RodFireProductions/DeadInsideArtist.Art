@@ -1,5 +1,5 @@
 {
-    "update": "October 9th, 2023",
+    "update": "October 12th, 2023",
     "imgFolder": "/src/img/projects/",
     "solo": [
         {
@@ -154,9 +154,20 @@
             "desc": "Disillusioned with civilian life, former heroes Rowan and Jori retrace the steps of the journey on which they fell in love, with the hopes of rekindling their strained relationship.",
             "type": "Visual Novel",
             "tech": "Ren'Py",
-            "date": "April 2023",
+            "date": "2023",
             "team": true,
             "contributed": "Coding"
+        },
+		{
+            "name": "Get Home",
+            "url": "https://samlovstad.itch.io/get-home",
+            "img": "GetHome.webp",
+            "desc": "It’s time to get home, and you have to walk through a forest to get there.",
+            "type": "Visual Novel",
+            "tech": "Ren'Py",
+            "date": "2023",
+            "team": true,
+            "contributed": "Coding, Art"
         },
         {
             "name": "Snowfall",
