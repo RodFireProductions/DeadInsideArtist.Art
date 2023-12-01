@@ -1,5 +1,6 @@
 
 @import "root.css";
+@import "header.css";
 @import "shortcodes.css";
 
 /* - General - */
@@ -39,35 +40,6 @@ main {
 @media all and (max-width: 450px) {
 	main { padding: .5em; }
 }
-
-nav {
-    color: var(--main-color);
-    width: 45%;
-    margin: .5em auto 0px auto;
-
-    display: grid;
-    grid-template-columns: 40% 1fr 40%;
-    grid-template-rows: 1fr;
-    grid-template-areas: left eye right;
-    grid-gap: .5em;
-
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-}
-nav div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-gap: .5em;
-}
-nav div a {
-    background: var(--main-bg-color);
-    padding: 1em;
-}
-nav #eye { transition: 0.4s; }
-nav #eye:hover { transition: 0.4s; filter: invert(100%); }
 
 footer {
     min-height: 2em;

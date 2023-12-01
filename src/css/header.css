@@ -1,0 +1,92 @@
+/* Navigation */
+
+.big_header nav {
+    top: 5vw;
+    height: 15vw;
+}
+
+nav {
+    position: relative;
+    width: 60%;
+
+    margin: .5em auto 0px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 28% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: left hands right;
+    grid-gap: .5em;
+
+    justify-content: center;
+    justify-items: center;
+
+    color: var(--main-color);
+    /* border: red 1px solid; */
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: .5em;
+}
+nav div a {
+    background: var(--main-bg-color);
+    padding: 1em;
+}
+
+#nav_left, #nav_right {
+    align-self: start;
+}
+
+#nav_left {
+    justify-self: end;
+}
+#nav_right {
+    justify-self: start;
+}
+
+#hands {
+    align-self: end;
+    width: 100%;
+    height: 5vw;
+}
+
+#hands div {
+    background-image: url('../img/PH_hands.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+}
+#hands div:hover {
+    background-image: url('../img/PH_hands_Hover.png');
+}
+
+/* */
+
+#header_bg {
+    z-index: -2;
+    position: absolute;
+    top: 2em;
+
+    width: 100%;
+    height: 30vw;
+
+    background-image: url("../img/PH_body.png");
+    background-size: 50%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+header.big_header {
+    height: 22.5vw;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--accent-color);
+
+    font-family: 'Crédible', sans-serif;
+}

@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Crédible';
+    src: local('Crédible'),
+    url("../fonts/Crédible-Regular.woff") format("woff");
+}
+
 
 :root {
     --bg-color      : #0B0212; /* #0B0212 */
@@ -9,7 +15,7 @@
 
     --accent-color  : #D5A1C4; /*#EB2626; */
 
-    --border        : url('../img/border.png');
+    --border        : ;/* url('../img/border.png'); */
 
     --font          : serif;
     --mono          : monospace;
